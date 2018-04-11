@@ -1,0 +1,19 @@
+description: >
+  FastQA configuration to train model on SQuAD as described in https://arxiv.org/abs/1703.04816.
+
+# Reader model to use, see jack/readers/implementations.py for options
+reader: 'fastqa_reader'
+
+# fixed experiment seed
+seed: 1337
+
+# where to store the reader
+save_dir: './fastqa_reader'
+
+# 'lstm', 'gru', 'sru' (simple recurrent unit)
+encoder: 'lstm'
+with_char_embeddings: True
+
+# 'conditional' (original fastqa, end score conditioned on predicted start), 'conditional_bilinear', 'bilinear'
+# bilinear has shown best performance
+answer_layer: bilinear

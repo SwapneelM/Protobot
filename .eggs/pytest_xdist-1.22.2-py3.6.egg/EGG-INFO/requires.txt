@@ -1,0 +1,3 @@
+execnet>=1.1
+pytest-forked
+pytest>=3.0.0

@@ -1,0 +1,74 @@
+Infobox software
+ name  TensorFlow
+ logo  TensorFlowLogosvg
+ author  
+ developer  Google Brain Teamref nameCredits 
+ released  Start date and age20151109
+ latest release version  170refCite news url  httpsgithubcomtensorflowtensorflowreleasestagv170 title  TensorFlow Release accessdate  April 5 2018 language  enUS ref
+ latest release date  Start date and age2018329
+ repo  URLhttpsgithubcomtensorflowtensorflow
+ programming language  Python programming languagePython C CUDA
+ platform  Linux macOS Windows Android operating systemAndroid
+ genre  Machine learning Library computinglibrary
+ license  Apache LicenseApache 20 open source license
+ website  URLhttpswwwtensorfloworg
+
+
+TensorFlow is an opensource Library computingsoftware library for dataflow programming across a range of tasks It is a symbolic math library and is also used for machine learning applications such as neural networksref nameYoutubeCliphttpswwwyoutubecomwatchvoZikw5k2FM TensorFlow Open source machine learning It is machine learning software being used for various kinds of perceptual and language understanding tasks  Jeffrey Dean minute 047  217 from Youtube clipref It is used for both research and production at Googlezwjref nameYoutubeClip rpmin 015217thinspref namewhitepaper2015 rpp2thinspref nameYoutubeClip rp026217 often replacing its closedsource predecessor DistBelief
+
+TensorFlow was developed by the Google Brain team for internal Google use It was released under the Apache LicenseApache 20 open source license on November 9 2015ref nameCreditscite web title  Credits url  httptensorfloworgabout website  TensorFloworg accessdate  November 10 2015 refref nameMetzNov9cite web last1  Metz first1  Cade title  Google Just Open Sourced TensorFlow Its Artificial Intelligence Engine url  httpswwwwiredcom201511googleopensourcesitsartificialintelligenceengine website  Wired websiteWired accessdate  November 10 2015 date  November 9 2015 ref
+
+ History 
+ DistBelief 
+Starting in 2011 Google Brain built DistBelief as a Proprietary softwareproprietary machine learning system based on deep learning Artificial neural networkneural networks Its use grew rapidly across diverse Alphabet IncAlphabet companies in both research and commercial applicationsref namewhitepaper2015cite web last1  Dean first1  Jeff last2  Monga first2  Rajat first3  Sanjay last3  Ghemawat displayauthors  2 authorlink1  Jeff Dean computer scientist title  TensorFlow Largescale machine learning on heterogeneous systems url  httpdownloadtensorfloworgpaperwhitepaper2015pdf website  TensorFloworg publisher  Google Research accessdate  November 10 2015 date  November 9 2015 refref namePerezcite web last1  Perez first1  Sarah title  Google OpenSources The Machine Learning Tech Behind Google Photos Search Smart Reply And More url  httpstechcrunchcom20151109googleopensourcesthemachinelearningtechbehindgooglephotossearchsmartreplyandmore website  TechCrunch accessdate  November 11 2015 date  November 9 2015 ref Google assigned multiple computer scientists including Jeff Dean computer scientistJeff Dean to simplify and Code refactoringrefactor the codebase of DistBelief into a faster more robust applicationgrade library which became TensorFlowref nameOremuscite web last1  Oremus first1  Will title  What Is TensorFlow and Why Is Google So Excited About It url  httpwwwslatecomblogsfuturetense20151109googlestensorflowisopensourceanditsabouttobeahugehugedealhtml website  Slate accessdate  November 11 2015 date  November 11 2015 ref In 2009 the team led by Geoffrey Hinton had implemented generalized backpropagation and other improvements which allowed generation of neural networks with substantially higher accuracy for instance a 25 reduction in errors in speech recognitionref nameWardBaileycite web last1  WardBailey first1  Jeff title  Google chairman Were making real progress on artificial intelligence url  httpwwwcsmonitorcomTechnology20150914GooglechairmanWeremakingrealprogressonartificialintelligence website  CSMonitor accessdate  November 25 2015 date  November 25 2015 ref
+
+ TensorFlow 
+TensorFlow is Google Brains second generation  system Version 100 was released on February 11 2017refCite weburlhttpsgithubcomtensorflowtensorflowblob07bb8ea2379bd459832b23951fb20ec47f3fdbd4RELEASEmdtitleTensorflow Release 100lastfirstdatewebsitearchiveurlarchivedatedeadurlaccessdateref  While the reference implementation runs on single devices TensorFlow can run on multiple central processing unitCPUs and GPUs with optional CUDA and SYCL extensions for generalpurpose computing on graphics processing unitsref nameMetzNov10cite news last1  Metz first1  Cade title  TensorFlow Googles Open Source AI Points to a FastChanging Hardware World url  httpswwwwiredcom201511googlesopensourceaitensorflowsignalsfastchanginghardwareworld accessdate  November 11 2015 website  Wired date  November 10 2015 ref TensorFlow is available on 64bit Linux macOS Windows and mobile computing platforms including Android operating systemAndroid and iOS
+
+TensorFlow computations are expressed as State computer sciencestateful dataflow programmingdataflow directed graphgraphs The name TensorFlow derives from the operations that such neural networks perform on multidimensional data arrays These arrays are referred to as tensors In June 2016 Dean stated that 1500 repositories on GitHub mentioned TensorFlow of which only 5 were from Googleref name1500reposhttpswwwyoutubecomwatchvRnm83GqgqPE  Machine Learning Google IO 2016 Minute 07304444  accessdate20160605ref
+
+ Tensor processing unit TPU 
+In May 2016 Google announced its Tensor processing unitTensor processing unit TPU an Applicationspecific integrated circuitASIC built specifically for machine learning and tailored for TensorFlow TPU is a programmable AI accelerator computer hardwareAI accelerator designed to provide high throughput of lowprecision arithmetic eg 8bit and oriented toward using or running models rather than Supervised learningtraining them Google announced they had been running TPUs inside their data centers for more than a year and had found them to deliver an order of magnitude betteroptimized performance per watt for machine learningrefcite web last1  Jouppi first1  Norm title  Google supercharges machine learning tasks with TPU custom chip url  httpscloudplatformgoogleblogcom201605Googlesuperchargesmachinelearningtaskswithcustomchiphtml website  Google Cloud Platform Blog accessdate  May 19 2016 ref
+
+In May 2017 Google announced the secondgeneration as well as the availability of the Tensor processing unitTPUnowikis in Google Compute EnginerefCite newsurlhttpswwwbloggoogletopicsgooglecloudgooglecloudoffertpusmachinelearningtitleBuild and train machine learning models on our new Google Cloud TPUsdateMay 17 2017workGoogleaccessdateMay 18 2017languageenref The secondgeneration TPUs deliver up to 180 teraflops of performance and when organized into clusters of 64 TPUs provide up to 115 petaflops
+
+In February 2018 Google announced that they were making Tensor processing unitTPUs available in beta on the Google Cloud PlatformrefCite newsurlhttpscloudplatformgoogleblogcom201802CloudTPUmachinelearningacceleratorsnowavailableinbetahtmltitleCloud TPU machine learning accelerators now available in betaworkGoogle Cloud Platform Blogaccessdate20180212languageenref
+
+TensorFlow Lite
+In May 2017 Google announced a software stack specifically for Android operating systemAndroid development TensorFlow Literefcite weburlhttpswwwthevergecom201751715645908googleaitensorflowlitemachinelearningannouncementio2017titleGoogles new machine learning framework is going to put more AI on your phonepublisherref beginning with Android Oreo
+
+ Applications 
+Google officially released RankBrain on October 26 2015 backed by TensorFlow
+
+ Machine Learning Crash Course MLCC 
+On March 1 2018 Google released its Machine Learning Crash Course MLCC Originally designed to help equip Google employees with practical artificial intelligence and machine learning fundamentals Google rolled out its free TensorFlow workshops in several cities around the world before finally releasing the course to the publicrefCite newsurlhttpswwwtechrepubliccomarticlegoogleoffersfree15hrmachinelearningcrashcourseaspartofairesourcecentertitleGoogle offers free 15hr machine learning crash course as part of AI resource centerworkTechRepublicaccessdate20180302languageenref
+
+ Features 
+TensorFlow provides a Python softwarePython APIrefCite weburlhttpswwwtensorfloworgapidocspythontitleAll symbols in TensorFlow    TensorFlowwebsiteTensorFlowlanguageenaccessdate20180218ref as well as  CrefCite weburlhttpswwwtensorfloworgapidocscctitleTensorFlow C Reference    TensorFlowwebsiteTensorFlowlanguageenaccessdate20180218ref Haskell programming languageHaskellrefCitationtitlehaskell Haskell bindings for TensorFlowdate20180217urlhttpsgithubcomtensorflowhaskellpublishertensorflowaccessdate20180218ref Java softwareJavarefCite weburlhttpswwwtensorfloworgapidocsjavareferenceorgtensorflowpackagesummarytitleorgtensorflow    TensorFlowwebsiteTensorFlowlanguageenaccessdate20180218ref Go programming languageGorefCite weburlhttpsgodocorggithubcomtensorflowtensorflowtensorflowgotitlePackage tensorflowwebsitegodocorglanguageenaccessdate20180218ref and Rust programming languageRustrefCitationtitlerust Rust language bindings for TensorFlowdate20180217urlhttpsgithubcomtensorflowrustpublishertensorflowaccessdate20180218ref APIs Third party packages are available for C Sharp programming languageCrefCitationlastIcazafirstMiguel detitleTensorFlowSharp TensorFlow API for NET languagesdate20180217urlhttpsgithubcommigueldeicazaTensorFlowSharpaccessdate20180218ref Julia programming languageJuliarefhttpsgithubcommalmaudTensorFlowjl ref R softwareRrefCitationtitletensorflow TensorFlow for Rdate20180217urlhttpsgithubcomrstudiotensorflowpublisherRStudioaccessdate20180218ref Scala programming languageScalarefCitationlastPlataniosfirstAnthonytitletensorflowscala TensorFlow API for the Scala Programming Languagedate20180217urlhttpsgithubcomeaplataniostensorflowscalaaccessdate20180218ref and OCamlrefCitationlastMazarefirstLaurenttitletensorflowocaml OCaml bindings for TensorFlowdate20180216urlhttpsgithubcomLaurentMazaretensorflowocamlaccessdate20180218ref
+
+A Javascript API was released by Tensorfloworg on March 30th 2018refhttpsjstensorfloworgref
+
+ Applications 
+Among the applications for which TensorFlow is the foundation are automated image captioning software such as DeepDreamref nameByrnecite web last1  Byrne first1  Michael title  Google Offers Up Its Entire Machine Learning Library as OpenSource Software url  httpmotherboardvicecomenukreadgoogleoffersupitsentiremachinelearninglibraryasopensource website  Vice accessdate  November 11 2015 date  November 11 2015 ref RankBrain now handles a substantial number of search queries replacing and supplementing traditional static algorithmbased search resultsref nameWoollastoncite web last1  Woollaston first1  Victoria title  Google releases TensorFlow  Search giant makes its artificial intelligence software available to the public url  httpwwwdailymailcouksciencetecharticle3311650GooglereleasesTensorFlowSearchgiantmakesartificialintelligencesoftwareavailablepublichtml website  DailyMail accessdate  November 25 2015 date  November 25 2015 ref
+
+ References 
+Reflist30em
+
+ External links 
+ Official websitehttpswwwtensorfloworg
+ GitHubtensorflowtensorflowTensorFlow
+ httpswwwopenhubnetptensorflow Sources stats
+
+Deep Learning Software
+Use mdy datesdateNovember 2017
+
+CategoryApplied machine learning
+CategoryData mining and machine learning software
+CategoryDeep learning
+CategoryFree software programmed in C
+CategoryFree software programmed in Python
+CategoryFree statistical software
+CategoryOpensource artificial intelligence
+CategoryPython scientific libraries
+CategorySoftware using the Apache license
+CategoryGoogle software

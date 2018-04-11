@@ -1,0 +1,32 @@
+parent_config: './conf/jack.yaml'
+
+# loader for the dataset, ['jack', 'squad', 'snli'] are supported. For everything else convert to jtr format first.
+loader: snli
+
+# MultiNLI training file
+train: 'data/MultiNLI/multinli_1.0/multinli_1.0_train.jsonl'
+
+# MultiNLI dev file
+dev: 'data/MultiNLI/multinli_1.0/multinli_1.0_dev.jsonl'
+
+# MultiNLI test file
+test: null
+
+epochs: 20
+
+embedding_format: 'memory_map_dir'
+embedding_file: 'data/GloVe/glove.840B.300d.memory_map_dir'
+
+# Use fixed vocab of pretrained embeddings
+vocab_from_embeddings: True
+
+# Use also character based embeddings in readers which support it
+with_char_embeddings: False
+
+batch_size: 64
+
+lowercase: False
+
+learning_rate: 0.001
+min_learning_rate: 0.0001
+learning_rate_decay: 0.8

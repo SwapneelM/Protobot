@@ -1,0 +1,5 @@
+
+[format]
+rfc3987
+strict-rfc3339
+webcolors

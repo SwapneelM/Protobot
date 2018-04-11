@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: jack
+Version: 0.1.0
+Summary: Jack the Reader is a Python framework for Machine Reading
+Home-page: https://github.com/uclmr/jack
+Author: UCL Machine Reading
+Author-email: s.riedel@cs.ucl.ac.uk
+License: MIT
+Description: UNKNOWN
+Keywords: tensorflow machine learning natural language processing question answering
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python ModulesTopic :: Scientific/Engineering :: Artificial Intelligence
+Provides-Extra: tf
+Provides-Extra: tf_gpu

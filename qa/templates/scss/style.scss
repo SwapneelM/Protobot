@@ -1,0 +1,180 @@
+body{
+background: #ff9966;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 3em;
+}
+h1{
+  color: white;
+  font-size: 3em;
+}
+*{
+  box-sizing: border-box;
+  position: relative;
+  font-family: 'Dosis', sans-serif !important;
+}
+.chatbox{
+  background: #fafafa;
+  min-height: 350px;
+  width: 300px;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.21),0px 30px 20px -10px rgba(0,0,0,0.2),0px 60px 20px -30px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  overflow:hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  &__header{
+    width: 100%;
+    height: 50px;
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .title{
+      color: #fff;
+      text-align: center;
+    }
+    svg{
+      position: absolute;
+      left: 20px;
+      fill: white;
+      transition: .3s ease-in-out;
+      &:hover{
+        transform: translateX(-5px);
+        transition: .3s ease-in-out;
+      }
+    }
+  }
+  &__body{
+    height: 290px;
+    width: 100%;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: auto;
+    padding: 10px 10px 20px;
+  
+    .message{
+      display: block;
+      width: auto;
+      margin: 5px;
+      align-self: flex-start;      
+      flex-direction: row;
+          max-width: 60%;
+    word-wrap: break-word;
+      img{
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+         -webkit-animation: image .2s ; /* Safari 4.0 - 8.0 */
+    animation: image .2s 
+      }
+      &.receive{
+        padding-left: 30px;
+        .message_text{
+          margin-left: 10px;
+          padding: 10px;
+          border-radius: 3px;
+          background: #fff;
+          animation: starkMessage .2s;
+           -webkit-animation: starkMessage .2s ; /* Safari 4.0 - 8.0 */
+          &:before{
+            position: absolute;
+            content:" ";
+            left: -5px;
+            bottom: 0;
+             border-right: solid 10px #fff;
+             border-top: solid 10px transparent;
+            z-index: 0;
+          }
+        }
+        img{
+           
+          position: absolute;
+          left: 0;
+          bottom: -15px;
+        }
+      }
+      &.sender{ 
+        color: white;
+        align-self: flex-end;
+        padding-right: 30px;
+        .message_text{
+          margin-right: 10px;
+          background: #ff9966;
+          background: -webkit-linear-gradient(to left, #ff5e62, #ff9966);
+          background: linear-gradient(to left, #ff5e62, #ff9966); 
+          padding: 10px;
+          border-radius: 3px;
+          z-index: 99;
+          animation: starkMessage .2s;
+          -webkit-animation: starkMessage .2s ; /* Safari 4.0 - 8.0 */
+          &:after{
+            position: absolute;
+            content:" ";
+            right: -5px;
+            bottom: 0;
+             border-left: solid 10px #ff5e62;
+             border-top: solid 10px transparent;
+            z-index: 0;
+          }
+        }
+        img{
+          position: absolute;
+          right: 0;
+          bottom: -15px;
+        }
+      }
+    }
+  }
+  
+  &__input{
+    display: flex;
+    width: 100%;
+    background: #fff;
+    height: 60px;
+    // box-shadow: 0 -2px 20px 0 rgba(0,0,0,0.11);
+    border-top: .5px solid #efefef;
+    input{
+      flex: 3;
+      padding: 1em 2em;
+      outline: none;
+      border: 0;
+      letter-spacing:.1em;
+    }
+    button{
+      outline: none;
+      border: 0;
+      flex:1;
+      background: white;
+    }
+    svg{
+        fill: #ff9966; 
+    }
+  }
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #dedede;
+    opacity: 1; /* Firefox */
+}
+
+
+@keyframes starkMessage {
+    from {transform: scale(.9)}
+    80% {transform: scale(1.05) }
+    to {transform: scale(1)}
+}
+@keyframes image {
+    from {bottom: -50px;}
+    to {bottom: -15px;}
+}

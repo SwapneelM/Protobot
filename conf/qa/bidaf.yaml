@@ -1,0 +1,68 @@
+description: >
+  BiDAF reader implementation as described in https://arxiv.org/abs/1611.01603. This is a slightly adapted version.
+
+parent_config: './conf/qa/modular_qa.yaml'
+
+# Reader model to use, see jack/readers/implementations.py for options
+name: 'bidaf_reader'
+
+# fixed experiment seed
+seed: 1337
+
+# where to store the reader
+save_dir: './bidaf_reader'
+
+with_char_embeddings: True
+
+max_span_size: 16
+
+model:
+  encoder_layer:
+  # Embedding computation
+  # Support
+  - input: ['support', 'char_support']
+    output: 'support'
+    module: 'concat'
+  - input: 'support'
+    name: 'embedding_highway'
+    module: 'highway'
+    num_layers: 2
+
+  # Question
+  - input: ['question', 'char_question']
+    output: 'question'
+    module: 'concat'
+  - input: 'question'
+    name: 'embedding_highway'  # use same network as support
+    module: 'highway'
+    num_layers: 2
+
+  # Contextual Encoding
+  - input: 'question'
+    module: 'lstm'
+    name: 'contextual_encoding'
+    with_projection: True # not in the original bidaf implementation, but help
+    dropout: True
+  - input: 'support'
+    module: 'lstm'
+    with_projection: True # not in the original bidaf implementation, but helps
+    name: 'contextual_encoding' # shared encoding at this point helps
+    dropout: True
+
+  # Attention Encoding
+  - input: 'support'
+    dependent: 'question'
+    module: 'bidaf'
+
+  - input: 'support'
+    module: 'lstm'
+    with_projection: True # not in the original bidaf implementation, but helps
+    num_layers: 2
+    dropout: True
+
+  answer_layer:
+    module: 'bidaf'
+    encoder:  # only needed for bidaf answer layer
+      module: 'lstm'
+      dropout: True
+

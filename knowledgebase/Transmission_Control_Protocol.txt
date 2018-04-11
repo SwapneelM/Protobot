@@ -1,0 +1,545 @@
+The Transmission Control Protocol TCP is one of the main communications protocolprotocols of the Internet protocol suite It originated in the initial network implementation in which it complemented the Internet Protocol IP Therefore the entire suite is commonly referred to as TCPIP TCP provides reliability computer networkingreliable ordered and error detection and correctionerrorchecked delivery of a stream of octet computingoctets bytes between applications running on hosts communicating by an IP network Major Internet applications such as the World Wide Web email remote administration and file transfer rely on TCP Applications that do not require reliable data stream service may use the User Datagram Protocol UDP which provides a connectionless communicationconnectionless datagram service that emphasizes reduced latency engineeringlatency over reliability
+
+IPstack
+
+Historical origin
+During May 1974 the Institute of Electrical and Electronic Engineers IEEE published a paper titled A Protocol for Packet Network Intercommunicationrefcite journal urlhttpeceutacirClasspagesF84PrincipleofNetworkDesignPapersCK74pdf author1Vinton G Cerf author2Robert E Kahn titleA Protocol for Packet Network Intercommunication journalIEEE Transactions on Communications volume22 issue5 dateMay 1974 pages637648 doi101109tcom19741092259 archiveurlhttpswebarchiveorgweb20160304150203httpeceutacirClasspagesF84PrincipleofNetworkDesignPapersCK74pdf archivedateMarch 4 2016ref The papers authors Vint Cerf and Bob Kahn described an internetworking protocol for sharing resources using packet switching among the nodes incorporating concepts from the French CYCLADES project directed by Louis Pouzinrefcite weblast1Bennettfirst1RichardtitleDesigned for Change EndtoEnd Arguments Internet Innovation and the Net Neutrality Debateurlhttpswwwitiforgfiles2009designedforchangepdfpublisherInformation Technology and Innovation Foundationaccessdate11 September 2017page11dateSeptember 2009ref A central control component of this model was the Transmission Control Program that incorporated both connectionoriented links and datagram services between hosts The monolithic Transmission Control Program was later divided into a modular architecture consisting of the Transmission Control Protocol at the connectionoriented layer and the Internet Protocol at the internetworking datagram layer The model became known informally as TCPIP although formally it was henceforth termed the Internet Protocol Suite
+
+Network function
+The Transmission Control Protocol provides a communication service at an intermediate level between an application program and the Internet Protocol It provides hosttohost connectivity at the Transport Layer of the Internet model An application does not need to know the particular mechanisms for sending data via a link to another host such as the required packet fragmentation on the transmission medium At the transport layer the protocol handles all handshaking and transmission details and presents an abstraction of the network connection to the application
+
+At the lower levels of the protocol stack due to network congestion traffic load balancing or other unpredictable network behaviour IP packets may be packet losslost duplicated or outoforder deliverydelivered out of order TCP detects these problems requests retransmission data networksretransmission of lost data rearranges outoforder data and even helps minimize network congestion to reduce the occurrence of the other problems If the data still remains undelivered the source is notified of this failure Once the TCP receiver has reassembled the sequence of octets originally transmitted it passes them to the receiving application Thus TCP abstracts the applications communication from the underlying networking details
+
+TCP is used extensively by many applications available by internet including the World Wide Web WWW Email File Transfer Protocol Secure Shell peertopeer file sharing and streaming media applications
+
+TCP is optimized for accurate delivery rather than timely delivery and can incur relatively long delays on the order of seconds while waiting for outoforder messages or retransmissions of lost messages Therefore it is not particularly suitable for realtime applications such as Voice over IP For such applications protocols like the Realtime Transport Protocol RTP operating over the User Datagram Protocol UDP are usually recommended insteadref namecomercite booklastComerfirstDouglas EauthorlinkDouglas ComertitleInternetworking with TCPIPPrinciples Protocols and ArchitecturepublisherPrentice Hallyear2006edition5thvolume1isbn0131876716ref
+
+TCP is a reliable stream delivery service which guarantees that all bytes received will be identical with bytes sent and in the correct order Since packet transfer by many networks is not reliable a technique known as positive acknowledgement with retransmission is used to guarantee reliability This fundamental technique requires the receiver to respond with an acknowledgement message as it receives the data The sender keeps a record of each packet it sends and maintains a timer from when the packet was sent The sender retransmits a packet if the timer expires before receiving the message acknowledgement The timer is needed in case a packet gets lost or corruptedref namecomer
+
+While IP handles actual delivery of the data TCP keeps track of segments  the individual units of data transmission that a message is divided into for efficient routing through the network For example when an HTML file is sent from a web server the TCP software layer of that server divides the sequence of file octets into segments and forwards them individually to the IP software layer Internet Layer The Internet Layer encapsulates each TCP segment into an IP packet by adding a header that includes among other data the destination IP address When the client program on the destination computer receives them the TCP layer Transport Layer reassembles the individual segments and ensures they are correctly ordered and errorfree as it streams them to an application
+
+TCP segment structure
+Transmission Control Protocol accepts data from a data stream divides it into chunks and adds a TCP header creating a TCP segment The TCP segment is then encapsulation networkingencapsulated into an Internet Protocol IP datagram and exchanged with peersrefcite weburlhttpwwwlinktionarycomttcphtmltitleTCP Linktionary termpublisherref
+
+The term TCP packet appears in both informal and formal usage whereas in more precise terminology segment refers to the TCP protocol data unit PDU datagramrefcite weburltoolsietforghtmlrfc791section21titleRFC 791  section 21publisherref to the IP PDU and frame to the data link layer PDU
+
+blockquote
+Processes transmit data by calling on the TCP and passing buffers of data as arguments The TCP packages the data from these buffers into segments and calls on the internet module eg IP to transmit each segment to the destination TCPrefcite weburltoolsietforghtmlrfc793titleRFC 793publisherref
+blockquote
+
+A TCP segment consists of a segment header and a data section The TCP header contains 10 mandatory fields and an optional extension field Options pink background in table
+
+The data section follows the header Its contents are the payload data carried for the application The length of the data section is not specified in the TCP segment header It can be calculated by subtracting the combined length of the TCP header and the encapsulating IP header from the total IP datagram length specified in the IP header
+
+ classwikitable stylemargin 0 auto textaligncenter
+TCP Header
+
+ styleborderbottomnone borderrightnone Offsets
+ styleborderleftnone Octet computingOctet
+ colspan8  0
+ colspan8  1
+ colspan8  2
+ colspan8  3
+
+ stylebordertop none  Octet
+ ttBitttttnbsp0ttttnbsp1ttttnbsp2ttttnbsp3ttttnbsp4ttttnbsp5ttttnbsp6ttttnbsp7ttttnbsp8ttttnbsp9tttt10tttt11tttt12tttt13tttt14tttt15tttt16tttt17tttt18tttt19tttt20tttt21tttt22tttt23tttt24tttt25tttt26tttt27tttt28tttt29tttt30tttt31tt
+
+ 0
+tt 0tt
+ colspan16 Source port  colspan16 Destination port
+
+ 4
+tt32tt
+ colspan32 Sequence number
+
+ 8
+tt64tt
+ colspan32 Acknowledgment number if ttACKtt set
+
+ 12
+ tt96tt
+ colspan4 Data offset  colspan3 Reservedbrtt0 0 0tt  cellpadding1ttNbrSttttCbrWbrRttttEbrCbrEttttUbrRbrGttttAbrCbrKttttPbrSbrHttttRbrSbrTttttSbrYbrNttttFbrIbrNtt colspan16 Window Size
+
+ 16
+tt128tt
+colspan16 Checksum  colspan16  Urgent pointer if ttURGtt set
+
+ 20br
+tt160brtt
+ colspan32 stylebackgroundffd0d0 Options if data offset gt 5 Padded at the end with 0 bytes if necessarybr
+
+
+Source port 16 bits Identifies the sending port
+Destination port 16 bits Identifies the receiving port
+Sequence number 32 bits Has a dual role
+If the ttSYNtt flag is set 1 then this is the initial sequence number The sequence number of the actual first data byte and the acknowledged number in the corresponding ACK are then this sequence number plus 1
+If the ttSYNtt flag is clear 0 then this is the accumulated sequence number of the first data byte of this segment for the current session
+Acknowledgment number 32 bits If the ttACKtt flag is set then the value of this field is the next sequence number that the sender of the ACK is expecting This acknowledges receipt of all prior bytes if any The first ttACKtt sent by each end acknowledges the other ends initial sequence number itself but no data
+Data offset 4 bits Specifies the size of the TCP header in 32bit word computer architecturewords The minimum size header is 5 words and the maximum is 15 words thus giving the minimum size of 20 bytes and maximum of 60 bytes allowing for up to 40 bytes of options in the header This field gets its name from the fact that it is also the offset from the start of the TCP segment to the actual data
+Reserved 3 bitsFor future use and should be set to zero
+Flags 9 bits aka Control bitsContains 9 1bit flags
+ttNStt 1 bit ECNnonce  concealment protection experimental see RFC 3540
+ttCWRtt 1 bit Congestion Window Reduced CWR flag is set by the sending host to indicate that it received a TCP segment with the ttECEtt flag set and had responded in congestion control mechanism added to header by RFC 3168
+ttECEtt 1 bit ECNEcho has a dual role depending on the value of the SYN flag It indicates
+If the ttSYNtt flag is set 1 that the TCP peer is Explicit Congestion NotificationECN capable
+If the ttSYNtt flag is clear 0 that a packet with Congestion Experienced flag set ECN11 in IP header was received during normal transmission added to header by RFC 3168 This serves as an indication of network congestion or impending congestion to the TCP sender
+ttURGtt 1 bit indicates that the Urgent pointer field is significant
+ttACKtt 1 bit indicates that the Acknowledgment field is significant All packets after the initial ttSYNtt packet sent by the client should have this flag set
+ttPSHtt 1 bit Push function Asks to push the buffered data to the receiving application
+ttRSTtt 1 bit Reset the connection
+ttSYNtt 1 bit Synchronize sequence numbers Only the first packet sent from each end should have this flag set Some other flags and fields change meaning based on this flag and some are only valid for when it is set and others when it is clear
+ttFINtt 1 bit Last packet from sender
+Window size 16 bitsThe size of the receive window which specifies the number of window size units by default bytes beyond the segment identified by the sequence number in the acknowledgment field that the sender of this segment is currently willing to receive see Flow controlFlow control and Window scalingWindow Scaling
+Checksum 16 bitsThe 16bit checksum field is used for errorchecking of the header the Payload and a PseudoHeader The PseudoHeader consist of the IPv4SourceaddressSource IP Address the IPv4DestinationaddressDestination IP Address the List of IP protocol numbersprotocol number for the TCPProtocol 0x0006 and the length of the TCPHeaders including Payload in Bytes
+Urgent pointer 16 bitsif the ttURGtt flag is set then this 16bit field is an offset from the sequence number indicating the last urgent data byte
+Options Variable 0320 bits divisible by 32The length of this field is determined by the data offset field Options have up to three fields OptionKind 1 byte OptionLength 1 byte OptionData variable The OptionKind field indicates the type of option and is the only field that is not optional Depending on what kind of option we are dealing with the next two fields may be set the OptionLength field indicates the total length of the option and the OptionData field contains the value of the option if applicable For example an OptionKind byte of 0x01 indicates that this is a NoOp option used only for padding and does not have an OptionLength or OptionData byte following it An OptionKind byte of 0 is the End Of Options option and is also only one byte An OptionKind byte of 0x02 indicates that this is the Maximum Segment Size option and will be followed by a byte specifying the length of the MSS field should be 0x04 This length is the total length of the given options field including OptionKind and OptionLength bytes So while the MSS value is typically expressed in two bytes the length of the field will be 4 bytes 2 bytes of kind and length In short an MSS option field with a value of 0x05B4 will show up as 0x02 0x04 0x05B4 in the TCP options section
+Some options may only be sent when ttSYNtt is set they are indicated below as suptt stylecolor000 backgroundcccSYNttsup OptionKind and standard lengths given as OptionKindOptionLength
+0 8 bits End of options list
+1 8 bits No operation NOP Padding This may be used to align option fields on 32bit boundaries for better performance
+24SS 32 bits Maximum segment size see Maximum segment sizemaximum segment size suptt stylecolor000 backgroundcccSYNttsup
+33S 24 bits Window scale see Window scalingwindow scaling for details suptt stylecolor000 backgroundcccSYNttsuprefcite weburltoolsietforghtmlrfc1323page9titleRFC 1323 TCP Extensions for High Performance Section 22publisherref
+42 16 bits Selective Acknowledgement permitted suptt stylecolor000 backgroundcccSYNttsup See Selective acknowledgmentsselective acknowledgments for detailsrefcite weburltoolsietforghtmlrfc2018section2titleRFC 2018 TCP Selective Acknowledgement Options Section 2publisherref
+5NBBBBEEEE variable bits N is either 10 18 26 or 34 Selective ACKnowledgement SACKrefcite weburltoolsietforghtmlrfc2018section3titleRFC 2018 TCP Selective Acknowledgement Options Section 3publisherref These first two bytes are followed by a list of 14 blocks being selectively acknowledged specified as 32bit beginend pointers
+810TTTTEEEE 80 bits Timestamp and echo of previous timestamp see TCP timestampsTCP timestamps for detailsrefcite weburltoolsietforghtmlrfc1323page11titleRFC 1323 TCP Extensions for High Performance Section 32publisherref
+The remaining options are historical obsolete experimental not yet standardized or unassigned Option number assignments are maintained by the IANArefcite weburlwwwianaorgassignmentstcpparameterstcpparametersxhtmltcpparameters1titleTransmission Control Protocol TCP Parameters TCP Option Kind NumberspublisherIANAref
+PaddingThe TCP header padding is used to ensure that the TCP header ends and data begins on a 32 bit boundary The padding is composed of zerosrefRFC 793 section 31ref
+
+Protocol operation
+FileTcp state diagram fixed newsvgrightthumbnail250pxA Simplified TCP State Diagram See httpwwwmedianetkentedutechreportsTR20050722tcpEFSMpdf TCP EFSM diagram for a more detailed state diagram including the states inside the ESTABLISHED state
+
+TCP protocol operations may be divided into three phases Connections must be properly established in a multistep handshake process connection establishment before entering the data transfer phase After data transmission is completed the connection termination closes established virtual circuits and releases all allocated resources
+
+A TCP connection is managed by an operating system through a programming interface that represents the local endpoint for communications the Internet socket During the lifetime of a TCP connection the local endpoint undergoes a series of state computer sciencestate changesrefRFC 793 Section 32ref
+
+Completely rewritten quoting directly from RFC 793 
+LISTEN server represents waiting for a connection request from any remote TCP and port
+SYNSENT client represents waiting for a matching connection request after having sent a connection request
+SYNRECEIVED server represents waiting for a confirming connection request acknowledgment after having both received and sent a connection request
+ESTABLISHED both server and client represents an open connection data received can be delivered to the user The normal state for the data transfer phase of the connection
+FINWAIT1 both server and client represents waiting for a connection termination request from the remote TCP or an acknowledgment of the connection termination request previously sent
+FINWAIT2 both server and client represents waiting for a connection termination request from the remote TCP
+CLOSEWAIT both server and client represents waiting for a connection termination request from the local user
+CLOSING both server and client represents waiting for a connection termination request acknowledgment from the remote TCP
+LASTACK both server and client represents waiting for an acknowledgment of the connection termination request previously sent to the remote TCP which includes an acknowledgment of its connection termination request
+TIMEWAIT either server or client represents waiting for enough time to pass to be sure the remote TCP received the acknowledgment of its connection termination request According to RFC 793 a connection can stay in TIMEWAIT for a maximum of four minutes known as two Maximum Segment LifetimeMSL maximum segment lifetime
+CLOSED both server and client represents no connection state at all
+
+AnchorCONNECTIONESTABLISHMENTConnection establishment
+To establish a connection TCP uses a threeway handshakinghandshake
+ Copy diagram from the German article illustrating this handshake Additionally talk about the sequence number 
+Before a client attempts to connect with a server the server must first bind to and listen at a port to open it up for connections this is called a passive open
+Once the passive open is established a client may initiate an active open
+To establish a connection the threeway or 3step handshake occurs
+ SYN The active open is performed by the client sending a SYN to the server The client sets the segments sequence number to a random value A
+ SYNACK In response the server replies with a SYNACK The acknowledgment number is set to one more than the received sequence number ie A1 and the sequence number that the server chooses for the packet is another random number B
+ ACK Finally the client sends an ACK back to the server The sequence number is set to the received acknowledgement value ie A1 and the acknowledgement number is set to one more than the received sequence number ie B1
+
+At this point both the client and server have received an acknowledgment of the connection
+The steps 1 2 establish the connection parameter sequence number for one direction and it is acknowledged
+The steps 2 3 establish the connection parameter sequence number for the other direction and it is acknowledged
+With these a fullduplex communication is established
+
+Connection terminationFIN TCP redirects here
+FileTCP CLOSEsvgrightthumbnail260pxConnection terminationThe connection termination phase uses a fourway handshake with each side of the connection terminating independently When an endpoint wishes to stop its half of the connection it transmits a FIN packet which the other end acknowledges with an ACK Therefore a typical teardown requires a pair of FIN and ACK segments from each TCP endpoint After the side that sent the first FIN has responded with the final ACK it waits for a timeout before finally closing the connection during which time the local port is unavailable for new connections this prevents confusion due to delayed packets being delivered during subsequent connections
+
+A connection can be TCP halfopenhalfopen in which case one side has terminated its end but the other has not The side that has terminated can no longer send any data into the connection but the other side can The terminating side should continue reading the data until the other side terminates as well
+
+It is also possible to terminate the connection by a 3way handshake when host A sends a FIN and host B replies with a FIN  ACK merely combines 2 steps into one and host A replies with an ACKrefcite book last Tanenbaumfirst Andrew Sauthorlink Andrew S Tanenbaumtitle Computer Networksedition Fourth date 20030317publisher Prentice Hallisbn 0130661023ref
+
+Some host TCP stacks may implement a halfduplex close sequence as Linux or HPUX do If such a host actively closes a connection but still has not read all the incoming data the stack already received from the link this host sends a RST instead of a FIN Section 42213 in RFC 1122 This allows a TCP application to be sure the remote application has read all the data the former sentwaiting the FIN from the remote side when it actively closes the connection But the remote TCP stack cannot distinguish between a Connection Aborting RST and Data Loss RST Both cause the remote stack to lose all the data received
+
+Some application protocols using the TCP openclose handshaking for the application protocol openclose handshaking may find the RST problem on active close As an example
+ s  connectremote
+ sends data
+ closes
+For a program flow like above a TCPIP stack like that described above does not guarantee that all the data arrives to the other application if unread data has arrived at this end
+
+Resource usage
+Most implementations allocate an entry in a table that maps a session to a running operating system process Because TCP packets do not include a session identifier both endpoints identify the session using the clients address and port Whenever a packet is received the TCP implementation must perform a lookup on this table to find the destination process Each entry in the table is known as a Transmission Control Block or TCB It contains information about the endpoints IP and port status of the connection running data about the packets that are being exchanged and buffers for sending and receiving data
+
+The number of sessions in the server side is limited only by memory and can grow as new connections arrive but the client must allocate a random port before sending the first SYN to the server This port remains allocated during the whole conversation and effectively limits the number of outgoing connections from each of the clients IP addresses If an application fails to properly close unrequired connections a client can run out of resources and become unable to establish new TCP connections even from other applications
+
+Both endpoints must also allocate space for unacknowledged packets and received but unread data
+
+Data transfer
+There are a few key features that set TCP apart from User Datagram Protocol
+
+ Ordered data transfer the destination host rearranges according to sequence numberref namecomer
+ Retransmission of lost packets any cumulative stream not acknowledged is retransmittedref namecomer
+ Errorfree data transferrefcite web urlhttpwwwlinfoorgtcphtml titleTCP Definition accessdate20110312ref
+ Flow control limits the rate a sender transfers data to guarantee reliable delivery The receiver continually hints the sender on how much data can be received controlled by the sliding window When the receiving hosts buffer fills the next acknowledgment contains a 0 in the window size to stop transfer and allow the data in the buffer to be processedref namecomer
+ Congestion controlref namecomer
+
+Reliable transmission
+TCP uses a sequence number to identify each byte of data The sequence number identifies the order of the bytes sent from each computer so that the data can be reconstructed in order regardless of any packet reordering or packet loss that may occur during transmission The sequence number of the first byte is chosen by the transmitter for the first packet which is flagged SYN This number can be arbitrary and should in fact be unpredictable to defend against TCP sequence prediction attacks
+
+Acknowledgements Acks are sent with a sequence number by the receiver of data to tell the sender that data has been received to
+the specified byte Acks do not imply that the data has been delivered to the application They merely signify that it is now the receivers responsibility to deliver the data
+
+Reliability is achieved by the sender detecting lost data and retransmitting it TCP uses two primary techniques to identify loss Retransmission timeout abbreviated as RTO and duplicate cumulative acknowledgements DupAcks
+
+Dupackbased retransmission
+If a single packet say packet 100 in a stream is lost then the receiver cannot acknowledge packets above 100 because it uses cumulative acks Hence the receiver acknowledges packet 99 again on the receipt of another data packet This duplicate acknowledgement is used as a signal for packet loss That is if the sender receives three duplicate acknowledgements it retransmits the last unacknowledged packet A threshold of three is used because the network may reorder packets causing duplicate acknowledgements This threshold has been demonstrated to avoid spurious retransmissions due to reorderingrefcite journallast1Mathislast2Mathewlast3Semkelast4Mahdavilast5OtttitleThe macroscopic behavior of the TCP congestion avoidance algorithmjournalACM SIGCOMM Computer Communication Reviewvolume273pages6782year1997ref Sometimes selective acknowledgements SACKs are used to give more explicit feedback on which packets have been received This greatly improves TCPs ability to retransmit the right packets
+
+Timeoutbased retransmission
+Whenever a packet is sent the sender sets a timer that is a conservative estimate of when that packet will be acked If the sender does not receive an ack by then it transmits that packet again The timer is reset every time the sender receives an acknowledgement This means that the retransmit timer fires only when the sender has received no acknowledgement for a long time Typically the timer value is set to mathtextsmoothed RTT  maxG 4timestextRTT variationmath where mathGmath is the clock granularityrefcite IETF title Computing TCPs Retransmission Timer rfc 6298 sectionname The Basic Algorithm section 2 page 2 last1 Paxson first1 V last2Allman first2M last3Chu first3J last4Sargent first4 M year 2011 month June publisherInternet Engineering Task ForceIETF accessdate October 24 2015 ref Further in case a retransmit timer has fired and still no acknowledgement is received the next timer is set to twice the previous value up to a certain threshold Among other things this helps defend against a maninthemiddle attackmaninthemiddle denial of service attack that tries to fool the sender into making so many retransmissions that the receiver is overwhelmed
+
+If the sender infers that data has been lost in the network using one of the two techniques described above it retransmission data networksretransmits the data
+
+Error detection
+Sequence numbers allow receivers to discard duplicate packets and properly sequence reordered packets Acknowledgments allow senders to determine when to retransmit lost packets
+
+To assure correctness a checksum field is included see Checksum computationchecksum computation section for details on checksumming The TCP checksum is a weak check by modern standards Data Link Layers with high bit error rates may require additional link error correctiondetection capabilities The weak checksum is partially compensated for by the common use of a cyclic redundancy checkCRC or better integrity check at layer 2 below both TCP and IP such as is used in PointtoPoint ProtocolPPP or the Ethernet frame However this does not mean that the 16bit TCP checksum is redundant remarkably introduction of errors in packets between CRCprotected hops is common but the endtoend principleendtoend 16bit TCP checksum catches most of these simple errorsrefCite journal last1Stone last2Partridge titleWhen The CRC and TCP Checksum Disagree journalSigcomm year2000 urlhttpciteseeristpsuedustone00whenhtml postscriptNone ref This is the endtoend principle at work
+
+Flow control
+TCP uses an endtoend flow control dataflow control protocol to avoid having the sender send data too fast for the TCP receiver to receive and process it reliably Having a mechanism for flow control is essential in an environment where machines of diverse network speeds communicate For example if a PC sends data to a smartphone that is slowly processing received data the smartphone must regulate the data flow so as not to be overwhelmedref namecomer
+
+TCP uses a Sliding Window Protocolsliding window flow control protocol In each TCP segment the receiver specifies in the receive window field the amount of additionally received data in bytes that it is willing to buffer for the connection The sending host can send only up to that amount of data before it must wait for an acknowledgment and window update from the receiving host
+
+FileTcpsvgrightthumbnail250pxTCP sequence numbers and receive windows behave very much like a clock The receive window shifts each time the receiver receives and acknowledges a new segment of data Once it runs out of sequence numbers the sequence number loops back to 0
+
+When a receiver advertises a window size of 0 the sender stops sending data and starts the persist timer The persist timer is used to protect TCP from a deadlock situation that could arise if a subsequent window size update from the receiver is lost and the sender cannot send more data until receiving a new window size update from the receiver When the persist timer expires the TCP sender attempts recovery by sending a small packet so that the receiver responds by sending another acknowledgement containing the new window size
+
+If a receiver is processing incoming data in small increments it may repeatedly advertise a small receive window This is referred to as the silly window syndrome since it is inefficient to send only a few bytes of data in a TCP segment given the relatively large overhead of the TCP header
+
+Congestion control
+The final main aspect of TCP is congestion control TCP uses a number of mechanisms to achieve high performance and avoid congestive collapsecongestion collapse where network performance can fall by several orders of magnitude These mechanisms control the rate of data entering the network keeping the data flow below a rate that would trigger collapse They also yield an approximately maxmin fairnessmaxmin fair allocation between flows
+
+Acknowledgments for data sent or lack of acknowledgments are used by senders to infer network conditions between the TCP sender and receiver Coupled with timers TCP senders and receivers can alter the behavior of the flow of data This is more generally referred to as congestion control andor network congestion avoidance
+
+Modern implementations of TCP contain four intertwined algorithms slowstart TCP congestion avoidance algorithmcongestion avoidance fast retransmit and TCP congestion controlFast recovery Reno onlyfast recovery RFC 5681
+
+In addition senders employ a retransmission timeout RTO that is based on the estimated roundtrip time or RTT between the sender and receiver as well as the variance in this round trip time The behavior of this timer is specified in RFC 6298 There are subtleties in the estimation of RTT For example senders must be careful when calculating RTT samples for retransmitted packets typically they use Karns Algorithm or TCP timestamps see RFC 1323 These individual RTT samples are then averaged over time to create a Smoothed Round Trip Time SRTT using Van JacobsonJacobsons algorithm This SRTT value is what is finally used as the roundtrip time estimate
+
+Enhancing TCP to reliably handle loss minimize errors manage congestion and go fast in very highspeed environments are ongoing areas of research and standards development As a result there are a number of TCP congestion avoidance algorithm variations
+
+Maximum segment size
+The maximum segment size MSS is the largest amount of data specified in bytes that TCP is willing to receive in a single segment For best performance the MSS should be set small enough to avoid IP fragmentation which can lead to packet loss and excessive retransmissions To try to accomplish this typically the MSS is announced by each side using the MSS option when the TCP connection is established in which case it is derived from the MTU networkingmaximum transmission unit MTU size of the data link layer of the networks to which the sender and receiver are directly attached Furthermore TCP senders can use path MTU discovery to infer the minimum MTU along the network path between the sender and receiver and use this to dynamically adjust the MSS to avoid IP fragmentation within the network
+
+MSS announcement is also often called MSS negotiation Strictly speaking the MSS is not negotiated between the originator and the receiver because that would imply that both originator and receiver will negotiate and agree upon a single unified MSS that applies to all communication in both directions of the connection In fact two completely independent values of MSS are permitted for the two directions of data flow in a TCP connectionrefcite weburlhttpwwwfaqsorgrfcsrfc879htmltitleRFC 879publisherref This situation may arise for example if one of the devices participating in a connection has an extremely limited amount of memory reserved perhaps even smaller than the overall discovered Path MTU for processing incoming TCP segments
+
+Selective acknowledgments
+Relying purely on the cumulative acknowledgment scheme employed by the original TCP protocol can lead to inefficiencies when packets are lost For example suppose 10000 bytes are sent in 10 different TCP packets and the first packet is lost during transmission In a pure cumulative acknowledgment protocol the receiver cannot say that it received bytes 1000 to 9999 successfully but failed to receive the first packet containing bytes 0 to 999 Thus the sender may then have to resend all 10000 bytes
+
+To alleviate this issue TCP employs the selective acknowledgment SACK option defined in RFC 2018 which allows the receiver to acknowledge discontinuous blocks of packets which were received correctly in addition to the sequence number of the last contiguous byte received successively as in the basic TCP acknowledgment The acknowledgement can specify a number of SACK blocks where each SACK block is conveyed by the starting and ending sequence numbers of a contiguous range that the receiver correctly received In the example above the receiver would send SACK with sequence numbers 1000 and 9999 The sender would accordingly retransmit only the first packet bytes 0 to 999
+
+A TCP sender can interpret an outoforder packet delivery as a lost packet If it does so the TCP sender will retransmit the packet previous to the outoforder packet and slow its data delivery rate for that connection The duplicateSACK option an extension to the SACK option that was defined in RFC 2883 solves this problem The TCP receiver sends a DACK to indicate that no packets were lost and the TCP sender can then reinstate the higher transmissionrate
+
+The SACK option is not mandatory and comes into operation only if both parties support it This is negotiated when a connection is established SACK uses the optional part of the TCP header see TCP segment structureTCP segment structure for details The use of SACK has become widespreadall popular TCP stacks support it Selective acknowledgment is also used in Stream Control Transmission Protocol SCTP
+
+Window scaling
+Main articleTCP window scale option
+For more efficient use of highbandwidth networks a larger TCP window size may be used The TCP window size field controls the flow of data and its value is limited to between 2 and 65535 bytes
+
+Since the size field cannot be expanded a scaling factor is used The TCP window scale option as defined in RFC 1323 is an option used to increase the maximum window size from 65535 bytes to 1 gigabyte Scaling up to larger window sizes is a part of what is necessary for TCP tuning
+
+The window scale option is used only during the TCP 3way handshake The window scale value represents the number of bits to leftshift the 16bit window size field The window scale value can be set from 0 no shift to 14 for each direction independently Both sides must send the option in their SYN segments to enable window scaling in either direction
+
+Some routers and packet firewalls rewrite the window scaling factor during a transmission This causes sending and receiving sides to assume different TCP window sizes The result is nonstable traffic that may be very slow The problem is visible on some sites behind a defective routerrefcite weburlhttpslwnnetArticles92727titleTCP window scaling and broken routers LWNnet93publisherref
+
+TCP timestamps
+TCP timestamps defined in RFC 1323 can help TCP determine in which order packets were sent
+TCP timestamps are not normally aligned to the system clock and start at some random value Many operating systems will increment the timestamp for every elapsed millisecond however the RFC only states that the ticks should be proportional
+
+There are two timestamp fields
+a 4byte sender timestamp value my timestamp
+a 4byte echo reply timestamp value the most recent timestamp received from you
+
+TCP timestamps are used in an algorithm known as Protection Against Wrapped Sequence numbers or PAWS see RFC 1323 for details PAWS is used when the receive window crosses the sequence number wraparound boundary In the case where a packet was potentially retransmitted it answers the question Is this sequence number in the first 4nbspGB or the second And the timestamp is used to break the tie
+
+Also the Eifel detection algorithm RFC 3522 uses TCP timestamps to determine if retransmissions are occurring because packets are lost or simply out of order
+
+Recent Statistics show that the level of Timestamp adoption has stagnated at 40 owing to Windows server dropping support since  Windows Server 2008 ref name2017statscite weburlhttpprofilesmurdocheduaumyprofiledavidmurrayfiles201206AnAnalysisofChangingEnterpriseNetworkTrafficCharacteristics22pdf titleAn Analysis of Changing Enterprise Network Traffic Characteristicsauthor1David Murray author2Terry Koziniec author3Sebastian Zander author4Michael Dixon author5Polychronis Koutsakis  publisherThe 23rd AsiaPacific Conference on Communications APCC 2017date2017accessdate3 October 2017ref
+
+Outofband data
+It is possible to interrupt or abort the queued stream instead of waiting for the stream to finish This is done by specifying the data as urgent This tells the receiving program to process it immediately along with the rest of the urgent data When finished TCP informs the application and resumes back to the stream queue
+An example is when TCP is used for a remote login session the user can send a keyboard sequence that interrupts or aborts the program at the other end These signals are most often needed when a program on the remote machine fails to operate correctly The signals must be sent without waiting for the program to finish its current transferref
+namecomer
+
+TCP OOB data was not designed for the modern Internet The urgent pointer only alters the processing on the remote host and doesnt expedite any processing on the network itself When it gets to the remote host there are two slightly different interpretations of the protocol which means only single bytes of OOB data are reliable This is assuming it is reliable at all as it is one of the least commonly used protocol elements and tends to be poorly implemented
+refcite web last Gont first Fernando title On the implementation of TCP urgent data publisher 73rd IETF meeting date November 2008 url httpwwwgontcomartalksIETF73ietf73tcpmurgentdatappt accessdate 20090104refrefcite book last Peterson first Larry title Computer Networks publisher Morgan Kaufmann year 2003 page 401 isbn 155860832Xref
+
+Forcing data delivery
+Normally TCP waits for 200nbspms for a full packet of data to send Nagles Algorithm tries to group small messages into a single packet This wait creates small but potentially serious delays if repeated constantly during a file transfer For example a typical send block would be 4nbspKB a typical MSS is 1460 so 2 packets go out on a 10nbspMbits ethernet taking 12nbspms each followed by a third carrying the remaining 1176 after a 197nbspms pause because TCP is waiting for a full buffer
+
+In the case of telnet each user keystroke is echoed back by the server before the user can see it on the screen This delay would become very annoying
+
+Setting the network socketsocket option codeTCPNODELAYcode overrides the default 200nbspms send delay Application programs use this socket option to force output to be sent after writing a character or line of characters
+
+The RFC defines the codePSHcode push bit as a message to the receiving TCP stack to send this data immediately up to the receiving applicationref namecomer There is no way to indicate or control it in user space using Berkeley sockets and it is controlled by protocol stack onlyref nameStevens2006cite bookauthorRichard W StevenstitleTCPIP Illustrated Vol 1 The protocolsurlhttpsbooksgooglecoukbooksaboutTCPIPIllustratedhtmlidXl9NX3iemAC November 2011year2006publisherAddisonWesleyisbn9780201633467pagesChapter 20ref
+
+Vulnerabilities
+TCP may be attacked in a variety of ways The results of a thorough security assessment of TCP along with possible mitigations for the identified issues were published in 2009refcite web urlhttpwwwcpnigovukDocstn0309securityassessmentTCPpdf titleSecurity Assessment of the Transmission Control Protocol TCP accessdate20101223 deadurlbot unknown archiveurlhttpswebarchiveorgweb20090306052826httpwwwcpnigovukDocstn0309securityassessmentTCPpdf archivedateMarch 6 2009 df ref and is currently being pursued within the IETFreftoolsietforghtmldraftietftcpmtcpsecurity Security Assessment of the Transmission Control Protocol TCPref
+
+Denial of service
+By using a IP address spoofingspoofed IP address and repeatedly sending mangled packetpurposely assembled SYN packets followed by many ACK packets attackers can cause the server to consume large amounts of resources keeping track of the bogus connections This is known as a SYN flood attack Proposed solutions to this problem include SYN cookies and cryptographic puzzles though SYN cookies come with their own set of vulnerabilitiesrefCite weburlhttpwwwjakoblellcomblog20130813quickblindtcpconnectionspoofingwithsyncookies titleQuick Blind TCP Connection Spoofing with SYN Cookies authorJakob Lell accessdate20140205ref Sockstress is a similar attack that might be mitigated with system resource managementrefhttpwwwgontcomartalkshacklu2009fgonthacklu2009tcpsecuritypdf Some insights about the recent TCP DoS Denial of Service vulnerabilitiesref An advanced DoS attack involving the exploitation of the TCP Persist Timer was analyzed in Phrack 66refcite weburlhttpphrackorgissueshtmlissue66id9articletitleExploiting TCP and the Persist Timer Infinitenesspublisherref   PUSH and ACK floods are other variantsrefhttpsf5comglossarypushandackfloodref
+
+Connection hijacking
+Main articleTCP sequence prediction attack
+An attacker who is able to eavesdrop a TCP session and redirect packets can hijack a TCP connection To do so the attacker learns the sequence number from the ongoing communication and forges a false segment that looks like the next segment in the stream Such a simple hijack can result in one packet being erroneously accepted at one end When the receiving host acknowledges the extra segment to the other side of the connection synchronization is lost Hijacking might be combined with Address Resolution Protocol Address Resolution ProtocolARP or routing attacks that allow taking control of the packet flow so as to get permanent control of the hijacked TCP connectionrefcite weburlhttpwwwusenixorgpublicationslibraryproceedingssecurity95joncherayhtmltitleLaurent Joncheray Simple Active Attack Against TCP 1995publisherref
+
+Impersonating a different IP address was not difficult prior to RFC 1948 when the initial sequence number was easily guessable That allowed an attacker to blindly send a sequence of packets that the receiver would believe to come from a different IP address without the need to deploy ARP or routing attacks it is enough to ensure that the legitimate host of the impersonated IP address is down or bring it to that condition using denialofservice attacks This is why the initial sequence number is now chosen at random
+
+TCP veto
+An attacker who can eavesdrop and predict the size of the next packet to be sent can cause the receiver to accept a malicious payload without disrupting the existing connection The attacker injects a malicious packet with the sequence number and a payload size of the next expected packet When the legitimate packet is ultimately received it is found to have the same sequence number and length as a packet already received and is silently dropped as a normal duplicate packetthe legitimate packet is vetoed by the malicious packet Unlike in connection hijacking the connection is never desynchronized and communication continues as normal after the malicious payload is accepted TCP veto gives the attacker less control over the communication but makes the attack particularly resistant to detection The large increase in network traffic from the ACK storm is avoided The only evidence to the receiver that something is amiss is a single duplicate packet a normal occurrence in an IP network The sender of the vetoed packet never sees any evidence of an attackrefcite journal urlhttpieeexploreieeeorgxplsabsalljsparnumber6497785 author1John T Hagen author2Barry E Mullins titleTCP veto A novel network attack and its application to SCADA protocols journalInnovative Smart Grid Technologies ISGT 2013 IEEE PES year2013ref
+
+Another vulnerability is TCP reset attack
+
+TCP ports
+TCP and UDP use port computer networkingport numbers to identify sending and receiving application endpoints on a host often called Internet sockets Each side of a TCP connection has an associated 16bit unsigned port number 065535 reserved by the sending or receiving application Arriving TCP packets are identified as belonging to a specific TCP connection by its sockets that is the combination of source host address source port destination host address and destination port This means that a server computer can provide several clients with several services simultaneously as long as a client takes care of initiating any simultaneous connections to one destination port from different source ports
+
+Port numbers are categorized into three basic categories wellknown registered and dynamicprivate The wellknown ports are assigned by the Internet Assigned Numbers Authority IANA and are typically used by systemlevel or root processes Wellknown applications running as servers and passively listening for connections typically use these ports Some examples include File Transfer ProtocolFTP 20 and 21 Secure ShellSSH 22 TELNET 23 SMTP 25 HTTPSHTTP over SSLTLS 443 and HTTP 80 Registered ports are typically used by end user applications as Ephemeral portephemeral source ports when contacting servers but they can also identify named services that have been registered by a third party Dynamicprivate ports can also be used by end user applications but are less commonly so Dynamicprivate ports do not contain any meaning outside of any particular TCP connection
+
+Network Address Translation NAT typically uses dynamic port numbers on the Internetfacing public side to disambiguationdisambiguate the flow of traffic that is passing between a public network and a private subnetwork thereby allowing many IP addresses and their ports on the subnet to be serviced by a single publicfacing address
+
+Development
+TCP is a complex protocol However while significant enhancements have been made and proposed over the years its most basic operation has not changed significantly since its first specification RFC 675 in 1974 and the v4 specification RFC 793 published in September 1981 RFC 1122 Host Requirements for Internet Hosts clarified a number of TCP protocol implementation requirements A list of the 8 required specifications and over 20 strongly encouraged enhancements is available in RFC 7414 Among this list is RFC 2581 TCP Congestion Control one of the most important TCPrelated RFCs in recent years describes updated algorithms that avoid undue congestion In 2001 RFC 3168 was written to describe Explicit Congestion Notification Explicit Congestion NotificationECN a congestion avoidance signaling mechanism
+
+The original TCP congestion avoidance algorithm was known as TCP Tahoe but many alternative algorithms have since been proposed including TCP Reno TCP Vegas FAST TCP TCP New Reno and TCP Hybla
+
+TCP Interactive iTCP refhttpwwwmedianetkenteduprojectsfilesprojectITCPhtml TCP Interactive iTCPref is a research effort into TCP extensions that allows applications to subscribe to TCP events and register handler components that can launch applications for various purposes including applicationassisted congestion control
+
+Multipath TCP MPTCP refRFC 6182refrefRFC 6824ref is an ongoing effort within the IETF that aims at allowing a TCP connection to use multiple paths to maximize resource usage and increase redundancy The redundancy offered by Multipath TCP in the context of wireless networks enables the simultaneous utilization of different networks which brings higher throughput and better handover capabilities Multipath TCP also brings performance benefits in datacenter environmentsrefCite journal last1Raiciu last2Barre last3Pluntke last4Greenhalgh last5Wischik last6Handley titleImproving datacenter performance and robustness with multipath TCP journalSigcomm year2011 urlhttpinlinfouclacbepublicationsimprovingdatacenterperformanceandrobustnessmultipathtcp postscriptNone ref The reference implementationrefcite weburlhttpwwwmultipathtcporgtitleMultiPath TCP  Linux Kernel implementationpublisherref of Multipath TCP is being developed in the Linux kernelrefCite journal last1Raiciu last2Paasch last3Barre last4Ford last5 Honda last6Duchene last7Bonaventure last8Handley titleHow Hard Can It Be Designing and Implementing a Deployable Multipath TCP journalUSENIX NSDI year2012 urlhttpswwwusenixorgconferencensdi12howhardcanitbedesigningandimplementingdeployablemultipathtcp postscriptNone ref Multipath TCP is used to support the Siri voice recognition application on iPhones iPads and Macs refCite journal last1Bonaventure last2Seo  titleMultipath TCP Deployments journalIETF Journal year2016 urlhttpswwwietfjournalorgmultipathtcpdeployments postscriptNone ref
+
+TCP Cookie Transactions TCPCT is an extension proposed in December 2009 to secure servers against denialofservice attacks Unlike SYN cookies TCPCT does not conflict with other TCP extensions such as window scaling TCPCT was designed due to necessities of DNSSEC where servers have to handle large numbers of shortlived TCP connections
+
+tcpcrypt is an extension proposed in July 2010 to provide transportlevel encryption directly in TCP itself It is designed to work transparently and not require any configuration Unlike Transport Layer SecurityTLS SSL tcpcrypt itself does not provide authentication but provides simple primitives down to the application to do that As of2010 the first tcpcrypt IETF draft has been published and implementations exist for several major platforms
+
+TCP Fast Open is an extension to speed up the opening of successive TCP connections between two endpoints It works by skipping the threeway handshake using a cryptographic cookie It is similar to an earlier proposal called TTCP which was not widely adopted due to security issuesref namelwncite news authorMichael Kerrisk date20120801 titleTCP Fast Open expediting web services publisherLWNnet urlhttpslwnnetArticles508865 ref as of2012July it is an IETF Internet draftrefcite IETF titleTCP Fast Open draftdraftietftcpmfastopen01 authorY Cheng J Chu S Radhakrishnan A Jain date20120716publisherInternet Engineering Task ForceIETF ref
+
+Proposed in May 2013 Proportional Rate Reduction PRR is a TCP extension developed by Google engineers PRR ensures that the TCP window size after recovery is as close to the Slowstart threshold as possiblerefcite webtitleRFC 6937  Proportional Rate Reduction for TCPurlhttptoolsietforghtmlrfc6937accessdate6 June 2014ref The algorithm is designed to improve the speed of recovery and is the default congestion control algorithm in Linux 32 kernelsrefcite booklast1Grigorikfirst1IlyatitleHighperformance browser networkingdate2013publisherOReillylocationBeijingisbn1449344763edition1ref
+
+TCP over wireless networks
+TCP was originally designed for wired networks Packet loss is considered to be the result of network congestion and the congestion window size is reduced dramatically as a precaution However wireless links are known to experience sporadic and usually temporary losses due to fading shadowing hand off interference communicationinterference and other radio effects that are not strictly congestion After the erroneous backoff of the congestion window size due to wireless packet loss there may be a congestion avoidance phase with a conservative decrease in window size This causes the radio link to be underutilized Extensive research on combating these harmful effects has been conducted Suggested solutions can be categorized as endtoend solutions which require modifications at the client or serverref nameMicrosoft Academic Researchcite web title TCP performance over CDMA2000 RLP url httpacademicresearchmicrosoftcomPaper3352358aspx accessdate 20100830 postscript  Bot inserted parameter Either remove it or change its value to  for the cite to end in a  as necessary inconsistent citations deadurl yes archiveurl httpswebarchiveorgweb20110503193100httpacademicresearchmicrosoftcomPaper3352358aspx archivedate 20110503 df  ref link layer solutions such as Radio Link Protocol Radio Link ProtocolRLP in cellular networks or proxybased solutions which require some changes in the network without modifying end nodesref nameMicrosoft Academic Researchref nameIEEE Computer Societycite journal author1Muhammad Adeel author2Ahmad Ali Iqbal lastauthorampyes year2004 titleTCP Congestion Window Optimization for CDMA2000 Packet Data Networks journalInternational Conference on Information Technology ITNG07 pages3135 urlhttpwwwcomputerorgportalwebcsdldoi101109ITNG2007190 doi101109ITNG2007190 isbn9780769527765ref
+
+A number of alternative congestion control algorithms such as TCP VegasVegas TCP WestwoodWestwood Veno and Santa Cruz have been proposed to help solve the wireless problemcitation neededdateFebruary 2015
+
+Hardware implementations
+One way to overcome the processing power requirements of TCP is to build hardware implementations of it widely known as TCP offload engines TOE The main problem of TOEs is that they are hard to integrate into computing systems requiring extensive changes in the operating system of the computer or device One company to develop such a device was Alacritech
+
+Debugging
+A packet sniffer which intercepts TCP traffic on a network link can be useful in debugging networks network stacks and applications that use TCP by showing the user what packets are passing through a link Some networking stacks support the SODEBUG socket option which can be enabled on the socket using setsockopt That option dumps all the packets TCP states and events on that socket which is helpful in debugging Netstat is another utility that can be used for debugging
+
+Alternatives
+For many applications TCP is not appropriate One problem at least with normal implementations is that the application cannot access the packets coming after a lost packet until the retransmitted copy of the lost packet is received This causes problems for realtime applications such as streaming media realtime multiplayer games and voice over IP VoIP where it is generally more useful to get most of the data in a timely fashion than it is to get all of the data in order
+
+For historical and performance reasons most storage area networks SANs use Fibre Channel Protocol FCP over Fibre Channel connections
+
+Also for embedded systems network booting and servers that serve simple requests from huge numbers of clients eg Domain name systemDNS servers the complexity of TCP can be a problem Finally some tricks such as transmitting data between two hosts that are both behind network address translationNAT using STUN or similar systems are far simpler without a relatively complex protocol like TCP in the way
+
+Generally where TCP is unsuitable the User Datagram Protocol UDP is used This provides the application multiplexing and checksums that TCP does but does not handle streams or retransmission giving the application developer the ability to code them in a way suitable for the situation or to replace them with other methods like forward error correction or Interpolation computer programminginterpolation
+
+Stream Control Transmission Protocol SCTP is another protocol that provides reliable stream oriented services similar to TCP It is newer and considerably more complex than TCP and has not yet seen widespread deployment However it is especially designed to be used in situations where reliability and nearrealtime considerations are important
+
+Venturi Transport Protocol VTP is a patented proprietary protocol that is designed to replace TCP transparently to overcome perceived inefficiencies related to wireless data transport
+
+TCP also has issues in highbandwidth environments The TCP congestion avoidance algorithm works very well for adhoc environments where the data sender is not known in advance If the environment is predictable a timing based protocol such as Asynchronous Transfer Mode ATM can avoid TCPs retransmits overhead
+
+UDPbased Data Transfer Protocol UDT has better efficiency and fairness than TCP in networks that have high bandwidthdelay productref
+Yunhong Gu Xinwei Hong and Robert L Grossman
+httpudtsourceforgenetdocgridnetv8pdf An Analysis of AIMD Algorithm with Decreasing Increases
+2004
+ref
+
+Multipurpose Transaction Protocol MTPIP is patented proprietary software that is designed to adaptively achieve high throughput and transaction performance in a wide variety of network conditions particularly those where TCP is perceived to be inefficient
+
+Checksum computation
+
+TCP checksum for IPv4
+When TCP runs over IPv4 the method used to compute the checksum is defined in RFC 793
+blockquote
+The checksum field is the 16 bit ones complement of the ones complement sum of all 16bit words in the header and text If a segment contains an odd number of header and text octets to be checksummed the last octet is padded on the right with zeros to form a 16bit word for checksum purposes The pad is not transmitted as part of the segment While computing the checksum the checksum field itself is replaced with zerosblockquote
+
+In other words after appropriate padding all 16bit words are added using endaround carryones complement arithmetic The sum is then bitwise complemented and inserted as the checksum field A pseudoheader that mimics the IPv4 packet header used in the checksum computation is shown in the table below
+
+ classwikitable stylemargin 0 auto textalign center
+TCP pseudoheader for checksum computation IPv4
+
+ Bit offset
+ colspan4 stylewidth11 03
+ colspan4 stylewidth11 47
+ colspan8 stylewidth22 815
+ colspan16 stylewidth44 1631
+
+ 0
+ colspan32 stylebackgroundfdd Source address
+
+ 32
+ colspan32 stylebackgroundfdd Destination address
+
+ 64
+ colspan8 stylebackgroundfdd Zeros
+ colspan8 stylebackgroundfdd Protocol
+ colspan16 stylebackgroundfdd TCP length
+
+ 96
+ colspan16 Source port
+ colspan16 Destination port
+
+ 128
+ colspan32 Sequence number
+
+ 160
+ colspan32 Acknowledgement number
+
+ 192
+ colspan4 Data offset
+ colspan4 Reserved
+ colspan8 Flags
+ colspan16 Window
+
+ 224
+ colspan16 stylebackgroundfcd Checksum
+ colspan16 Urgent pointer
+
+ 256
+ colspan32 Options optional
+
+ 256288
+ colspan32 nbspbrDatabrnbsp
+
+
+The source and destination addresses are those of the IPv4 header The protocol value is 6 for TCP cf List of IP protocol numbers The TCP length field is the length of the TCP header and data measured in octets
+
+TCP checksum for IPv6
+When TCP runs over IPv6 the method used to compute the checksum is changed as per RFC 2460
+Any transport or other upperlayer protocol that includes the addresses from the IP header in its checksum computation must be modified for use over IPv6 to include the 128bit IPv6 addresses instead of 32bit IPv4 addresses
+
+A pseudoheader that mimics the IPv6 header for computation of the checksum is shown below
+
+ classwikitable stylemargin 0 auto textalign center
+TCP pseudoheader for checksum computation IPv6
+
+ Bit offset
+ colspan8 stylewidth22 07
+ colspan8 stylewidth22 815
+ colspan8 stylewidth22 1623
+ colspan8 stylewidth22 2431
+
+ 0
+ colspan32 rowspan4 stylebackgroundfdd Source address
+
+ 32
+
+ 64
+
+ 96
+
+ 128
+ colspan32 rowspan4 stylebackgroundfdd Destination address
+
+ 160
+
+ 192
+
+ 224
+
+ 256
+ colspan32 stylebackgroundfdd TCP length
+
+ 288
+ colspan24 stylebackgroundfdd Zeros
+ colspan8 stylebackgroundfdd Next header
+
+ 320
+ colspan16 Source port
+ colspan16 Destination port
+
+ 352
+ colspan32 Sequence number
+
+ 384
+ colspan32 Acknowledgement number
+
+ 416
+ colspan4 Data offset
+ colspan4 Reserved
+ colspan8 Flags
+ colspan16 Window
+
+ 448
+ colspan16 stylebackgroundfcd Checksum
+ colspan16 Urgent pointer
+
+ 480
+ colspan32 Options optional
+
+ 480512
+ colspan32 nbspbrDatabrnbsp
+
+Source address the one in the IPv6 header
+Destination address the final destination if the IPv6 packet doesnt contain a Routing header TCP uses the destination address in the IPv6 header otherwise at the originating node it uses the address in the last element of the Routing header and at the receiving node it uses the destination address in the IPv6 header
+TCP length the length of the TCP header and data
+Next Header the protocol value for TCP
+
+Checksum offload anchorchecksum offload
+Many TCPIP software stack implementations provide options to use hardware assistance to automatically compute the checksum in the network adapter prior to transmission onto the network or upon reception from the network for validation This may relieve the OS from using precious CPU cycles calculating the checksum Hence overall network performance is increased
+
+This feature may cause packet analyzers that are unaware or uncertain about the use of checksum offload to report invalid checksums in outbound packets that have not yet reached the network adapterrefcite weburlhttpswikiwiresharkorgCaptureSetupOffloadingtitleWireshark OffloadingquoteWireshark captures packets before they are sent to the network adapter It wont see the correct checksum because it has not been calculated yet Even worse most OSes dont bother initialize this data so youre probably seeing little chunks of memory that you shouldnt New installations of Wireshark 12 and above disable IP TCP and UDP checksum validation by default You can disable checksum validation in each of those dissectors by hand if neededref This will only occur for packets that are intercepted before being transmitted by the network adapter all packets transmitted by the network adaptor on the wire will have valid checksumsrefcite weburlhttpswwwwiresharkorgdocswsughtmlchunkedChAdvChecksumshtmltitleWireshark ChecksumsquoteChecksum offloading often causes confusion as the network packets to be transmitted are handed over to Wireshark before the checksums are actually calculated Wireshark gets these empty checksums and displays them as invalid even though the packets will contain valid checksums when they leave the network hardware laterref This issue can also occur when monitoring packets being transmitted between virtual machines on the same host where a virtual device driver may omit the checksum calculation as an optimization knowing that the checksum will be calculated later by the VM host kernel or its physical hardware
+
+See also PLEASE RESPECT ALPHABETICAL ORDER 
+portalComputer networkingComputer ScienceComputing
+div colcolwidth30em
+Connectionoriented communication
+Karns algorithm
+List of TCP and UDP port numbers a long list of ports and services
+Maximum segment lifetime
+Maximum transmission unit
+Microbursting networking
+Nagles algorithm
+Port computer networking
+TTCP variant of TCP
+TCP congestion avoidance algorithms
+TCP global synchronization
+TCP pacing
+TCP segment
+TCP sequence prediction attack
+TCP tuning for high performance networks
+WTCP a proxybased modification of TCP for wireless networks
+section linkTransport LayerComparison of transport layer protocols
+div col end
+
+References
+Reflist30em
+
+Further reading
+Cite book lastStevens firstW Richard authorlinkW Richard Stevens titleTCPIP Illustrated Volume 1 The Protocols isbn0201633469
+Cite book last1Stevens first1W Richard last2Wright first2Gary R titleTCPIP Illustrated Volume 2 The Implementation isbn020163354X
+Cite book lastStevens firstW Richard titleTCPIP Illustrated Volume 3 TCP for Transactions HTTP NNTP and the UNIX Domain Protocols isbn0201634953
+
+External links
+Wikiversity  Transmission Control Protocol
+CommonsTCPTransmission Control Protocol
+
+RFC
+RFC 675  Specification of Internet Transmission Control Program December 1974 Version
+RFC 793  TCP v4
+httpstoolsietforghtmlstd7 STD 7  Transmission Control Protocol Protocol specification
+RFC 1122  includes some error corrections for TCP
+RFC 1323  TCP Extensions for High Performance Obsoleted by RFC 7323
+RFC 1379  Extending TCP for TransactionsConcepts Obsoleted by RFC 6247
+RFC 1948  Defending Against Sequence Number Attacks
+RFC 2018  TCP Selective Acknowledgment Options
+RFC 5681  TCP Congestion Control
+RFC 6247  Moving the Undeployed TCP Extensions RFC 1072 RFC 1106 RFC 1110 RFC 1145 RFC 1146 RFC 1379 RFC 1644 and RFC 1693 to Historic Status
+RFC 6298  Computing TCPs Retransmission Timer
+RFC 6824  TCP Extensions for Multipath Operation with Multiple Addresses
+RFC 7323  TCP Extensions for High Performance
+RFC 7414  A Roadmap for TCP Specification Documents
+
+Others
+httppurlumnedu107387 Oral history interview with Robert E Kahn Charles Babbage Institute University of Minnesota Minneapolis Focuses on Kahns role in the development of computer networking from 1967 through the early 1980s Beginning with his work at Bolt Beranek and Newman BBN Kahn discusses his involvement as the ARPANET proposal was being written his decision to become active in its implementation and his role in the public demonstration of the ARPANET The interview continues into Kahns involvement with networking when he moves to IPTO in 1972 where he was responsible for the administrative and technical evolution of the ARPANET including programs in packet radio the development of a new network protocol TCPIP and the switch to TCPIP to connect multiple networks
+httpwwwianaorgassignmentsportnumbers IANA Port Assignments
+httpwwwianaorgassignmentstcpparameterstcpparametersxhtml IANA TCP Parameters
+httpcondordepauledujkristoftechnotestcphtml John Kristoffs Overview of TCP Fundamental concepts behind TCP and how it is used to transport data between two endpoints
+httpwwwvisuallandnettcphistroryphpsimutcpfastretransmitprotocolTCPtitle420Fast20transmitctype1 TCP fast retransmit simulation animated slow start sliding window duplicated Ack congestion windowdead linkdateNovember 2017 botWikidushyant fixattemptedyes 
+httpwwwnetworksorcerycomenpprotocoltcphtm TCP Transmission Control Protocol
+httpmathforumorglibrarydrmathview54379html Checksum example
+httpswebarchiveorgweb20110312114242httpwwwilmondodelletelecomunicazioniitenglishtelematicsprotocolshtml Engineer Francesco Buffas page about Transmission Control Protocol
+httpwwwssfnetorgExchangetcptcpTutorialNoteshtml TCP tutorial
+httpwwwlinktionarycomssegmenttcphtml Linktionary on TCP segments
+httpwwwvisuallandnettcphistroryphpsimutcpswndprotocolTCPtitle2Sliding20Windowctype1 TCP Sliding Window simulation animated ns2
+httpwwwmultipathtcporg Multipath TCP
+
+CategoryTransmission Control Protocol 
+CategoryTransport layer protocols

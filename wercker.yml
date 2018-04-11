@@ -1,0 +1,33 @@
+box: python:3
+
+no-response-timeout: 60
+command-timeout: 60
+build:
+  steps:
+    - pip-install
+
+    - script:
+        name: install
+        code: |
+          sudo apt-get update
+          sudo apt-get -y install libtk8.6
+
+          # pip install --upgrade -r requirements.txt
+          pip install -e .[tf] --upgrade
+
+    - script:
+        name: echo python information
+        code: |
+          echo "python version $(python --version) running"
+          echo "pip version $(pip --version) running"
+          ls
+
+    - script:
+        name: Run all tests
+        code: |
+          pytest tests -v --cov=jack --max-slave-restart=2
+
+    - script:
+        name: Code coverage upload
+        code: |
+          codecov

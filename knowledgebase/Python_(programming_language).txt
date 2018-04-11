@@ -1,0 +1,561 @@
+Infobox programming language
+name                    Python
+logo                    Python logo and wordmarksvg
+logo size               200px
+paradigm                objectoriented programmingObjectoriented imperative programmingimperative functional programmingfunctional procedural programmingprocedural reflective programmingreflective
+released                1990ref nameguttag 
+designer                Guido van Rossum
+developer               Python Software Foundation
+latest release version  365  Start date and age20180328dfyesrefcite web urlhttpsblogpythonorg201803python365isnowavailablehtml titlePython 365 is now available websitePython Insider publisherThe Python Core Developers firstNed lastDeily date28 March 2018 accessdate29 March 2018refbr2714  Start date and age20170916dfyesrefcite web urlhttpblogpythonorg201709python2714releasedhtml titlePython 2714 released websitePython Insider publisherThe Python Core Developers firstBenjamin lastPeterson date16 September 2017 accessdate17 September 2017ref  and security updates 355 and 348 only been released in source code form no more official binary installers will be produced
+latest preview version  370b3refCite weburlhttpswwwpythonorgdownloadsreleasepython370b3titlePython Release Python 370b3websitePythonorglanguageenaccessdate20180401ref
+latest preview date     Start date and age20180329dfyes
+typing                  duck typingDuck dynamic typingdynamic strong typingstrong
+implementations         CPython IronPython Jython MicroPython Numba PyPy Stackless Python
+dialects                Cython RPython
+influenced              Boo programming languageBoo Cobra programming languageCobra Coconut programming languageCoconutrefcite weburlhttpcoconutlangorgtitleCoconut Programming LanguagelastHubingerfirstEvanwebsitecoconutlangorglanguageenusaccessdate18 August 2017ref CoffeeScriptrefcite web urlhttpcoffeescriptorg titleCoffeeScript borrows chained comparisons from Pythonref D programming languageD F Sharp programming languageF Falcon programming languageFalcon Genie programming languageGenierefcite web 
+ urlhttpswikignomeorgactionshowProjectsGenie
+ titleGenie Language  A brief guide 
+ accessdate28 December 2015ref Go programming languageGo Groovy programming languageGroovy JavaScriptrefcite web
+titlePerl and Python influences in JavaScript
+ date24 February 2013
+website www2alitycom
+ urlhttpwww2alitycom201302javascriptinfluenceshtml
+ accessdate 15 May 2015refrefcite web
+titleChapter 3 The Nature of JavaScript Influences
+ lastRauschmayer
+ firstAxel
+websiteOReilly Speaking JavaScript
+ urlhttpspeakingjscomes5ch03html
+ accessdate 15 May 2015ref Julia programming languageJuliaref nameJulia Nim programming languageNim Ring programming languageRingref nameThe Ring programming language and other languagescite web urlhttpringlangsourceforgenetdoc16introductionhtmlringandotherlanguages titleRing and other languages  authorRing Team date4 December 2017 workringlangnet publisherringlangref Ruby programming languageRubyref namebini Swift programming languageSwiftref namelattner2014cite web urlhttpnondotorgsabre titleChris Lattners Homepage lastLattner firstChris date3 June 2014 accessdate3 June 2014 publisherChris LattnerquoteThe Swift language is the product of tireless effort from a team of language experts documentation gurus compiler optimization ninjas and an incredibly important internal dogfooding group who provided feedback to help refine and battletest ideas Of course it also greatly benefited from the experiences hardwon by many other languages in the field drawing ideas from ObjectiveC Rust Haskell Ruby Python C CLU and far too many others to listref
+license                 Python Software Foundation License
+website                 URLhttpspythonorg
+wikibooks               Python Programming
+influencedby           ABC programming languageABCref namefaqcreated ALGOL 68ref name98interview C programming languageCref nameAutoNT1 Cref nameclassmix CLU programming languageCLUref nameeffbotcallbyobject Dylan programming languageDylanref nameAutoNT2 Haskell programming languageHaskellref nameAutoNT3 Icon programming languageIconref nameAutoNT4 Java programming languageJavaref nameAutoNT5 Lisp programming languageLispref nameAutoNT6 Modula3ref nameclassmix  Perl
+file ext                py pyc pyd pyo prior to 35refFile extension pyo was removed in Python 35 See httpswwwpythonorgdevpepspep0488 PEP 0488ref notatypopyw pyz since 35refcite web urlhttpswwwpythonorgdevpepspep0441 lastHolth firstMoore date30 March 2014 accessdate12 November 2015 titlePEP 0441  Improving Python ZIP Application Supportref
+
+
+Python is an interpreted languageinterpreted highlevel programming language for generalpurpose programming languagegeneralpurpose programming Created by Guido van Rossum and first released in 1991 Python has a design philosophy that emphasizes code readability notably using significant whitespace It provides constructs that enable clear programming on both small and large scalesref nameAutoNT7 
+
+Python features a dynamic type system and automatic memory management It supports multiple programming paradigms including objectoriented programmingobjectoriented imperative programmingimperative functional programmingfunctional and procedural programmingprocedural and has a large and comprehensive standard libraryref nameAbout 
+
+ Need at least one paragraph here on history and development 
+Python interpreters are available for many operating systems CPython the reference implementation of Python is open source softwarerefcite web urlhttpsdocspythonorg3licensehtml titleHistory and License accessdate5 December 2016 All Python releases are Open Sourceref and has a communitybased development model as do nearly all of its variant implementations CPython is managed by the nonprofit Python Software Foundation
+
+ History 
+FileGuido van Rossum OSCON 2006jpgthumbGuido van Rossum the creator of Python
+
+Main articleHistory of Python
+
+Python was conceived in the late 1980sref namevennersinterviewpt1  and its implementation began in December 1989ref nametimelineofpython  by Guido van Rossum at Centrum Wiskunde  Informatica CWI in the Netherlands as a successor to the ABC programming languageABC language itself inspired by SETLref nameAutoNT12  capable of exception handling and interfacing with the Amoeba operating systemAmoeba operating systemref namefaqcreated  Van Rossum remains Pythons principal author His continuing central role in Pythons development is reflected in the title given to him by the Python community Benevolent Dictator For Life BDFL
+
+On the origins of Python Van Rossum wrote in 1996refcite web urlhttpswwwpythonorgdocessaysforeword titleForeword for Programming Python 1st ed lastvan Rossum firstGuido date1996 accessdate10 July 2014ref
+
+quoteIn December 1989 I was looking for a hobby programming project that would keep me occupied during the week around Christmas My office  would be closed but I had a home computer and not much else on my hands I decided to write an interpreter for the new scripting language I had been thinking about lately a descendant of ABC programming languageABC that would appeal to UnixC programming languageC Hacker programmer subculturehackers I chose Python as a working title for the project being in a slightly irreverent mood and a big fan of Monty Pythons Flying Circus  Guido van Rossum
+
+Python 20 was released on 16 October 2000 and had many major new features including a Cycle detectioncycledetecting garbage collection computer sciencegarbage collector and support for Unicode With this release the development process became more transparent and communitybackedref namenewin20 
+
+Python 30 initially called Python 3000 or py3k was released on 3 December 2008 after a long testing period It is a major revision of the language that is not completely backward compatibilitybackwardcompatible with previous versionsref name30release  However many of its major features have been backportingbackported to the Python 26xref namepep3000  and 27x version series and releases of Python 3 include the code2to3code utility which automates the translation of Python 2 code to Python 3refcite web urlhttpsdocspythonorg3library2to3html titleAutomated Python 2 to 3 code translation  Python Documentation accessdate11 February 2018 ref
+
+Python 27s endoflife productendoflife date was initially set at 2015 then postponed to 2020 out of concern that a large body of existing code could not easily be forwardported to Python 3refcite web urlhttplegacypythonorgdevpepspep0373 titlePEP 373  Python 27 Release Schedule workpythonorg accessdate9 January 2017refrefcite web urlhttpswwwpythonorgdevpepspep0466 titlePEP 466  Network Security Enhancements for Python 27x workpythonorg accessdate9 January 2017ref
+
+Python 36 had changes regarding UTF8 in Windows PEP 528 and PEP 529 and Python 370b1 httpswwwpythonorgdevpepspep0540 PEP 540 adds a new UTF8 Mode and overrides POSIX locale
+
+In January 2017 Google announced work on a Python 27 to Go programming languageGo transcompiler to improve performance under concurrent workloadsrefcite web urlhttpsopensourcegoogleblogcom201701grumpygorunningpythonhtml titleGoogle Open Source Blog Grumpy Go running Python date4 January 2017 accessdate7 March 2017ref
+
+ Features and philosophy 
+Python is a multiparadigm programming language Objectoriented programming and structured programming are fully supported and many of its features support functional programming and aspectoriented programming including by metaprogrammingref nameAutoNT13  and metaobjects magic methodsref nameAutoNT14  Many other paradigms are supported via extensions including design by contractref nameAutoNT15 ref nameAutoNT16  and logic programmingref nameAutoNT17 
+
+Python uses dynamic typing and a combination of reference counting and a cycledetecting garbage collector for memory management It also features dynamic Name resolution programming languagesname resolution late binding which binds method and variable names during program execution
+
+Pythons design offers some support for functional programming in the Lisp programming languageLisp tradition It has codefiltercode codemapcode and codereducecode functions list comprehensions Associative arraydictionaries and sets and Generator computer programminggenerator expressionsref nameAutoNT59 The standard library has two modules itertools and functools that implement functional tools borrowed from Haskell programming languageHaskell and Standard MLref nameAutoNT18 
+
+The languages core philosophy is summarized in the document The Zen of Python PEP 20 which includes aphorisms such asref namePEP20 
+ Note this isnt a full list just some of the more significant aphorisms 
+ Beautiful is better than ugly
+ Explicit is better than implicit
+ Simple is better than complex
+ Complex is better than complicated
+ Readability counts
+
+Rather than having all of its functionality built into its core Python was designed to be highly extensible This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications Van Rossums vision of a small core language with a large standard library and easily extensible interpreter stemmed from his frustrations with ABC programming languageABC which espoused the opposite approachref namevennersinterviewpt1 
+
+While offering choice in coding methodology the Python philosophy rejects exuberant syntax such as that of Perl in favor of a simpler lesscluttered grammar As Alex Martelli put it To describe something as clever is not considered a compliment in the Python cultureref nameAutoNT19  Pythons philosophy rejects the Perl there is more than one way to do it approach to language design in favor of there should be oneand preferably only oneobvious way to do itref namePEP20 
+
+Pythons developers strive to avoid premature optimization and reject patches to noncritical parts of CPython that would offer marginal increases in speed at the cost of clarityref nameAutoNT20  When speed is important a Python programmer can move timecritical functions to extension modules written in languages such as C or use PyPy a justintime compilationjustintime compiler Cython is also available which translates a Python script into C and makes direct Clevel API calls into the Python interpreter
+
+An important goal of Pythons developers is keeping it fun to use This is reflected in the languages namea tribute to the British comedy group Monty Pythonref nameAutoNT24and in occasionally playful approaches to tutorials and reference materials such as examples that refer to spam and eggs from a Spam Monty Pythonfamous Monty Python sketch instead of the standard Foobarfoo and barrefcite web urlhttpinsidetechmonstercomtrainingarticles811415wayspythonisapowerfulforceontheweb title15 Ways Python Is a Powerful Force on the Webrefrefcite web urlhttpsdocspythonorg2librarypprinthtml titlepprint  Data pretty printer  Python Documentationref
+
+A common neologism in the Python community is pythonic which can have a wide range of meanings related to program style To say that code is pythonic is to say that it uses Python idioms well that it is natural or shows fluency in the language that it conforms with Pythons minimalist philosophy and emphasis on readability In contrast code that is difficult to understand or reads like a rough transcription from another programming language is called unpythonic
+
+Users and admirers of Python especially those considered knowledgeable or experienced are often referred to as Pythonists Pythonistas and Pythoneersref nameAutoNT27 ref nameAutoNT25 
+
+ Syntax and semantics 
+Main articlePython syntax and semantics
+
+Python is meant to be an easily readable language Its formatting is visually uncluttered and it often uses English keywords where other languages use punctuation Unlike many other languages it does not use curly bracket programming languagecurly brackets to delimit blocks and semicolons after statements are optional It has fewer syntactic exceptions and special cases than C programming languageC or Pascal programming languagePascalref nameAutoNT52 
+
+ Indentation 
+Main articlePython syntax and semanticsIndentation
+
+Python uses whitespace characterwhitespace indentation rather than curly bracket programming languagecurly brackets or keywords to delimit block programmingblocks An increase in indentation comes after certain statements a decrease in indentation signifies the end of the current blockref nameAutoNT53  Thus the programs visual structure accurately represents the programs semantic structureref nameguttagCite book publisher  MIT Press isbn  9780262529624 last  Guttag first  John V title  Introduction to Computation and Programming Using Python With Application to Understanding Data date  20160812ref This feature is also sometimes termed the offside rule
+
+ Statements and control flow 
+Pythons Statement computer sciencestatements include among others
+
+ The assignment statement token  the equals sign This operates differently than in traditional imperative programming languages and this fundamental mechanism including the nature of Pythons version of variables illuminates many other features of the language Assignment in C programming languageC eg codex  2code translates to typed variable name x receives a copy of numeric value 2 The righthand value is copied into an Memory allocationallocated storage location for which the lefthand Variable computer sciencevariable name is the symbolic address The memory allocated to the variable is large enough potentially quite large for the declared Type systemtype In the simplest case of Python assignment using the same example codex  2code translates to generic name x receives a Pointer computer programmingreference to a separate dynamically allocated Object computer scienceobject of numeric int type of value 2 This is termed binding the name to the object Since the names storage location doesnt contain the indicated value it is improper to call it a variable Names may be subsequently rebound at any time to objects of greatly varying types including strings procedures complex objects with data and methods etc Successive assignments of a common value to multiple names eg codex  2code codey  2code codez  2code result in allocating storage to at most three names and one numeric object to which all three names are bound Since a name is a generic reference holder it is unreasonable to associate a fixed Type systemdata type with it However at a given time a name will be bound to some object which will have a type thus there is Dynamic typedynamic typing
+ The codeifthenelseifcode statement which conditionally executes a block of code along with codeelsecode and codeelifcode a contraction of elseif
+ The codeForeachPythonforcode statement which iterates over an iterable object capturing each element to a local variable for use by the attached block
+ The codeWhile loopPythonwhilecode statement which executes a block of code as long as its condition is true
+ The codeException handling syntaxPythontrycode statement which allows exceptions raised in its attached code block to be caught and handled by codeexceptcode clauses it also ensures that cleanup code in a codefinallycode block will always be run regardless of how the block exits
+ The codeclasscode statement which executes a block of code and attaches its local namespace to a class computer scienceclass for use in objectoriented programming
+ The codedefcode statement which defines a function computingfunction or method computingmethod
+ The codewithcode statement from Python 25 released on September 2006refhttpswwwpythonorgdownloadreleases25ref which encloses a code block within a context manager for example acquiring a lock computer sciencelock before the block of code is run and releasing the lock afterwards or opening a Computer filefile and then closing it allowing Resource Acquisition Is Initialization RAIIlike behavior and replaces a common tryfinally idiomrefhttpswwwpythonorgdownloadreleases25highlightsref
+ The codepasscode statement which serves as a NOP It is syntactically needed to create an empty code block
+ The codeassertion programmingassertcode statement used during debugging to check for conditions that ought to apply
+ The codeyieldcode statement which returns a value from a generator computer sciencePythongenerator function From Python 25 codeyieldcode is also an operator This form is used to implement coroutines
+ The codeimportcode statement which is used to import modules whose functions or variables can be used in the current program There are four ways of using import codeimport module namecode or codefrom module name import code or codeimport numpy as npcode or codefrom numpy import pi as Piecode
+ The codeprintcode statement was changed to the codeprintcode function in Python 3ref namediffpy23cite book lastSweigart firstAlyear2010chapterAppendix A Differences Between Python 2 and 3 titleInvent Your Own Computer Games with Python urlhttpinventwithpythoncomappendixahtmledition2isbn9780982106013 accessdate20 February 2014ref
+
+Python does not support tail call optimization or firstclass continuations and according to Guido van Rossum it never willref nameAutoNT55 ref nameAutoNT56  However better support for coroutinelike functionality is provided in 25 by extending Pythons generator computer sciencegeneratorsref nameAutoNT57  Before 25 generators were lazy evaluationlazy iterators information was passed unidirectionally out of the generator From Python 25 it is possible to pass information back into a generator function and from Python 33 the information can be passed through multiple stack levelsref nameAutoNT58 
+
+ Expressions 
+Some Python Expression computer scienceexpressions are similar to languages such as C programming languageC and Java programming languageJava while some are not
+
+ Addition subtraction and multiplication are the same but the behavior of division differs There are two types of divisions in Python They are floor division and integer divisionrefcite webtitledivisionurlhttpsdocspythonorgwebsitepythonorgref Python also added the codecode operator for exponentiation
+ From Python 35 the new codecode infix operator was introduced It is intended to be used by libraries such as NumPy for matrix multiplicationref namePEP465cite web titlePEP 0465  A dedicated infix operator for matrix multiplication urlhttpswwwpythonorgdevpepspep0465websitepythonorg accessdate1 January 2016refref namePython35Changelogcite web titlePython 351 Release and Changelog urlhttpswwwpythonorgdownloadsreleasepython351websitepythonorg accessdate1 January 2016ref
+ In Python codecode compares by value versus Java which compares numerics by valuerefcite web urlhttpdocsoraclecomjavasespecsjlsse8htmljls15htmljls15211 titleChapter 15 Expressions  15211 Numerical Equality Operators  and  publisherOracle Corporation accessdate28 August 2016ref and objects by referencerefcite web urlhttpdocsoraclecomjavasespecsjlsse8htmljls15htmljls15213 titleChapter 15 Expressions  15213 Reference Equality Operators  and  publisherOracle Corporation accessdate28 August 2016ref Value comparisons in Java on objects can be performed with the codeequalscode method Pythons codeiscode operator may be used to compare object identities comparison by reference In Python comparisons may be chained for example codea  b  ccode 
+ Python uses the words codeandcode codeorcode codenotcode for its boolean operators rather than the symbolic codecode codecode codecode used in Java and C
+ Python has a type of expression termed a list comprehensionPythonlist comprehension Python 24 extended list comprehensions into a more general expression termed a generator computer sciencegenerator expressionref nameAutoNT59 
+ Anonymous functions are implemented using Lambda programminglambda expressions however these are limited in that the body can only be one expression
+ Conditional expressions in Python are written as codex if c else ycoderef nameAutoNT60  different in order of operands from the codec  x  ycode operator common to many other languages
+ Python makes a distinction between list computer sciencelists and tuples Lists are written as code1 2 3code are mutable and cannot be used as the keys of dictionaries dictionary keys must be immutable in Python Tuples are written as code1 2 3code are immutable and thus can be used as the keys of dictionaries provided all elements of the tuple are immutable The codecode operator can be used to concatenate two tuples which does not directly modify their contents but rather produces a new tuple containing the elements of both provided tuples Thus given the variable codetcode initially equal to code1 2 3code executing codet  t  4 5code first evaluates codet  4 5code which yields code1 2 3 4 5code which is then assigned back to codetcode thereby effectively modifying the contents of codetcode while conforming to the immutable nature of tuple objects Parentheses are optional for tuples in unambiguous contextsrefcite webtitle4 Builtin Types 8212 Python 363rc1 documentationurlhttpsdocspythonorg3librarystdtypeshtmltuplewebsitepythonorgaccessdate1 October 2017ref 
+ Python features sequence unpacking where multiple expressions each evaluating to anything that can be assigned to a variable a writable property etc are associated in the identical manner to that forming tuple literals and as a whole are put on the left hand side of the equal sign in an assignment statement The statement expects an iterable object on the right hand side of the equal sign that produces the same number of values as the provided writable expressions when iterated through and will iterate through it assigning each of the produced values to the corresponding expression on the leftcitation neededdateOctober 2017 
+ Python has a string format operator codecode This functions analogous to codeprintfcode format strings in C programming languageC eg codespams eggsd  blah 2code evaluates to codespamblah eggs2code In Python 3 and 26 this was supplemented by the codeformatcode method of the codestrcode class eg codespam0 eggs1formatblah 2code Python 36 added fstrings codeblah  blah eggs  2 fspamblah eggseggscoderef namepep0498cite web titlePEP 498  Literal String Interpolation urlhttpswwwpythonorgdevpepspep0498websitepythonorg accessdate8 March 2017ref
+ Python has various kinds of string literals
+ Strings delimited by single or double quote marks Unlike in Unix shells Perl and Perlinfluenced languages single quote marks and double quote marks function identically Both kinds of string use the backslash codecode as an escape character String interpolation became available in Python 36 as formatted string literalsref namepep0498
+ Triplequoted strings which begin and end with a series of three single or double quote marks They may span multiple lines and function like here documents in shells Perl and Ruby programming languageRuby
+ Raw string varieties denoted by prefixing the string literal with an codercode Escape sequences are not interpreted hence raw strings are useful where literal backslashes are common such as regular expressions and Microsoft WindowsWindowsstyle paths Compare codecodequoting in C Sharp programming languageC
+ Python has array index and array slicing expressions on lists denoted as codeakeycode codeastartstopcode or codeastartstopstepcode Indexes are zerobased and negative indexes are relative to the end Slices take elements from the start index up to but not including the stop index The third slice parameter called step or stride allows elements to be skipped and reversed Slice indexes may be omitted for example codeacode returns a copy of the entire list Each element of a slice is a shallow copy
+
+In Python a distinction between expressions and statements is rigidly enforced in contrast to languages such as Common Lisp Scheme programming languageScheme or Ruby programming languageRuby This leads to duplicating some functionality For example
+
+ List comprehensions vs codeforcodeloops
+ Conditional programmingConditional expressions vs codeifcode blocks
+ The codeevalcode vs codeexeccode builtin functions in Python 2 codeexeccode is a statement the former is for expressions the latter is for statements
+
+Statements cannot be a part of an expression so list and other comprehensions or Lambda programminglambda expressions all being expressions cannot contain statements A particular case of this is that an assignment statement such as codea  1code cannot form part of the conditional expression of a conditional statement This has the advantage of avoiding a classic C error of mistaking an assignment operator codecode for an equality operator codecode in conditions codeif c  1   code is syntactically valid but probably unintended C code but codeif c  1 code causes a syntax error in Python
+
+ Methods 
+Method programmingMethods on objects are function programmingfunctions attached to the objects class the syntax codeinstancemethodargumentcode is for normal methods and functions syntactic sugar for codeClassmethodinstance argumentcode Python methods have an explicit codethis computer programmingselfcode parameter to access instance data in contrast to the implicit codeselfcode or codethiscode in some other objectoriented programming languages eg C Java programming languageJava ObjectiveC or Ruby programming languageRubyref nameAutoNT61 
+
+ Typing 
+Python uses duck typing and has typed objects but untyped variable names Type constraints are not checked at compile time rather operations on an object may fail signifying that the given object is not of a suitable type Despite being Type systemDynamic type checking and runtime type informationdynamically typed Python is strongly typed programming languagestrongly typed forbidding operations that are not welldefined for example adding a number to a string rather than silently attempting to make sense of them
+
+Python allows programmers to define their own types using class computer scienceclasses which are most often used for objectoriented programming New object computer scienceinstances of classes are constructed by calling the class for example codeSpamClasscode or codeEggsClasscode and the classes are instances of the metaclass codetypecode itself an instance of itself allowing metaprogramming and reflection computer sciencereflection
+
+Before version 30 Python had two kinds of classes oldstyle and newstyleref nameclassy  The syntax of both styles is the same the difference being whether the class codeobjectcode is inherited from directly or indirectly all newstyle classes inherit from codeobjectcode and are instances of codetypecode In versions of Python 2 from Python 22 onwards both kinds of classes can be used Oldstyle classes were eliminated in Python 30
+
+The long term plan is to support gradual typingrefcite web urlhttpslwnnetArticles627418 titleType hinting for Python publisherLWNnet date24 December 2014 accessdate5 May 2015ref and from Python 35 the syntax of the language allows specifying static types but they are not checked in the default implementation CPython An experimental optional static type checker named mypy supports compiletime type checkingrefcite web urlhttpmypylangorg titlemypy  Optional Static Typing for Python publisher accessdate28 January 2017ref
+
+classwikitable
+Summary of Python 3s builtin types
+
+ Type
+ mutable
+ Description
+ Syntax example
+
+ codeboolcode
+ immutable
+ Boolean value
+ codeTruecodebrcodeFalsecode
+
+ codebytearraycode
+ mutable
+ Sequence of bytes
+ codebytearraybSome ASCIIcodebrcodebytearraybSome ASCIIcodebrcodebytearray119 105 107 105code
+
+ codebytescode
+ immutable
+ Sequence of bytes
+ codebSome ASCIIcodebrcodebSome ASCIIcodebrcodebytes119 105 107 105code
+
+ codecomplexcode
+ immutable
+ Complex number with real and imaginary parts
+ code327jcode
+
+ codedictcode
+ mutable
+ Associative array or dictionary of key and value pairs can contain mixed types keys and values keys must be a hashable type
+ codekey1 10 3 Falsecode
+
+ codeellipsiscode
+ 
+ An Ellipsis programming operatorellipsis placeholder to be used as an index in NumPy arrays
+ codecode
+
+ codefloatcode
+ immutable
+ Floating point number systemdefined precision
+ code31415927code
+
+ codefrozensetcode
+ immutable
+ Unordered set computer scienceset contains no duplicates can contain mixed types if hashable
+ codefrozenset40 string Truecode
+
+ codeintcode
+ immutable
+ integer computer scienceInteger of unlimited magnituderef namepep0237 
+ code42code
+
+ codelistcode
+ mutable
+ list computer scienceList can contain mixed types
+ code40 string Truecode
+
+ codesetcode
+ mutable
+ Unordered set computer scienceset contains no duplicates can contain mixed types if hashable
+ code40 string Truecode
+
+ codestrcode
+ immutable objectimmutable
+ A character string sequence of Unicode codepoints
+ codeWikipediacodebrcodeWikipediacodebrcodeSpanningbrmultiplebrlinescode
+
+ codetuplecode
+ immutable
+ Can contain mixed types
+ code40 string TruecodeBut we can append elements using add 
+
+a  40 string  Trueaddhi 
+
+now a gives code40 string True hicode
+
+
+ Mathematics 
+Python has the usual C arithmetic operators codecode codecode codecode codecode codecode It also has codecode for exponentiation eg code53  125code and code905  30code and a new matrix multiply codecode operator is included in version 35refcite web urlhttplegacypythonorgdevpepspep0465 titlePEP 465  A dedicated infix operator for matrix multiplication workpythonorgref Additionally it has a unary operator codecode which essentially inverts all the bits of its one argument For integers this means codexx1coderefcite web urlhttpsstackoverflowcomquestions8305199thetildeoperatorinpython titleThe tilde operator in Python  Stackoverflow workstackoverflowcomref Other operators include bitwise shift operators codex  ycode which shifts codexcode to the left codeycode places the same as codex2y code and codex  ycode which shifts codexcode to the right codeycode places the same as codex2y coderefcite web urlhttpswikipythonorgmoinBitwiseOperators titleBitwiseOperators  Python Wiki workwikipythonorgref
+
+The behavior of division has changed significantly over timeref namepep0238
+
+ Python 21 and earlier use the C division behavior The codecode operator is integer division if both operands are integers and floatingpoint division otherwise Integer division rounds towards 0 eg nowrap1code73  2code and nowrap1code73  2code
+ Python 22 changes integer division to round towards negative infinity eg code73  2code and code73  3code The floor division codecode operator is introduced So code73  2code code73  3code code753  20code and code753  30code Adding codefrom future import divisioncode causes a module to use Python 30 rules for division see next
+ Python 30 changes codecode to be always floatingpoint division In Python terms the pre30 codecode is classic division the version30 codecode is real division and codecode is floor division
+
+Rounding towards negative infinity though different from most languages adds consistency For instance it means that the equation codea  bb  ab  1code is always true It also means that the equation codebab  ab  acode is valid for both positive and negative values of codeacode However maintaining the validity of this equation means that while the result of codeabcode is as expected in the halfopen interval 0 b where codebcode is a positive integer it has to lie in the interval b 0 when codebcode is negativeref nameAutoNT62 
+
+Python provides a coderoundcode function for rounding a float to the nearest integer For RoundingTiebreakingtiebreaking versions before 3 use roundawayfromzero coderound05code is 10 coderound05code is 10ref nameAutoNT63  Python 3 uses round to even coderound15code is 2 coderound25code is 2ref nameAutoNT64 
+
+Python allows boolean expressions with multiple equality relations in a manner that is consistent with general use in mathematics For example the expression codea  b  ccode tests whether codeacode is less than codebcode and codebcode is less than codeccode Cderived languages interpret this expression differently in C the expression would first evaluate codea  bcode resulting in 0 or 1 and that result would then be compared with codeccoderef nameAutoNT65 Page neededdateJanuary 2012
+
+Python has extensive builtin support for arbitrary precision arithmetic Integers are transparently switched from the machinesupported maximum fixedprecision usually 32 or 64 bits belonging to the python type codeintcode to arbitrary precision belonging to the python type codelongcode where needed The latter have an L suffix in their textual representationrefcite webtitle  Builtin Typeurl  httpsdocspythonorg27librarystdtypeshtmlwebsite  docspythonorgref In Python 3 the distinction between the codeintcode and codelongcode types was eliminated this behavior is now entirely contained by the codeintcode class The codeDecimalcode typeclass in module codedecimalcode since version 24 provides decimal floating point numbers to arbitrary precision and several rounding modesrefcite webtitle  PEP 0327  Decimal Data Typeurl  httpswwwpythonorgdevpepspep0327website  Pythonorgaccessdate  26 September 2015last  Batistafirst  Facundoref The codeFractioncode type in module codefractionscode since version 26 provides arbitrary precision for rational numbersrefcite webtitle  Whats New in Python 26  Python v269 documentationurl  httpsdocspythonorg26whatsnew26htmlwebsite  docspythonorgaccessdate  26 September 2015ref
+
+Due to Pythons extensive mathematics library and the thirdparty library NumPy that further extends the native capabilities it is frequently used as a scientific scripting language to aid in problems such as numerical data processing and manipulation
+
+ Libraries 
+Pythons large standard library commonly cited as one of its greatest strengthsref nameAutoNT86  provides tools suited to many tasks For Internetfacing applications many standard formats and protocols such as MIME and Hypertext Transfer ProtocolHTTP are supported It includes modules for creating graphical user interfaces connecting to relational databases pseudorandom number generatorgenerating pseudorandom numbers arithmetic with arbitrary precision decimalsref nameAutoNT88  manipulating regular expressions and unit testing
+
+Some parts of the standard library are covered by specifications for example the Web Server Gateway Interface WSGI implementation codewsgirefcode follows PEP 333ref nameAutoNT89  but most modules are not They are specified by their code internal documentation and test suites if supplied However because most of the standard library is crossplatform Python code only a few modules need altering or rewriting for variant implementations
+
+As of201803post the Python Package Index PyPI the official repository for thirdparty Python software contains over 130000refcite web urlhttpwwwmodulecountscom titleModule Counts datewebsiteModuleCounts publisherlast1Debillfirst1Erik accessdate20 September 2017ref packages with a wide range of functionality including
+
+ Graphical user interfaces
+ Web frameworks
+ Multimedia
+ Databases
+ Networking 
+ Test frameworks
+ Automation
+ Web scrapingrefcite weburlhttpslikegeekscompythonwebscrapingtitle20 Python Web Scraping Examples Beautiful Soup  Selenium  Like Geeksdate5 December 2017websitelikegeekscomaccessdate12 March 2018ref
+ Documentation
+ System administration
+ Scientific computing
+ Text processing
+ Image processing
+
+ Development environments 
+See alsoComparison of integrated development environmentsPython
+
+Most Python implementations including CPython include a readevalprint loop REPL permitting them to function as a command line interpreter for which the user enters statements sequentially and receives results immediately
+
+Other shells including IDLE PythonIDLE and IPython add further abilities such as autocompletion session state retention and syntax highlighting
+
+As well as standard desktop integrated development environments see Wikipedias Python IDE article there are Web browserbased IDEs SageMath intended for developing science and mathrelated Python programs PythonAnywhere a browserbased IDE and hosting environment and Canopy IDE a commercial Python IDE emphasizing scientific computingrefcite weblast1Enthoughtfirst1Canopy titleCanopy urlhttpswwwenthoughtcomproductscanopywebsitewwwenthoughtcom accessdate20 August 2016ref
+
+ Implementations 
+See alsoList of Python softwarePython implementations
+
+ Reference implementation 
+CPython is the reference implementation of Python It is written in C programming languageC meeting the C89 C versionC89 standard with several select C99 featuresref nameAutoNT66  It compiles Python programs into an intermediate bytecoderef nameAutoNT67  which is then executed by its virtual machineref nameAutoNT68  CPython is distributed with a large standard library written in a mixture of C and native Python It is available for many platforms including Microsoft WindowsWindows and most modern Unixlike systems Platform portability was one of its earliest prioritiesref nameAutoNT69 
+
+ Other implementations 
+PyPy is a fast compliantref nameAutoNT70  interpreter of Python 27 and 35 Its Justintime compilationjustintime compiler brings a significant speed improvement over CPythonref nameAutoNT71 
+
+Stackless Python is a significant fork of CPython that implements microthreads it does not use the C memory stack thus allowing massively concurrent programs PyPy also has a stackless versionref nameAutoNT73 
+
+MicroPython is a Python 3 variant optimised for microcontrollers
+
+ Unsupported implementations 
+Other justintime Python compilers have been developed but are now unsupported
+
+ Google began a project named Unladen Swallow in 2009 with the aim of speeding up the Python interpreter fivefold by using the LLVM and of improving its multithreading ability to scale to thousands of coresref nameAutoNT74 
+ Psyco is a Justintime compilationjustintime Runtime algorithm specialisationspecialising compiler that integrates with CPython and transforms bytecode to machine code at runtime The emitted code is specialised for certain data types and is faster than standard Python code
+
+In 2005 Nokia released a Python interpreter for the Series 60 mobile phones named PyS60 It includes many of the modules from the CPython implementations and some additional modules to integrate with the Symbian operating system The project has been kept uptodate to run on all variants of the S60 platform and several thirdparty modules are available The Nokia N900 also supports Python with GTK widget libraries enabling programs to be written and run on the target devicerefcite web titlePython on the Nokia N900 urlhttpwwwstochasticgeometryie20100429pythononthenokian900websiteStochastic Geometryref
+
+ Crosscompilers to other languages 
+There are several compilers to highlevel object languages with either unrestricted Python a restricted subset of Python or a language similar to Python as the source language
+ Jython compiles into Java byte code which can then be executed by every Java virtual machine implementation This also enables the use of Java class library functions from the Python program
+ IronPython follows a similar approach in order to run Python programs on the NET Common Language Runtime
+ The RPython language can be compiled to C programming languageC Java bytecode or Common Intermediate Language and is used to build the PyPy interpreter of Python
+ Pyjs compiles Python to JavaScript
+ Cython compiles Python to C programming languageC and C
+ Pythran compiles Python to C
+ Somewhat dated Pyrex programming languagePyrex latest release in 2010 and Shed Skin latest release in 2013 compile to C and C respectively
+ Googles Grumpy compiles Python to Go programming languageGo
+ Nuitka compiles Python into C refcite weburlhttpnuitkanettitleNuitka Home  Nuitka Homewebsitenuitkanetlanguageenaccessdate18 August 2017ref
+
+ Performance 
+A performance comparison of various Python implementations on a nonnumerical combinatorial workload was presented at EuroSciPy 13refcite conference titlePerformance of Python runtimes on a nonnumeric scientific code lastMurri firstRiccardo conferenceEuropean Conference on Python in Science EuroSciPy year2013 arxiv14046388ref
+
+ Development 
+Pythons development is conducted largely through the Python Enhancement Proposal PEP process the primary mechanism for proposing major new features collecting community input on issues and documenting Python design decisionsref namePepCite000  Outstanding PEPs are reviewed and commented on by the Python community and Guido Van Rossum Pythons Benevolent Dictator For Liferef namePepCite000 
+
+Enhancement of the language corresponds with development of the CPython reference implementation The mailing list pythondev is the primary forum for the languages development Specific issues are discussed in the Roundup issue trackerRoundup bug tracker maintained at pythonorgref nameAutoNT21  Development originally took place on a selfhosted sourcecode repository running Mercurial until Python moved to GitHub in January 2017ref namepydevguidecite web titlePython Developers Guide urlhttpsdocspythonorgdevguideref
+
+CPythons public releases come in three types distinguished by which part of the version number is incremented
+
+ Backwardincompatible versions where code is expected to break and need to be manually ported The first part of the version number is incremented These releases happen infrequentlyfor example version 30 was released 8 years after 20
+ Major or feature releases about every 18 months are largely compatible but introduce new features The second part of the version number is incremented Each major version is supported by bugfixes for several years after its releaseref namereleaseschedule 
+ Bugfix releases which introduce no new features occur about every 3 months and are made when a sufficient number of bugs have been fixed upstream since the last release Security vulnerabilities are also patched in these releases The third and final part of the version number is incrementedref nameAutoNT22 
+
+Many beta releasealpha beta and releasecandidates are also released as previews and for testing before final releases Although there is a rough schedule for each release they are often delayed if the code is not ready Pythons development team monitors the state of the code by running the large unit test suite during development and using the BuildBot continuous integration systemref nameAutoNT23 
+
+The community of Python developers has also contributed over 86000refcite weblast1DeBillfirst1Erik titleModule Counts urlhttpwwwmodulecountscomwebsitewwwmodulecountscom accessdate20 August 2016ref software modules as of20160820lcyes to the Python Package Index PyPI the official repository of thirdparty Python libraries
+
+The major academic conference on Python is PyCon There are also special Python mentoring programmes such as Pyladies
+
+ Naming 
+Pythons name is derived from the British comedy group Monty Python whom Python creator Guido van Rossum enjoyed while developing the language Monty Python references appear frequently in Python code and cultureref nametutorialchapter1  for example the metasyntactic variables often used in Python literature are Spam Monty Pythonspam and eggs instead of the traditional foobarfoo and barref nametutorialchapter1 ref nameAutoNT26  The official Python documentation also contains various references to Monty Python routinesrefcite book last1Lutz first1Mark titleLearning Python Powerful ObjectOriented Programming year2009 publisherOReilly Media Inc isbn9781449379322 page17 urlhttpsbooksgooglecombooksid1HxWGezDZcgCpgPA17 languageenrefrefcite book last1Fehily first1Chris titlePython year2002 publisherPeachpit Press isbn9780201748840 pagexv urlhttpsbooksgooglecombooksidcarqdIdfVlYCpgPR15 languageenref
+
+The prefix Py is used to show that something is related to Python Examples of the use of this prefix in names of Python applications or libraries include Pygame a language bindingbinding of Simple DirectMedia LayerSDL to Python commonly used to create games PyQt and PyGTK which bind Qt softwareQt and GTK to Python respectively and PyPy a Python implementation originally written in Python
+
+ Uses 
+Main articleList of Python software
+Since 2003 Python has consistently ranked in the top ten most popular programming languages in the TIOBE Programming Community Index where as of20181lcy it is the fourth most popular language behind Java programming languageJava C programming languageC and Crefcite web urlhttpwwwtiobecomtiobeindex titleTIOBE Index publisherTIOBE  The Software Quality Company accessdate7 March 2017ref It was selected Programming Language of the Year in 2007 and 2010ref nameAutoNT34 
+
+An empirical study found that scripting languages such as Python are more productive than conventional languages such as C and Java for programming problems involving string manipulation and search in a dictionary and determined that memory consumption was often better than Java and not much worse than C or Cref nameAutoNT28 
+
+Large organizations that use Python include Wikipedia Googleref namequotesaboutpython  Yahooref nameAutoNT29  CERNref nameAutoNT30  NASAref nameAutoNT31  Facebook Amazon companyAmazon Instagram SpotifycndateMarch 2018 and some smaller entities like Industrial Light  MagicILMref nameAutoNT32  and ITA SoftwareITAref nameAutoNT33  The social news networking site Reddit is written entirely in Python
+
+Python can serve as a scripting language for web applications eg via modwsgi for the Apache web serverref nameAutoNT35  With Web Server Gateway Interface a standard API has evolved to facilitate these applications Web frameworks like Django web frameworkDjango Pylons web frameworkPylons Pyramid web frameworkPyramid TurboGears web2py Tornado web serverTornado Flask web frameworkFlask Bottle web frameworkBottle and Zope support developers in the design and maintenance of complex applications Pyjs and IronPython can be used to develop the clientside of Ajaxbased applications SQLAlchemy can be used as Data mapper patterndata mapper to a relational database Twisted softwareTwisted is a framework to program communications between computers and is used for example by Dropbox serviceDropbox
+
+Libraries such as NumPy SciPy and Matplotlib allow the effective use of Python in scientific computingref namecisecite journal lastOliphant firstTravis titlePython for Scientific Computing journalComputing in Science and Engineering year2007 urlhttpswwwh2deskcomblogpythonscientificcomputingrefref namemillmancite journal first1K Jarrod last1Millman first2Michael last2Aivazis titlePython for Scientists and Engineers journalComputing in Science and Engineering volume13 number2 pages912 year2011 urlhttpwwwcomputerorgcsdlmagscs201102mcs2011020009htmlref with specialized libraries such as Biopython and Astropy providing domainspecific functionality SageMath is a mathematical software with a Electronic Notebooknotebook programmable in Python its library covers many aspects of mathematics including algebra combinatorics numerical mathematics number theory and calculus The Python language reimplemented in Java programming languageJava platform is used for numeric and statistical calculations with 2D3D visualization by the DataMeltDMelt projectref nameschekanovcite book lastChekanov firstS dateApril 2016 titleNumeric Computation and Statistical Data Analysis on the Java Platform url httpswwwspringercomlabook9783319285290locationLondon publisherSpringer page670 isbn9783319285313refref nameschekanov2cite book lastChekanov firstS date2010 titleScientific Data Analysis using Jython Scripting and Java urlhttpswwwspringercomlabook9783319285290locationLondon publisherSpringer page600 isbn9783319285313ref
+
+Python has been successfully embedded in many software products as a scripting language including in finite element method software such as Abaqus 3D parametric modeler like FreeCAD 3D animation packages such as 3ds Max Blender softwareBlender Cinema 4D Lightwave Houdini softwareHoudini Maya softwareMaya modo softwaremodo MotionBuilder Autodesk SoftimageSoftimage the visual effects compositor Nuke softwareNuke 2D imaging programs like GIMPrefcite web urlhttpgimpwinsourceforgenetfaqhtml titleInstallers for GIMP for Windows  Frequently Asked Questions author Staff writers no byline  date26 July 2013 accessdate26 July 2013 deadurlyes archiveurlhttpswebarchiveorgweb20130717070814httpgimpwinsourceforgenetfaqhtml archivedate17 July 2013 dfdmyall ref Inkscape Scribus and Paint Shop Proref nameAutoNT38  and musical notation programs like scorewriter and Capella notation programcapella GNU Debugger uses Python as a Prettyprintpretty printer to show complex structures such as C containers Esri promotes Python as the best choice for writing scripts in ArcGISref nameAutoNT39  It has also been used in several video gamesref nameAutoNT40 ref nameAutoNT41  and has been adopted as first of the three available programming languages in Google App Engine the other two being Java software platformJava and Go programming languageGoref nameAutoNT42  Python is also used in algorithmic trading and quantitative financerefcite web urlhttpwwwquantinsticomblogpythonbestprogramminglanguagealgorithmictrading titlePython  Best Programming Language for Algorithmic Trading Systems date9 March 2016languageenUSaccessdate3 October 2016ref Python can also be implemented in APIs of online brokerages that run on other languages by using wrappersrefcite web urlhttpwwwquantinsticomblogibpytutorialimplementpythoninteractivebrokersapi titleTrading with Interactive Brokers using Python An IBPy Tutorial date19 September 2016languageenUSaccessdate3 October 2016ref
+
+Python has been used in artificial intelligence projectsref nameAutoNT43 ref nameAutoNT44 ref nameAutoNT45 ref nameAutoNT46  As a scripting language with modular programmingmodular architecture simple syntax and rich text processing tools Python is often used for natural language processingref nameAutoNT47 
+
+Many operating systems include Python as a standard component It ships with most Linux distributions AmigaOS 4 FreeBSD NetBSD OpenBSD and macOS and can be used from the command line terminal Many Linux distributions use installers written in Python Ubuntu operating systemUbuntu uses the Ubiquity softwareUbiquity installer while Red Hat Linux and Fedora operating systemFedora use the Anaconda installerAnaconda installer Gentoo Linux uses Python in its package management system Portage softwarePortage
+
+Python is used extensively in the information security industry including in exploit developmentref nameAutoNT49 ref nameAutoNT50 
+
+Most of the Sugar softwareSugar software for the One Laptop per Child XO now developed at Sugar Labs is written in Pythonref nameAutoNT51 
+
+The Raspberry Pi singleboard computer project has adopted Python as its main userprogramming language
+
+LibreOffice includes Python and intends to replace Java with Python Its Python Scripting Provider is a core featurerefcite web title40 New Features and Fixes publisherThe Document Foundation workLibreOfficeorg year2013 urlhttpwwwlibreofficeorgdownload40newfeaturesandfixes accessdate25 February 2013ref since Version 40 from 7 February 2013
+
+ Languages influenced by Python 
+Pythons design and philosophy have influenced many other programming languages
+
+ Boo programming languageBoo uses indentation a similar syntax and a similar object modelref nameAutoNT90 
+ Cobra programming languageCobra uses indentation and a similar syntax and its Acknowledgements document lists Python first among languages that influenced itref nameAutoNT91  However Cobra directly supports Design by contractdesignbycontract Unit testingunit tests and optional static typingref nameAutoNT92 
+ CoffeeScript a programming language that crosscompiles to JavaScript has Pythoninspired syntax
+ ECMAScript borrowed iterators generator computer sciencegenerators and list comprehensions from Pythonref nameAutoNT93 
+ Go programming languageGo is designed for the speed of working in a dynamic language like Pythonref nameAutoNT94 and shares the same syntax for slicing arrays
+ Groovy programming languageGroovy was motivated by the desire to bring the Python design philosophy to Java programming languageJavaref nameAutoNT95 
+ Julia programming languageJulia was designed with hygienic macrotrue macros  and to be as usable for general programming as Python as easy for statistics as R as natural for string processing as Perl as powerful for linear algebra as Matlab as good at gluing programs together as the shell Something that is dirt simple to learn yet keeps the most serious hackers happy We want it interactive and we want it compiled
+Did we mention it  and should be as fast as Cref nameJuliacite web title  Why We Created Julia date February 2012 website Julia website url httpjulialangorgblog201202whywecreatedjulia accessdate 5 June 2014ref Calling to or from Julia is possible to with httpsgithubcomstevengjPyCalljl PyCalljl and a Python package httpsgithubcomJuliaLangpyjulia pyjulia allows calling in the other direction from Python
+ Kotlin programming language is a functional programming language with an interactive shell similar to python However Kotlin is strongly typed with access to standard Java librariesrefcite weburlhttpskotlinlangorgdocstutorialscommandlinehtmltitleWorking with the Command Line Compiler  Kotlin Programming LanguagewebsiteKotlinaccessdate12 March 2018ref
+ Ruby programming languageRubys creator Yukihiro Matsumoto has said I wanted a scripting language that was more powerful than Perl and more objectoriented than Python Thats why I decided to design my own languageref namelinuxdevcenter 
+ Swift programming languageSwift a programming language developed by Apple has some Pythoninspired syntaxrefcite web urlhttpnondotorgsabre titleChris Lattners Homepage publisherChris Lattner firstChris lastLattner authorlinkChris Lattner date3 June 2014 accessdate3 June 2014 quoteI started work on the Swift Programming Language in July of 2010 I implemented much of the basic language structure with only a few people knowing of its existence A few other amazing people started contributing in earnest late in 2011 and it became a major focus for the Apple Developer Tools group in July 2013  drawing ideas from ObjectiveC Rust Haskell Ruby Python C CLU and far too many others to listref
+
+Pythons development practices have also been emulated by other languages For example the practice of requiring a document describing the rationale for and issues surrounding a change to the language in Python a PEP is also used in Tclref nameAutoNT99  and Erlang programming languageErlangref nameAutoNT100 
+
+Python received TIOBEs Programming Language of the Year awards in 2007 and 2010 The award is given to the language with the greatest growth in popularity over the year as measured by the TIOBE indexref nameAutoNT101 
+
+ See also 
+PortalFree softwarePython programming
+
+ List of integrated development environments for PythonComparison of integrated development environments for Python
+ Comparison of programming languages
+ List of programming languages
+ pip package manager
+ Offside rule
+
+ References 
+Reflist30emrefs
+ref namefaqcreatedcite web urlhttpsdocspythonorgfaqgeneralhtmlwhywaspythoncreatedinthefirstplace titleWhy was Python created in the first place workGeneral Python FAQ publisherPython Software Foundation accessdate22 March 2007ref
+ref name98interviewcite web urlhttpwwwamkcapythonwritinggvrinterview titleInterview with Guido van Rossum July 1998 lastKuchling firstAndrew M workamkca date22 December 2006 accessdate12 March 2012 deadurlyes archiveurlhttpswebarchiveorgweb20070501105422httpwwwamkcapythonwritinggvrinterview archivedate1 May 2007 dfdmyall ref
+ref nameAutoNT1 cite journal lastvan Rossum firstGuido year1993 titleAn Introduction to Python for UNIXC Programmers journalProceedings of the NLUUG najaarsconferentie Dutch UNIX users group quoteeven though the design of C is far from ideal its influence on Python is considerable urlhttpciteseerxistpsueduviewdocsummarydoi1011382023ref
+ref nameclassmixcite web urlhttpsdocspythonorgtutorialclasseshtml titleClasses workThe Python Tutorial publisherPython Software Foundation accessdate20 February 2012 quoteIt is a mixture of the class mechanisms found in C and Modula3ref
+ref nameeffbotcallbyobjectcite web urlhttpeffbotorgzonecallbyobjecthtm titleCall By Object workeffbotorg lastLundh firstFredrik quotereplace CLU with Python record with instance and procedure with function or method and you get a pretty accurate description of Pythons object model accessdate21 November 2017ref
+ref nameAutoNT2cite web urlhttpswwwpythonorgdownloadreleases23mro titleThe Python 23 Method Resolution Order lastSimionato firstMichele publisherPython Software Foundation quoteThe C3 method itself has nothing to do with Python since it was invented by people working on Dylan and it is described in a paper intended for lispersref
+ref nameAutoNT3cite web urlhttpsdocspythonorghowtofunctionalhtml titleFunctional Programming HOWTO lastKuchling firstA M workPython v272 documentation publisherPython Software Foundation accessdate9 February 2012ref
+ref namepep0238cite web urlhttpswwwpythonorgdevpepspep0238 titlePEP 238nbsp Changing the Division Operator first1Moshe last1Zadka first2Guido last2van Rossum date11 March 2001 workPython Enhancement Proposals publisherPython Software Foundation accessdate23 October 2013ref
+ref nameAutoNT4cite web urlhttpswwwpythonorgdevpepspep0255 titlePEP 255nbsp Simple Generators first1Neil last1Schemenauer first2Tim last2Peters first3Magnus Lie last3Hetland date18 May 2001 workPython Enhancement Proposals publisherPython Software Foundation accessdate9 February 2012ref
+ref nameAutoNT5cite web urlhttpswwwpythonorgdevpepspep0318 titlePEP 318nbsp Decorators for Functions and Methods first1Kevin D last1Smith first2Jim J last2Jewett first3Skip last3Montanaro first4Anthony last4Baxter date2 September 2004 workPython Enhancement Proposals publisherPython Software Foundation accessdate24 February 2012ref
+ref nameAutoNT6cite web urlhttpsdocspythonorg32tutorialcontrolflowhtml titleMore Control Flow Tools workPython 3 documentation publisherPython Software Foundation accessdate24 July 2015ref
+ref namebini cite book lastBini firstOla titlePractical JRuby on Rails Web 20 Projects bringing Ruby on Rails to the Java platform year2007 publisherAPress locationBerkeley isbn9781590598818 page3ref
+ref nameAutoNT7cite web lastKuhlman firstDave urlhttpcutterrexxcomdkuhlmanpythonbook01html titleA Python Book Beginning Python Advanced Python and Python Exercises deadurlyes archiveurlhttpswebarchiveorgweb20120623165941httpcutterrexxcomdkuhlmanpythonbook01html archivedate23 June 2012 dfdmyall ref
+ref nameAboutcite web urlhttpswwwpythonorgabout titleAbout Python publisherPython Software Foundation accessdate24 April 2012 second section Fans of Python use the phrase batteries included to describe the standard library which covers everything from asynchronous processing to zip filesref
+ref namevennersinterviewpt1cite web urlhttpwwwartimacomintvpythonPhtml titleThe Making of Python lastVenners firstBill date13 January 2003 workArtima Developer publisherArtima accessdate22 March 2007ref
+ref nametimelineofpythoncite web urlhttppythonhistoryblogspotcom200901brieftimelineofpythonhtml titleA Brief Timeline of Python lastvan Rossum firstGuido date20 January 2009 workThe History of Python publisherGoogle accessdate20 January 2009ref
+ref nameAutoNT12 cite mailing list urlhttpmailpythonorgpipermailpythondev2000August008881html titleSETL was Lukewarm about range literals date29 August 2000 accessdate13 March 2011 mailinglistPythonDev lastvan Rossum firstGuido authorlinkGuido van Rossumref
+ref namenewin20cite web urlhttpsdocspythonorgwhatsnew20html titleWhats New in Python 20 last1Kuchling first1A M last2Zadka first2Moshe date16 October 2000 publisherPython Software Foundation accessdate11 February 2012ref
+ref name30releasecite web urlhttpswwwpythonorgdownloadreleases30 titlePython 30 Release publisherPython Software Foundation accessdate8 July 2009ref
+ref namepep3000cite web urlhttpswwwpythonorgdevpepspep3000 titlePEP 3000nbsp Python 3000 lastvan Rossum firstGuido date5 April 2006 workPython Enhancement Proposals publisherPython Software Foundation accessdate27 June 2009ref
+ref nameAutoNT13cite web urlhttpswwwpythonorgcommunitypycondc2004papers24metaclassespyconpdf archiveurlhttpswwwwebcitationorg5lubkaJRcurlhttpwwwpythonorgcommunitypycondc2004papers24metaclassespyconpdf archivedate10 December 2009 formatPDF titlePython Metaclasses Who Why When lastThe Cain Gang Ltd accessdate27 June 2009 deadurlyes dfdmyall ref
+ref nameAutoNT14cite web urlhttpsdocspythonorg30referencedatamodelhtmlspecialmethodnames title33 Special method names workThe Python Language Reference publisherPython Software Foundation accessdate27 June 2009ref
+ref nameAutoNT15cite web urlhttpwwwnongnuorgpydbc titlePyDBC method preconditions method postconditions and class invariants for Python accessdate24 September 2011ref
+ref nameAutoNT16cite web urlhttpwwwwayforwardnetpycontract titleContracts for Python accessdate24 September 2011ref
+ref nameAutoNT17cite web urlhttpssitesgooglecomsitepydatalog titlePyDatalog accessdate22 July 2012ref
+ref nameAutoNT18cite web urlhttpsdocspythonorg3libraryitertoolshtml title65 itertoolsnbsp Functions creating iterators for efficient looping publisherDocspythonorg accessdate22 November 2016ref
+ref namePEP20cite web urlhttpswwwpythonorgdevpepspep0020 titlePEP 20nbsp The Zen of Python lastPeters firstTim date19 August 2004 workPython Enhancement Proposals publisherPython Software Foundation accessdate24 November 2008ref
+ref nameAutoNT19cite book  urlhttpshoporeillycomproduct9780596007973do  titlePython Cookbook 2nd Edition  publisherOReilly Media last1Martelli first1Alex last2Ravenscroft first2Anna last3Ascher first3David  year2005  page230  isbn9780596007973ref
+ref nameAutoNT20cite web urlhttpebeabcom20140121pythonculture titlePython Cultureref
+ref namePepCite000cite web urlhttpswwwpythonorgdevpepspep0001 titlePEP 1nbsp PEP Purpose and Guidelines last1Warsaw first1Barry last2Hylton first2Jeremy last3Goodger first3David date13 June 2000 workPython Enhancement Proposals publisherPython Software Foundation accessdate19 April 2011ref
+ref nameAutoNT21cite web urlhttpswwwpythonorgdevintro titleGuido Some Guys and a Mailing List How Python is Developed lastCannon firstBrett workpythonorg publisherPython Software Foundation accessdate27 June 2009 deadurlyes archiveurlhttpswebarchiveorgweb20090601134342httpwwwpythonorgdevintro archivedate1 June 2009 ref
+ref namereleaseschedulecite web urlhttpsmailpythonorgpipermailpythondev2002April022739html title91PythonDev93 Release Schedules was Stability  change lastNorwitz firstNeal date8 April 2002 accessdate27 June 2009ref
+ref nameAutoNT22cite web urlhttpswwwpythonorgdevpepspep0006 titlePEP 6nbsp Bug Fix Releases last1Aahz last2Baxter first2Anthony date15 March 2001 workPython Enhancement Proposals publisherPython Software Foundation accessdate27 June 2009ref
+ref nameAutoNT23cite web urlhttpswwwpythonorgdevbuildbot titlePython Buildbot workPython Developers Guide publisherPython Software Foundation accessdate24 September 2011ref
+ref nameAutoNT24cite web urlhttpsdocspythonorg2faqgeneralhtmlwhyisitcalledpython titleGeneral Python FAQ workPython v273 documentation publisherDocspythonorg date accessdate3 December 2012ref
+ref nametutorialchapter1cite web urlhttpsdocspythonorgtutorialappetitehtml titleWhetting Your Appetite workThe Python Tutorial publisherPython Software Foundation accessdate20 February 2012ref
+ref nameAutoNT25cite web urlhttppythonnetcrewmwhhacksobjectthinkhtml titleHow to think like a Pythonistaref
+ref nameAutoNT26cite web urlhttpsstackoverflowcomquestions5033906inpythonshouldiuseelseafterareturninanifblock titleIn Python should I use else after a return in an if block date17 February 2011 workStack Overflow publisherStack Exchange accessdate6 May 2011ref
+ref nameAutoNT27cite web urlhttppythonnetgoodgerprojectspycon2007idiomatichandouthtml titleCode Like a Pythonista Idiomatic Python lastGoodger firstDavidref
+ref nameAutoNT28cite web urlhttppagemifuberlindeprecheltBibliojccpprtcomputer2000pdf titleAn empirical comparison of C C Java Perl Python Rexx and Tcl firstLutz lastPrechelt  work doesnt work workhttppagemifuberlindeprecheltBiblio Bibliography of Lutz Prechelt date14 March 2000 accessdate30 August 2013ref
+ref namequotesaboutpythoncite web urlhttpswwwpythonorgaboutquotes titleQuotes about Python publisherPython Software Foundation accessdate8 January 2012ref
+ref nameAutoNT29cite web urlhttpswikipythonorgmoinOrganizationsUsingPython titleOrganizations Using Python publisherPython Software Foundation accessdate15 January 2009ref
+ref nameAutoNT30 cite journal titlePython  the holy grail of programming journalCERN Bulletin issue312006 publisherCERN Publications date31 July 2006 urlhttpcdswebcernchjournalCERNBulletin200631News20Articles974627lnen accessdate11 February 2012ref
+ref nameAutoNT31cite web urlhttpswwwpythonorgaboutsuccessusa titlePython Streamlines Space Shuttle Mission Design lastShafer firstDaniel G date17 January 2003 publisherPython Software Foundation accessdate24 November 2008ref
+ref nameAutoNT32cite web urlhttpswwwpythonorgaboutsuccessilm titleIndustrial Light  Magic Runs on Python lastFortenberry firstTim date17 January 2003 publisherPython Software Foundation accessdate11 February 2012ref
+ref nameAutoNT33cite web urlhttpwwweweekcomcaApplicationDevelopmentPythonSlithersintoSystems titlePython Slithers into Systems lastTaft firstDarryl K date5 March 2007 workeWeekcom publisherZiff Davis Holdings accessdate24 September 2011ref
+ref nameAutoNT34cite web titleTIOBE Programming Community Index Python authorTIOBE Software Index year2015 urlhttpwwwtiobecomindexphppaperinfotpciPythonhtml accessdate10 September 2015ref
+ref nameAutoNT35cite web titleUsage statistics and market share of Python for websites year2012 urlhttpw3techscomtechnologiesdetailsplpythonallall accessdate18 December 2012ref
+ref nameAutoNT38cite web urlhttpwwwjasccomsupportcustomercarearticlespsp9componentsasp titlejasc psp9components deadurlyes archiveurlhttpswebarchiveorgweb20080319061519httpwwwjasccomsupportcustomercarearticlespsp9componentsasp archivedate19 March 2008 ref
+ref nameAutoNT39cite web urlhttpwebhelpesricomarcgisdesktop92indexcfmTopicNameAboutgettingstartedwithwritinggeoprocessingscripts titleAbout getting started with writing geoprocessing scripts date17 November 2006 workArcGIS Desktop Help 92 publisherEnvironmental Systems Research Institute accessdate11 February 2012ref
+ref nameAutoNT40cite web urlhttpcommunityeveonlinecomnewsdevblogsstacklesspython27 titleStackless Python 27 publisherCCP Games date24 August 2010 authorCCP porkbelly workEVE Community Dev Blogs quoteAs you may know EVE has at its core the programming language known as Stackless Pythonref
+ref nameAutoNT41cite web urlhttpwww2kgamescomciv4blog03htm titleModding Sid Meiers Civilization IV lastCaudill firstBarry date20 September 2005 publisherFiraxis Games archiveurlhttpswwwwebcitationorg5ru5VItfvurlhttpwww2kgamescomciv4blog03htm archivedate11 August 2010 workSid Meiers Civilization IV Developer Blog quotewe created three levels of tools  The next level offers Python and XML support letting modders with more experience manipulate the game world and everything in it deadurlyes dfdmyall ref
+ref nameAutoNT42cite web urlhttpscodegooglecomapisdocumentsdocs10developersguidepythonhtml titlePython Language Guide v10 workGoogle Documents List Data API v10 publisherGoogle archiveurlhttpswwwwebcitationorg5ru5FHxfVurlhttpcodegooglecomapisdocumentsdocs10developersguidepythonhtml archivedate11 August 2010 deadurlyes dfdmyall ref
+ref nameAutoNT43cite web urlhttpswikipythonorgmoinPythonForArtificialIntelligence titlePython for Artificial Intelligence publisherWikipythonorg date19 July 2012 accessdate3 December 2012 deadurlyes archiveurlhttpswebarchiveorgweb20121101045354httpwikipythonorgmoinPythonForArtificialIntelligence archivedate1 November 2012 ref
+ref nameAutoNT44cite journal editorlastPaine editorfirstJocelyn titleAI in Python journalAI Expert Newsletter publisherAmzi dateAugust 2005 urlhttpwwwainewslettercomnewslettersaix0508htmpythonaiai accessdate11 February 2012ref
+ref nameAutoNT45cite web urlhttpspypipythonorgpypiPyAIML titlePyAIML 085  Python Package Index publisherPypipythonorg accessdate17 July 2013ref
+ref nameAutoNT46 cite book titleArtificial Intelligence A Modern Approach urlhttpaimacsberkeleyedu last1Russell first1Stuart J authorlink1Stuart J Russell last2Norvig first2Peter authorlink2Peter Norvig lastauthorampy edition3rd year2009 publisherPrentice Hall locationUpper Saddle River NJ isbn9780136042594 page1062 accessdate11 February 2012ref
+ref nameAutoNT47cite web urlhttpwwwnltkorg titleNatural Language Toolkitref
+ref nameAutoNT49cite web urlhttpwwwimmunityseccomproductsimmdbgshtml titleImmunity Knowing Youre Secure deadurlyes archiveurlhttpswebarchiveorgweb20090216134332httpimmunityseccomproductsimmdbgshtml archivedate16 February 2009 dfdmyall ref
+ref nameAutoNT50cite web urlhttposscoresecuritycom titleCorelabs siteref
+ref nameAutoNT51cite web urlhttpsugarlabsorggoSugar titleWhat is Sugar publisherSugar Labs accessdate11 February 2012ref
+ref nameAutoNT52cite web titleIs Python a good language for beginning programmers urlhttpsdocspythonorgfaqgeneralhtmlispythonagoodlanguageforbeginningprogrammers workGeneral Python FAQ publisherPython Software Foundation accessdate21 March 2007ref
+ref nameAutoNT53cite web urlhttpwwwsecnetixdeolliPythonblockindentationhawk titleMyths about indentation in Python publisherSecnetixde accessdate19 April 2011ref
+ref nameAutoNT54cite web urlhttpc2comcgiwikiPythonWhiteSpaceDiscussion titleWhite Space Discussion accessdate1 January 2013ref
+ref nameAutoNT55cite web lastvan Rossum firstGuido urlhttpneopythonicblogspotbe200904tailrecursioneliminationhtml titleTail Recursion Elimination publisherNeopythonicblogspotbe date22 April 2009 accessdate3 December 2012ref
+ref nameAutoNT56cite web titleLanguage Design Is Not Just Solving Puzzles urlhttpwwwartimacomweblogsviewpostjspthread147358 firstGuido lastvan Rossum date9 February 2006 accessdate21 March 2007 workArtima forums publisherArtimaref
+ref nameAutoNT57cite web urlhttpswwwpythonorgdevpepspep0342 titlePEP 342nbsp Coroutines via Enhanced Generators last1van Rossum first1Guido last2Eby first2Phillip J date10 May 2005 workPython Enhancement Proposals publisherPython Software Foundation accessdate19 February 2012ref
+ref nameAutoNT58cite web urlhttpswwwpythonorgdevpepspep0380 titlePEP 380 publisherPythonorg date accessdate3 December 2012ref
+ref nameAutoNT59cite web urlhttpswwwpythonorgdevpepspep0289 titlePEP 289nbsp Generator Expressions lastHettinger firstRaymond date30 January 2002 workPython Enhancement Proposals publisherPython Software Foundation accessdate19 February 2012ref
+ref nameAutoNT60cite web urlhttpswwwpythonorgdevpepspep0308 titlePEP 308nbsp Conditional Expressions last1van Rossum first1Guido last2Hettinger first2Raymond date7 February 2003 workPython Enhancement Proposals publisherPython Software Foundation accessdate13 July 2011ref
+ref nameAutoNT61cite web urlhttpsdocspythonorgfaqdesignhtmlwhymustselfbeusedexplicitlyinmethoddefinitionsandcalls titleWhy must self be used explicitly in method definitions and calls workDesign and History FAQ publisherPython Software Foundation accessdate19 February 2012ref
+ref nameclassycite web titleThe Python Language Reference section 33 Newstyle and classic classes for release 271 accessdate12 January 2011 urlhttpsdocspythonorgreferencedatamodelhtmlnewstyleandclassicclassesref
+ref namepep0237cite web urlhttpswwwpythonorgdevpepspep0237 titlePEP 237nbsp Unifying Long Integers and Integers last1Zadka first1Moshe last2van Rossum first2Guido date11 March 2001 workPython Enhancement Proposals publisherPython Software Foundation accessdate24 September 2011ref
+ref nameAutoNT62cite web urlhttppythonhistoryblogspotcom201008whypythonsintegerdivisionfloorshtml titleWhy Pythons Integer Division Floors accessdate25 August 2010ref
+ref nameAutoNT63citation urlhttpsdocspythonorglibraryfunctionshtmlround accessdate14 August 2011 titleround workThe Python standard library release 27 2 Builtin functionsref
+ref nameAutoNT64citation urlhttpsdocspythonorgpy3klibraryfunctionshtmlround accessdate14 August 2011 titleround workThe Python standard library release 32 2 Builtin functionsref
+ref nameAutoNT65Python Essential Reference David M Beazleyref
+ref nameAutoNT66cite web urlhttpswwwpythonorgdevpepspep0007 titlePEP 7nbsp Style Guide for C Code lastvan Rossum firstGuido date5 June 2001 workPython Enhancement Proposals publisherPython Software Foundation accessdate24 November 2008ref
+ref nameAutoNT67cite web urlhttpsdocspythonorg3librarydishtmlpythonbytecodeinstructions titleCPython byte code publisherDocspythonorg accessdate16 February 2016ref
+ref nameAutoNT68cite web urlhttpwwwtroegereuteachingpythonvm08pdf titlePython 25 internals formatPDF accessdate19 April 2011ref
+ref nameAutoNT69cite web urlhttpwwworeillycompubaoreillyfrankrossum1099html titleAn Interview with Guido van Rossum publisherOreillycom accessdate24 November 2008ref
+ref nameAutoNT70cite web urlhttppypyorgcompathtml titlePyPy compatibility publisherPypyorg date accessdate3 December 2012ref
+ref nameAutoNT71cite web urlhttpspeedpypyorg titlespeed comparison between CPython and Pypy publisherSpeedpypyorg date accessdate3 December 2012ref
+ref nameAutoNT73cite web urlhttpdocpypyorgenlateststacklesshtml titleApplicationlevel Stackless features  PyPy 202 documentation publisherDocpypyorg accessdate17 July 2013ref
+ref nameAutoNT74cite web urlhttpscodegooglecompunladenswallowwikiProjectPlan titlePlans for optimizing Python workGoogle Project Hosting publisherGoogle date15 December 2009 accessdate24 September 2011ref
+ref nameAutoNT86cite web firstPrzemyslaw lastPiotrowski urlhttpwwworaclecomtechnetworkarticlespiotrowskipythoncore084049html titleBuild a Rapid Web Development Environment for Python Server Pages and Oracle workOracle Technology Network publisherOracle dateJuly 2006 accessdate12 March 2012ref
+ref nameAutoNT88cite web urlhttpswwwpythonorgdevpepspep0327 titlePEP 327nbsp Decimal Data Type lastBatista firstFacundo date17 October 2003 workPython Enhancement Proposals publisherPython Software Foundation accessdate24 November 2008ref
+ref nameAutoNT89cite web urlhttpswwwpythonorgdevpepspep0333 titlePEP 333nbsp Python Web Server Gateway Interface v10 lastEby firstPhillip J date7 December 2003 workPython Enhancement Proposals publisherPython Software Foundation accessdate19 February 2012ref
+ref nameAutoNT90cite web urlhttpboocodehausorgGotchasforPythonUsers titleGotchas for Python Users workboocodehausorg publisherCodehaus Foundation accessdate24 November 2008 deadurlyes archiveurlhttpswebarchiveorgweb20081211062108httpboocodehausorgGotchasforPythonUsers archivedate11 December 2008 dfdmyall ref
+ref nameAutoNT91cite web urlhttpcobralanguagecomdocsacknowledgements titleAcknowledgements lastEsterbrook firstCharles workcobralanguagecom publisherCobra Language accessdate7 April 2010ref
+ref nameAutoNT92cite web urlhttpcobralanguagecomdocspython titleComparison to Python lastEsterbrook firstCharles workcobralanguagecom publisherCobra Language accessdate7 April 2010ref
+ref nameAutoNT93cite web urlhttpwikiecmascriptorgdokuphpidproposalsiteratorsandgenerators titleProposals iterators and generators ES4 Wiki93 publisherwikiecmascriptorg accessdate24 November 2008 dead linkdateMarch 2018 botInternetArchiveBot fixattemptedyes ref
+ref nameAutoNT94 cite news urlhttpstechcrunchcom20091110googlegolanguage titleGoogles Go A New Programming Language Thats Python Meets C lastKincaid firstJason date10 November 2009 publisherTechCrunch accessdate29 January 2010ref
+ref nameAutoNT95cite web lastStrachan firstJames date29 August 2003 titleGroovynbsp the birth of a new dynamic language for the Java platform urlhttpradioweblogscom011209820030829htmlref
+ref nameAutoNT96cite web urlhttppeoplecsailmitedumikelinocamltwt titleThe Whitespace Thing for OCaml lastLin firstMike publisherMassachusetts Institute of Technology accessdate12 April 2009ref
+ref namelinuxdevcentercite web urlhttpwwwlinuxdevcentercompubalinux20011129rubyhtml titleAn Interview with the Creator of Ruby publisherLinuxdevcentercom date accessdate3 December 2012ref
+ref nameAutoNT99cite web urlhttpwwwtcltkcgibintcttip3html titleTIP 3 TIP Format last1Kupries first1Andreas last2Fellows first2Donal K worktcltk publisherTcl Developer Xchange date14 September 2000 accessdate24 November 2008ref
+ref nameAutoNT100cite web urlhttpwwwerlangorgeepseep0001html titleEEP 1 EEP Purpose and Guidelines last1Gustafsson first1Per last2Niskanen first2Raimo publishererlangorg date29 January 2007 accessdate19 April 2011ref
+ref nameAutoNT101cite web urlhttpwwwtiobecomindexphpcontentpaperinfotpci titleTIOBE Programming Community Index for March 2012 dateMarch 2012 publisherTIOBE Software accessdate25 March 2012ref
+
+
+ Further reading 
+ THIS IS NOT A LIST OF ALL PYTHON BOOKS
+According to WikipediaFurther reading criteria for inclusion includes
+1 Should clearly qualify as WPRS as indicated by reviews and citations to it
+
+5 There should be guidelines on limiting the number of sources
+6 To avoid spam any book included should have received more than one good review in RS newspapers and scholarly journals being the norm and the clear balance of RS reviews should be positive This would avoid selfpublish spamming POV pushing and attempts by publishers to get books promoted through inclusion on Wikipedia At the moment editorial recommendations as described in the manual smacks of OR
+7 Neutrality on the part of editors is essential In terms of major debates items representing all major positions should be included with annotations indicating the specific POV of each We may have to work out rules where topic disputes are irreconcilable
+
+
+ cite book lastDowney firstAllen B titleThink Python How to Think Like a Computer Scientist editionVersion 166 dateMay 2012 isbn9780521725965 urlhttpwwwgreenteapresscomthinkpythonhtml
+ cite news urlhttpwwwcomputerworldcomauindexphpid66665771 titleThe AZ of Programming Languages Python lastHamilton firstNaomi date5 August 2008 workComputerworld accessdate31 March 2010 deadurlyes archiveurlhttpswebarchiveorgweb20081229095320httpwwwcomputerworldcomauindexphpid3B66665771 archivedate29 December 2008 dfdmyall 
+ cite book lastLutz firstMark titleLearning Python publisherOReilly Media year2013 edition5th isbn9780596158064 urlhttpshoporeillycomproduct0636920028154do
+ cite book lastPilgrim firstMark titleDive Into Python publisherApress year2004 isbn9781590593561 urlhttpdiveintopythonnet
+ cite book lastPilgrim firstMark titleDive Into Python 3 publisherApress year2009 isbn9781430224150 urlhttpdiveintopython3net dead linkdateMarch 2018 botInternetArchiveBot fixattemptedyes 
+ cite book lastSummerfield firstMark titleProgramming in Python 3 publisherAddisonWesley Professionalyear2009edition2ndisbn9780321680563 urlhttpwwwqtraceupy3bookhtml
+
+ External links 
+  No more links 
+ PLEASE BE CAUTIOUS IN ADDING MORE LINKS TO THIS ARTICLE Wikipedia  
+ is not a collection of links nor should it be used for advertising 
+                                                                     
+ Excessive or inappropriate links WILL BE DELETED                   
+ See WikipediaExternal links  WikipediaSpam for details  
+                                                                     
+ If there are already plentiful links please propose additions or   
+ replacements on this articles discussion page or submit your link 
+ to the relevant category at the Open Directory Project dmozorg   
+ and link back to that category using the Dmoz template         
+ No more links  
+
+Sister project links wiktno commonsCategoryPython programming language bPython Programming nno qPython sno vPython voyno speciesno dno 
+ Official website
+ DmozComputersProgrammingLanguagesPythonPython
+
+Programming languages
+Python programming language
+Python web frameworks
+FOSS
+
+Authority control
+Good article
+Use dmy dates dateAugust 2015
+
+CategoryProgramming languages
+CategoryClassbased programming languages
+CategoryComputational notebook
+CategoryComputer science in the Netherlands
+CategoryCrossplatform free software
+CategoryDutch inventions
+CategoryDynamically typed programming languages
+CategoryEducational programming languages
+CategoryHighlevel programming languages
+CategoryInformation technology in the Netherlands
+CategoryObjectoriented programming languages
+CategoryProgramming languages created in 1991
+CategoryPython programming language 
+CategoryScripting languages
+CategoryTextoriented programming languages
+CategoryCrossplatform software

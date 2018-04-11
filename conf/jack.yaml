@@ -1,0 +1,119 @@
+config: './conf/jack.yaml'
+
+description: >
+  Train and Evaluate a Machine Reader
+
+# Reader model to use, see jack/readers/implementations.py for options
+reader: null
+
+# name of this reader, serves as kind of a namespace for created parameters, defaults to name of the model
+name: null
+
+# seed will not be inherited (because of sacred) so you need to set it for all child configs
+seed: 1337
+
+# Run in debug mode, in which case the training file is also used for testing
+debug: False
+
+# If in debug mode, how many examples should be used (default 10)
+debug_examples: 10
+
+# Batch size for training data, default 128
+batch_size: 128
+
+# training file
+train: null
+
+# number of examples to train on (default is all)
+num_train_examples: null
+
+# dev file
+dev: null
+
+# Batch size for development data, defaults to batch_size when set to null
+dev_batch_size: null
+
+# number of examples to validate on (default is all)
+num_dev_examples: null
+
+# test file
+test: null
+
+# Size of the input representation (embeddings), is automatically overwritten when pre-trained embeddings are provided
+repr_dim_input: 128
+
+# Size of the hidden representations, default 128
+repr_dim: 128
+
+# Use fixed vocab of pretrained embeddings
+vocab_from_embeddings: False
+
+# Continue training pretrained embeddings together with model parameters
+train_pretrain: False
+
+# [word2vec], [glove] or [memory_map_dir] format of embeddings to be loaded
+embedding_format: null
+
+# embeddings to be loaded
+embedding_file: null
+
+# Optimizer, default Adam
+optimizer: 'adam'
+
+# Learning rate, default 0.001
+learning_rate: 0.001
+
+# Minimum learning rate, default 0.001
+min_learning_rate: 0.0001
+
+# Learning rate decay, default 1 (disabled)
+learning_rate_decay: 1.0
+
+# L2 regularization weight, default 0.0
+l2: 0.0
+
+# Gradients clipped between [-clip_value, clip_value] (default 0.0; no clipping)
+clip_value: 0.0
+
+# Probability for dropout on output (set to 0.0 for no dropout)
+dropout: 0.0
+
+# Number of epochs to train for, default 5
+epochs: 5
+
+# Number of batches before validation on devset. If null then after each epoch.
+validation_interval: null
+
+# Folder for tensorboard logs
+tensorboard_folder: null
+
+# Filename to log the metrics of the EvalHooks
+write_metrics_to: null
+
+# Use also character based embeddings in readers which support it
+with_char_embeddings: True
+
+# maximum number of supports to consider (as scored by tf idf against question in extractive QA for instance)
+max_num_support: null
+
+# Directory to write reader to
+save_dir: './saved_reader'
+
+# interval for logging eta, training loss, etc
+log_interval: 100
+
+# lowercase texts
+lowercase: True
+
+# path to output directory
+output_dir: './out/'
+
+# loader for the dataset, ['jack', 'squad', 'snli'] are supported. For everything else convert to jtr format first.
+loader: 'jack'
+
+# ADVANCED: if we want to (partially) initialize from a pretrained reader we can use the following option
+# Note: make sure that the variable names and shapes will match
+load_dir: null
+
+# cache preprocessed data on file in $JACK_TEMP/SOME_UUID/cache, if false caches in RAM
+file_cache: False

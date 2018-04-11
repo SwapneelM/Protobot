@@ -1,0 +1,809 @@
+other uses
+ppvandalismsmallyes
+ppvandalismsmallyes
+speciesbox
+ name  Dodo
+ fossilrange  Holocene
+ image  Oxford Dodo displayjpg
+ imagealt  Skeleton and model of a dodo
+ imageupright  11
+ imagecaption  Dodo skeleton cast and model based on modern research at Oxford University Museum of Natural History
+ status  EX
+ statussystem  IUCN31
+ statusref  sfnIUCN Red List2012
+ extinct  1662
+ displayparents  2
+ genus  Raphus
+ parentauthority  Mathurin Jacques BrissonBrisson 1760
+ species  cucullatus
+ authority  Carl LinnaeusLinnaeus 1758
+ synonyms plainlist 
+ Struthio cucullatus smallLinnaeus 1758small
+ Didus ineptus smallLinnaeus 1766small
+
+ rangemap  Mauritius island locationsvg
+ rangemapupright  11
+ rangemapcaption  Location of Mauritius in blue
+
+
+The dodo Raphus cucullatus is an extinctionextinct flightless bird that was endemismendemic to the island of Mauritius east of Madagascar in the Indian Ocean The dodos closest genetic distancegenetic relative was the also extinct Rodrigues solitaire the two forming the taxonomic ranksubfamily Raphinae of the family biologyfamily of Columbidaepigeons and doves The closest extant taxonliving relative of the dodo is the Nicobar pigeon A white dodo was once thought to have existed on the nearby island of Réunion but this is now thought to have been confusion based on the Réunion ibis and paintings of white dodos
+
+Subfossil remains show the dodo was about convert1mftin tall and may have weighed convert106175kglbabbron in the wild The dodos appearance in life is evidenced only by drawings paintings and written accounts from the 17th century Because these vary considerably and because only some illustrations are known to have been drawn from live specimens its exact appearance in life remains unresolved and little is known about its behaviour Though the dodo has historically been considered fat and clumsy it is now thought to have been welladapted for its ecosystem It has been depicted with brownishgrey plumage yellow feet a tuft of tail feathers a grey naked head and a black yellow and green beak It used gizzard stones to help digestiondigest its food which is thought to have included fruits and its main habitat is believed to have been the woods in the drier coastal areas of Mauritius One account states its clutch eggsclutch consisted of a single egg It is presumed that the dodo became flightless because of the ready availability of abundant food sources and a relative absence of predators on Mauritius
+
+The first recorded mention of the dodo was by Dutch sailors in 1598 In the following years the bird was hunted by sailors and invasive species while its habitat was being destroyed The last widely accepted sighting of a dodo was in 1662 Its extinction was not immediately noticed and some considered it to be a mythical creature In the 19th century research was conducted on a small quantity of remains of four specimens that had been brought to Europe in the early 17th century Among these is a dried head the only soft tissue of the dodo that remains today Since then a large amount of subfossil material has been collected on Mauritius mostly from the Mare aux Songes swamp The extinction of the dodo within less than a century of its discovery called attention to the previously unrecognised problem of human involvement in the disappearance of entire species The dodo achieved widespread recognition from its role in the story of Alices Adventures in Wonderland and it has since become a fixture in popular culture often as a Bird extinctionsymbol of extinction and obsolescence
+
+ Taxonomy 
+FileCopenhagen dodojpgthumbleftaltSkull and lower jaw of a dodo in a boxSkull in the Zoological Museum of Copenhagen examination of which led to the dodo being classified as a pigeon in 1842
+The dodo was variously declared a small ostrich a Rallidaerail an albatross or a vulture by early scientistssfnHumeChekeMcOranCampbell2009 In 1842 Danish zoologist Johannes Theodor Reinhardt proposed that dodos were ground columbidaepigeons based on studies of a dodo skull he had discovered in the collection of the Natural History Museum of DenmarksfnReinhardt18421843 This view was met with ridicule but was later supported by English naturalists Hugh Edwin Strickland and Alexander Gordon Melville in their 1848 monograph The Dodo and Its Kindred which attempted to separate myth from realitysfnBakerBayliss2002 After dissectiondissecting the embalmingpreserved head and foot of the specimen at the Oxford University Museum and comparing it with the few remains then available of the extinct Rodrigues solitaire Pezophaps solitaria they concluded that the two were closely related Strickland stated that although not identical these birds shared many distinguishing features of the leg bones otherwise known only in pigeonssfnStricklandMelville1848pp4112
+FileDodo headjpgthumbSketch of the Oxford head made before it was dissected in 1848
+Strickland and Melville established that the dodo was anatomyanatomically similar to pigeons in many features They pointed to the very short keratinous portion of the beak with its long slender naked basal part Other pigeons also have bare skin around their eyes almost reaching their beak as in dodos The forehead was high in relation to the beak and the beakNaresnostril was located low on the middle of the beak and surrounded by skin a combination of features shared only with pigeons The legs of the dodo were generally more similar to those of terrestrial animalterrestrial pigeons than of other birds both in their bird anatomyScalesscales and in their skeletal features Depictions of the large crop anatomycrop hinted at a relationship with pigeons in which this feature is more developed than in other birds Pigeons generally have very small clutch eggsclutches and the dodo is said to have laid a single egg Like pigeons the dodo lacked the vomer and septum of the nostrils and it shared details in the mandible the zygomatic bone the palate and the hallux The dodo differed from other pigeons mainly in the small size of the wings and the large size of the beak in proportion to the rest of the craniumsfnStricklandMelville1848pp4112
+
+Throughout the 19th century several species were classified as conspecificitycongeneric with the dodo including the Rodrigues solitaire and the Réunion solitaire as Didus solitarius and Raphus solitarius respectively Didus and Raphus being names for the dodo genus used by different authors of the time An atypical 17thcentury description of a dodo and bones found on Rodrigues now known to have belonged to the Rodrigues solitaire led Abraham Dee Bartlett to name a new species Didus nazarenus in 1852sfnNewton1865 Based on solitaire remains it is now a synonym of that speciessfnLydekker1891p128 Crude drawings of the red rail of Mauritius were also misinterpreted as dodo species Didus broeckii and Didus herbertisfnMilneEdwards1869
+
+For many years the dodo and the Rodrigues solitaire were placed in a family biologyfamily of their own the Raphidae formerly Dididae because their exact relationships with other pigeons were unresolved Each was also placed in its own monotypic taxonmonotypic family Raphidae and Pezophapidae respectively as it was thought that they had Convergent evolutionevolved their similarities independentlysfnStorer1970 Osteological and DNA analysis has since led to the dissolution of the family Raphidae and the dodo and solitaire are now placed in their own subfamily Raphinae within the family ColumbidaesfnJanoo2005
+
+ Evolution 
+FileOxford Dodo footjpgthumb1848 lithograph of the Oxford specimens foot which has been sampled for genetic studies
+In 2002 American geneticist Beth Shapiro and colleagues analysed the DNA of the dodo for the first time Comparison of mitochondrial cytochrome bcytochrome b and 12S ribosomal RNArRNA DNA sequencesequences isolated from a tarsus skeletontarsal of the Oxford specimen and a femur of a Rodrigues solitaire confirmed their close relationship and their placement within the Columbidae The genetic evidence was interpreted as showing the Southeast Asian Nicobar pigeon Caloenas nicobarica to be their closest living relative followed by the crowned pigeons Goura of New Guinea and the superficially dodolike toothbilled pigeon Didunculus strigirostris from Samoa its scientific name refers to its dodolike beak This clade consists of generally grounddwelling island endemic pigeons The following cladogram shows the dodos closest relationships within the Columbidae based on Shapiro et al 2002sfnShapiro et al2002sfnBBC2002
+clade style  fontsize 100
+1clade
+   1clade
+      1Goura victoria Victoria crowned pigeon
+      2clade
+         1clade
+            1clade
+               1Caloenas nicobarica Nicobar pigeon
+               2clade
+                  1Pezophaps solitaria Rodrigues solitaire
+                  2Raphus cucullatus dodo
+                  
+               
+            
+         
+      
+   2Didunculus strigirostris toothbilled pigeon
+   
+
+FileNICOBAR PIGEON 8551073077jpgthumbA Nicobar pigeon the closest living relative of the dodo
+A similar cladogram was published in 2007 inverting the placement of Goura and Dicunculus and including the pheasant pigeon Otidiphaps nobilis and the thickbilled ground pigeon Trugon terrestris at the base of the cladesfnPereira et al2007 The DNA used in these studies was obtained from the Oxford specimen and since this material is degraded and no usable DNA has been extracted from subfossil remains these findings still need to be independently verifiedsfnHume2012 Based on behavioural and morphological evidence Jolyon C Parish proposed that the dodo and Rodrigues solitaire should be placed in the Gourinae subfamily along with the Groura pigeons and others in agreement with the genetic evidencerefcite journal  doi  101080027246342013803977 title  A Review of The Dodo and the Solitaire A Natural History journal  Journal of Vertebrate Paleontology volume  34 issue  2 pages  489490 year  2014 last1  Naish  first1  D  ref  harvref In 2014 DNA of the only known specimen of the recently extinct spotted green pigeon Caloenas maculata was analysed and it was found to be a close relative of the Nicobar pigeon and thus also the dodo and Rodrigues solitaireref nameSpotted green pigeoncite journallast1Heupinkfirst1Tim Hlast2van Grouwfirst2Heinlast3Lambertfirst3David MtitleThe mysterious Spotted Green Pigeon and its relation to the Dodo and its kindredjournalBMC Evolutionary Biologyvolume14issue1year2014page136doi1011861471214814136pmid25027719pmc4099497ref
+
+The 2002 study indicated that the ancestors of the dodo and the solitaire diverged around the PaleogeneNeogene boundary The Mascarene Islands Mauritius Réunion and Rodrigues are of volcanovolcanic origin and are less than 10 million years old Therefore the ancestors of both birds probably remained capable of flight for a considerable time after the separation of their lineage evolutionlineagesfnChekeHume2008pp7071 The Nicobar and spotted green pigeon were placed at the base of a lineage leading to the Raphinae which indicates the flightless raphines had ancestors that were able to fly were semiterrestrial and inhabited islands This in turn supports the hypothesis that the ancestors of those birds reached the Mascarene islands by island hopping from South Asiaref nameSpotted green pigeon  The lack of mammalian herbivores competing for resources on these islands allowed the solitaire and the dodo to attain island gigantismvery large sizes and flightlessnesssfnMcNab1999sfnFuller2001pp3739 Despite its divergent skull morphology and adaptations for larger size many features of its skeleton remained similar to those of smaller flying pigeonsref nameMorphology 2016 Another large flightless pigeon the Viti Levu giant pigeon Natunaornis gigoura was described in 2001 from subfossil material from Fiji It was only slightly smaller than the dodo and the solitaire and it too is thought to have been related to the crowned pigeonssfnWorthy2001
+
+ Etymology 
+FileRoelant Savery  Landscape with Birds  WGA20885jpgleftthumbaltPainting of a forest filled with birds including a dodoLandscape with Birds showing a dodo in the lower right Roelant Savery 1628
+One of the original names for the dodo was the Dutch Walghvogel first used in the journal of Vice Admiral Wybrand van Warwijck who visited Mauritius during the Second Dutch Expedition to Indonesia in 1598sfnHume2006 Walghe means tasteless insipid or sickly and vogel means bird The name was translated into German as Walchstök or Walchvögel by Jakob FriedlibsfnParish2013p5137 The original Dutch report titled Waarachtige Beschryving was lost but the English translation survivedsfnParish2013p34
+quotation On their left hand was a little island which they named Heemskirk Island and the bay it selve they called Warwick Bay Here they taried 12 daies to refresh themselues finding in this place great quantity of foules twice as bigge as swans which they call Walghstocks or Wallowbirdes being very good meat But finding an abundance of pigeons  popinnayes parrots they disdained any more to eat those great foules calling them Wallowbirds that is to say lothsome or fulsome birdessfnHakluyt2013p253sfnFuller2002p51
+FileLophopsittacusmauritianusjpgthumbaltCrude sketch of three terrestrial birds captioned with the words a Cacato a Hen a DodoLabelled sketch from 1634 by Sir Thomas Herbert showing a broadbilled parrot Cacato a red rail Hen and a dodo
+Another account from that voyage perhaps the first to mention the dodo states that the Portuguese referred to them as penguins The meaning may not have been derived from penguin the Portuguese referred to them as fotilicaios at the time but from pinioningpinion a reference to the small wingssfnHume2006 The crew of the Dutch ship Gelderland referred to the bird as Dronte meaning swollen in 1602 a name that is still used in some languagessfnFuller2001pp194203 This crew also called them griffeendt and kermisgans in reference to fowl fattened for the Kermesse festival in Amsterdam which was held the day after they anchored on MauritiussfnChekeHume2008pp2223
+
+The etymology of the word dodo is unclear Some ascribe it to the Dutch word dodoor for sluggard but it is more probably related to Dodaars which means either fatarse or knotarse referring to the knot of feathers on the hind endsfnFuller2002pp1718 The first record of the word Dodaars is in Captain Willem Van WestZanens journal in 1602sfnStaub1996 The English writer Sir Thomas Herbert was the first to use the word dodo in print in his 1634 travel journaltravelogue claiming it was referred to as such by the Portuguese who had visited Mauritius in 1507sfnChekeHume2008pp2223 Another Englishman Emmanuel Altham had used the word in a 1628 letter in which he also claimed the origin was Portuguese The name dodar was introduced into English at the same time as dodo but was only used until the 18th centurysfnChekeHume2008p276 As far as is known the Portuguese never mentioned the bird Nevertheless some sources still state that the word dodo derives from the Portuguese languagePortuguese word doudo currently doido meaning fool or crazy It has also been suggested that dodo was an Onomatopoeiaonomatopoeic approximation of the birds call a twonote pigeonlike sound resembling doodoosfnFuller2002p43
+
+The Latin name cucullatus hooded was first used by Juan Eusebio Nieremberg in 1635 as Cygnus genusCygnus cucullatus in reference to Carolus Clusiuss 1605 depiction of a dodo In his 18thcentury classic work Systema Naturae Carl Linnaeus used cucullatus as the specific name but combined it with the genus name Struthio ostrichsfnStricklandMelville1848pp4112 Mathurin Jacques Brisson coined the genus name Raphus referring to the bustards in 1760 resulting in the current name Raphus cucullatus In 1766 Linnaeus coined the new binomial Didus ineptus meaning inept dodo This has become a synonym of the earlier name because of nomenclatural prioritysfnFuller2002pp147149
+
+ Description 
+FileDodoMansurjpgthumbuprightaltPainting of a dodo among native Indian birdsDodo among Indian birds by Ustad Mansur circalkno1625 perhaps the most accurate depiction of a live dodo
+As no complete dodo specimens exist its external appearance such as plumage and colouration is hard to determinesfnHume2006 Illustrations and written accounts of encounters with the dodo between its discovery and its extinction 15981662 are the primary evidence for its external appearancesfnFuller2003p48 According to most representations the dodo had greyish or brownish plumage with lighter primary feathers and a tuft of curly light feathers high on its rear end The head was grey and naked the beak green black and yellow and the legs were stout and yellowish with black clawssfnFuller2002p45 A study of the few remaining feathers on the Oxford specimen head showed that they were pennaceous rather than plumaceous downy and most similar to those of other pigeonssfnBromPrins1989
+
+Subfossil remains and remnants of the birds that were brought to Europe in the 17th century show that dodos were very large birds up to convert1mftinabbron tall 
+The bird was sexually dimorphic males were larger and had proportionally longer beaks Weight estimates have varied from study to study In 1993 Bradley C Livezey proposed that males would have weighed convert21kg and females convert17kgsfnLivezey1993 Also in 1993 Andrew C Kitchener attributed a high contemporary weight estimate and the roundness of dodos depicted in Europe to these birds having been overfed in captivity weights in the wild were estimated to have been in the range of convert106175kglbabbron and fattened birds could have weighed convert217278kglbabbronsfnKitchenerAugust 1993 A 2011 estimate by Angst and colleagues gave an average weight as low as convert102kglbabbronsfnAngstBuffetautAbourachidMarch 2011 This has also been questioned and there is still controversy over weight estimatessfnLouchartMourerChauviré2011sfnAngstBuffetautAbourachidApril 2011 A 2016 study estimated the weight at convert106to143kglbabbron based on CT scans of composite skeletonsrefCite journaldoi107717peerj1432authorsBrassey CA OMahoney TG Kitchener AC Manning PL Sellers WIyear2016titleConvexhull mass estimates of the dodo Raphus cucullatus application of a CTbased mass estimation techniquepmid26788418pmc4715441journalPeerJvolume4pagee1432ref It has also been suggested that the weight depended on the season and that individuals were fat during cool seasons but less so during hotsfnHumeWalters2012pp134136
+
+The skull of the dodo differed much from those of other pigeons especially in being more robust the bill having a hooked tip and in having a short cranium compared to the jaws The upper bill was nearly twice as long as the cranium which was short compared to those of its closest pigeon relatives The openings of the bony nostrils were elongated along the length of the beak and they contained no bony septum The cranium excluding the beak was wider than it was long and the frontal bone formed a domeshape with the highest point above the hind part of the eye sockets The skull sloped downwards at the back The eye sockets occupied much of the hind part of the skull The sclerotic rings inside the eye were formed by eleven ossicles small bones similar to the amount in other pigeons The mandible was slightly curved and each half had a single Fenestra anatomyfenestra opening as in other pigeonsref nameMorphology 2016
+FileOxford Dodo headjpgthumbnailleftRight half of the Oxford specimens head
+The dodo had about nineteen presynsacral vertebrae those of the neck and thorax including three fused into a notarium sixteen synsacral vertebrae those of the lumbar region and sacrum six free tail caudal vertebrae and a pygostyle The neck had welldeveloped areas for muscle and ligament attachment probably to support the heavy skull and beak On each side it had six ribs four of which articulated with the sternum through sternal ribs The sternum was large but small in relation to the body compared to those of much smaller pigeons that are able to fly The sternum was highly pneumatic broad and relatively thick in crosssection The bones of the pectoral girdle shoulder blades and wing bones were reduced in size compared to those of flighted pigeon and were more gracile compared to those of the Rodrigues solitaire but none of the individual skeletal components had disappeared The carpometacarpus of the dodo was more robust than that of the solitaire however The pelvis was wider than that of the solitaire and other relatives yet was comparable to the proportions in some smaller flighted pigeons Most of the leg bones were more robust than those of extant pigeons and the solitaire but the length proportions were little differentref nameMorphology 2016
+
+Many of the skeletal features that distinguish the dodo and the Rodrigues solitaire its closest relative from pigeons have been attributed to their flightlessness The pelvic elements were thicker than those of flighted pigeons to support the higher weight and the pectoralis major musclepectoral region and the small wings were neotenypaedomorphic meaning that they were underdeveloped and retained juvenile features The skull trunk and pelvic limbs were peramorphic meaning that they changed considerably with age The dodo shared several other traits with the Rodrigues solitaire such as features of the skull pelvis and sternum as well as their large size It differed in other aspects such as being more robust and shorter than the solitaire having a larger skull and beak a rounded skull roof and smaller orbits The dodos neck and legs were proportionally shorter and it did not possess an equivalent to the knob present on the solitaires wristssfnLivezey1993
+
+ Contemporary descriptions 
+FileSaftleven dodojpgthumbaltPainting of a dodo head from the chest upuprightPainting of a dodo head by Cornelis Saftleven from 1638 the last known original depiction
+Most contemporary descriptions of the dodo are found in ships logs and journals of the Dutch East India Company vessels that docked in Mauritius when the Dutch Empire ruled the island These records were used as guides for future voyagessfnHume2012 Few contemporary accounts are reliable as many seem to be based on earlier accounts and none were written by scientistssfnHume2006 One of the earliest accounts from van Warwijcks 1598 journal describes the bird as follows
+quotation Blue parrots are very numerous there as well as other birds among which are a kind conspicuous for their size larger than our swans with huge heads only half covered with skin as if clothed with a hood These birds lack wings in the place of which 3 or 4 blackish feathers protrude The tail consists of a few soft incurved feathers which are ash coloured These we used to call Walghvogel for the reason that the longer and oftener they were cooked the less soft and more insipid eating they became Nevertheless their belly and breast were of a pleasant flavour and easily masticatedsfnRothschild1907p172
+One of the most detailed descriptions is by Sir Thomas Herbert in A Relation of Some Yeares Travaille into Afrique and the Greater Asia from 1634
+quotationFirst here only and in Dygarrois Rodrigues is generated the Dodo which for shape and rareness may antagonize the Phoenix mythologyPhoenix of Arabia her body is round and fat few weigh less than fifty pound It is reputed more for wonder than for food greasie stomackes may seeke after them but to the delicate they are offensive and of no nourishment Her visage darts forth melancholy as sensible of Natures injurie in framing so great a body to be guided with complementall wings so small and impotent that they serve only to prove her bird The halfe of her head is naked seeming couered with a fine vaile her bill is crooked downwards in midst is the thrill nostril from which part to the end tis a light green mixed with pale yellow tincture her eyes are small and like to Diamonds round and rowling her clothing downy feathers her train three small plumes short and inproportionable her legs suiting her body her pounces sharpe her appetite strong and greedy Stones and iron are digested which description will better be conceived in her representationsfnFuller2002p62
+
+ Contemporary depictions 
+FileDodo VOC Gelderland 1602jpgthumbaltSeveral pages of a journal containing sketches of live and dead dodosleftCompilation of the Gelderland sketches from 1601 of live and recently killed dodos
+The travel journal of the Dutch ship Gelderland 16011603 rediscovered in the 1860s contains the only known sketches of living or recently killed specimens drawn on Mauritius They have been attributed to the professional artist Joris Joostensz Laerle who also drew other nowextinct Mauritian birds and to a second less refined artistsfnHume2003 Apart from these sketches it is unknown how many of the twenty or so 17thcentury illustrations of the dodos were drawn from life or from stuffed specimens which affects their reliabilitysfnHume2006
+
+All post1638 depictions appear to be based on earlier images around the time reports mentioning dodos became rarer Differences in the depictions led authors such as Anthonie Cornelis Oudemans and Masauji Hachisuka to speculate about sexual dimorphism ontogenic traits seasonal variation and even the existence of different species but these theories are not accepted today Because details such as markings of the beak the form of the tail feathers and colouration vary from account to account it is impossible to determine the exact morphology of these features whether they signal age or sex or if they even reflect realitysfnFuller2002pp7677 Dodo specialist Julian Hume argued that the nostrils of the living dodo would have been slits as seen in the Gelderland Cornelis Saftleven Crocker Art Gallery and Ustad Mansur images According to this claim the gaping nostrils often seen in paintings indicate that taxidermy specimens were used as modelssfnHume2006 Most depictions show that the wings were held in an extended position unlike flighted pigeons but similar to ratites such as the ostrich and kiwiref nameMorphology 2016
+FileEdwards DodojpgthumbaltPainting of a dodo with a red parrot on its left side and a blue one at its rightThe famous George Edwards naturalistEdwardss Dodo painted by Savery in 1626
+The traditional image of the dodo is of a very fat and clumsy bird but this view may be exaggerated The general opinion of scientists today is that many old European depictions were based on overfed captive birds or crudely stuffed specimenssfnKitchenerJune 1993 It has also been suggested that the images might show dodos with puffed feathers as part of display behavioursfnAngstBuffetautAbourachidMarch 2011 The Dutch painter Roelant Savery was the most prolific and influential illustrator of the dodo having made at least ten depictions often showing it in the lower corners A famous painting of his from 1626 now called Edwardss Dodo as it was once owned by the ornithologist George Edwards naturalistGeorge Edwards has since become the standard image of a dodo It is housed in the Natural History Museum LondonNatural History Museum London The image shows a particularly fat bird and is the source for many other dodo illustrationssfnMason1992pp4649
+
+An Indian Mughal painting rediscovered in St Petersburg in the 1950s shows a dodo along with native Indian birdssfnIwanow1958 It depicts a slimmer brownish bird and its discoverer A Iwanow and dodo specialist Julian Hume regard it as one of the most accurate depictions of the living dodo the surrounding birds are clearly identifiable and depicted with appropriate colouringsfnDissanayake2004 It is believed to be from the 17th century and has been attributed to artist Ustad Mansur The bird depicted probably lived in the menagerie of Mughal Emperor Jahangir located in Surat where English traveller Peter Mundy also claimed to have seen two dodos sometime between 1628 and 1633refcite journaldoi101007BF01671615titleWie hat die Dronte Raphus cucullatus L ausgesehenjournalJournal of Ornithologyvolume99issue4pages441459year1958last1Stresemannfirst1ErwinlanguageGermanrefsfnHume2006 In 2014 another Indian illustration of a dodo was reported but it was found to be derivative of an 1836 German illustrationrefcite journallast1Richonfirst1Emmanuellast2Wintersfirst2RiatitleThe intercultural dodo a drawing from the School of Bundi RājasthānjournalHistorical Biologyvolume28issue3year2014pages18doi101080089129632014961450ref
+
+ Behaviour and ecology 
+FilePreening DodojpgleftthumbaltPainting of a dodo preening its footDodo preening birdpreening itself in the lower left of a Savery painting from 1626
+Little is known of the behaviour of the dodo as most contemporary descriptions are very briefsfnKitchenerAugust 1993 Based on weight estimates it has been suggested the male could reach the age of 21 and the female 17sfnLivezey1993 Studies of the cantilever strength of its leg bones indicate that it could run quite fastsfnKitchenerAugust 1993 The legs were robust and strong to support the bulk of the bird and also made it agile and manoeuvrable in the dense prehuman landscape Though the wings were small welldeveloped muscle scars on the bones show that they were not completely vestigial and may have been used for display behaviour and balance extant pigeons also use their wings for such purposesref nameMorphology 2016cite journallast1Claessensfirst1L P A Mlast2Meijerfirst2H J Mlast3Humefirst3J PtitleThe Morphology of the Thirioux dodosjournalJournal of Vertebrate Paleontologydate2016volume35issuesup1pages29187doi1010800272463420151121723ref Unlike the Rodrigues solitaire there is no evidence that the dodo used its wings in intraspecific combat Though some dodo bones have been found with healed fractures it had weak pectoral muscles and more reduced wings in comparison The dodo may instead have used its large hooked beak in territorial disputes Since Mauritius receives more rainfall and has less seasonal variation than Rodrigues which would have affected the availability of resources on the island the dodo would have less reason to evolve aggressive territorial behaviour The Rodrigues solitaire was therefore probably the more aggressive of the twosfnHumeSteel2013
+FileGelderland16011603 Mauritius de Nassauw 1601jpgthumbaltOld map showing a Mauritian bay with a D indicating where dodos were found1601 map of a bay on Mauritius the small D on the far right side marks where dodos were found
+The preferred habitat of the dodo is unknown but old descriptions suggest that it inhabited the woods on the drier coastal areas of south and west Mauritius This view is supported by the fact that the Mare aux Songes swamp where most dodo remains have been excavated is close to the sea in southeastern MauritiussfnFuller2002p23 Such a limited distribution across the island could well have contributed to its extinctionsfnFuller2002p41 A 1601 map from the Gelderland journal shows a small island off the coast of Mauritius where dodos were caught Julian Hume has suggested this island was lîle aux Benitiers in Tamarin Bay on the west coast of MauritiussfnFuller2002p54sfnHume2003 Subfossil bones have also been found inside caves in highland areas indicating that it once occurred on mountains Work at the Mare aux Songes swamp has shown that its habitat was dominated by tambalacoque and Pandanus trees and endemic palmssfnHumeWalters2012pp134136 The nearcoastal placement and wetness of the Mare aux Songes led to a high diversity of plant species whereas the surrounding areas were drierref nameEcosystem 2016
+
+Many endemic species of Mauritius became extinct after the arrival of humans so the ecosystem of the island is badly damaged and hard to reconstruct Before humans arrived Mauritius was entirely covered in forests but very little remains of them today because of deforestationsfnCheke1987 The surviving endemic fauna is still seriously threatenedsfnTemple1974 The dodo lived alongside other recently extinct Mauritian birds such as the flightless red rail the broadbilled parrot the Mascarene grey parakeet the Mauritius blue pigeon the Mauritius owl the Mascarene coot the Mauritian shelduck the Mauritian duck and the Mauritius night heron Extinct Mauritian reptiles include the saddlebacked Mauritius giant tortoise the domed Mauritius giant tortoise the Mauritian giant skink and the Round Island burrowing boa The small Mauritian flying fox and the snail Tropidophora carinata lived on Mauritius and Réunion but vanished from both islands Some plants such as Casearia tinifolia and the palm orchid have also become extinctsfnChekeHume2008pp4952
+
+ Diet 
+FileRoelandt Savery  Dodo Birds Chalk black and amber on cream paperjpgthumbaltSketch of three dodos two in the foreground one in the distanceSavery sketch of three dodos from circalkno1626 Crocker Art Gallery
+A 1631 Dutch letter long thought lost but rediscovered in 2017 is the only account of the dodos diet and also mentions that it used its beak for defence The document uses wordplay to refer to the animals described with dodos presumably being an allegory for wealthy mayorsref nameLostManuscriptcite journallast1Wintersfirst1Rlast2Humefirst2J Plast3Leenstrafirst3MtitleA famine in Surat in 1631 and Dodos on Mauritius a long lost manuscript rediscoveredjournalArchives of Natural Historydate2017volume44issue1pages134150doi103366anh20170422ref
+quotationThe mayors are superb and proud They presented themselves with an unyielding stern face and wide open mouth very jaunty and audacious of gait They did not want to budge before us their war weapon was the mouth with which they could bite fiercely Their food was raw fruit they were not dressed very well but were rich and fat therefore we brought many of them on board to the contentment of us allref nameLostManuscript
+In addition to fallen fruits the dodo probably subsisted on nuts seeds bulbs and rootssfnFuller2002p42 It has also been suggested that the dodo might have eaten crabs and shellfish like their relatives the crowned pigeons Its feeding habits must have been versatile since captive specimens were probably given a wide range of food on the long sea journeyssfnChekeHume2008pp3738 Oudemans suggested that as Mauritius has marked dry and wet seasons the dodo probably fattened itself on ripe fruits at the end of the wet season to survive the dry season when food was scarce contemporary reports describe the birds greedy appetite France Staub suggested that they mainly fed on palm plantpalm fruits and he attempted to correlate the fatcycle of the dodo with the fruiting regime of the palmssfnStaub1996
+
+Skeletal elements of the upper jaw appear to have been rhynchokinetic movable in relation to each other which must have affected its feeding behaviour In extant birds such as frugivorous fruiteating pigeons kinetic premaxillae help with consuming large food items The beak also appears to have been able to withstand high force loads which indicates a diet of hard foodref nameMorphology 2016 In 2016 the first 3D endocast was made from the brain of the dodo examination found that though the brain was similar to that of other pigeons in most respects the dodo had a comparatively large olfactory bulb This gave the dodo a good sense of smell which may have aided in locating fruit and small preyrefcite journallast1Goldfirst1M E Leonelast2Bourdonfirst2Elast3Norellfirst3M AtitleThe first endocast of the extinct dodo Raphus cucullatus and an anatomical comparison amongst close relatives Aves ColumbiformesjournalZoological Journal of the Linnean Societyvolume177issue4date2016pages950963doi101111zoj12388ref
+FileClusius dodojpgthumbaltDrawing of a dodo next to a large gizzard stoneleftDodo and its gizzard stone by Carolus Clusius from 1605 copied from an illustration in the journal of Jacob van Neck
+Several contemporary sources state that the dodo used Gastroliths gizzard stones to aid digestion The English writer Sir Hamon LEstrange witnessed a live bird in London and described it as follows
+quotation About 1638 as I walked London streets I saw the picture of a strange looking fowle hung out upon a clothe and myselfe with one or two more in company went in to see it It was kept in a chamber and was a great fowle somewhat bigger than the largest Turkey cock and so legged and footed but stouter and thicker and of more erect shape coloured before like the breast of a young cock fesan and on the back of a dunn or dearc colour The keeper called it a Dodo and in the ende of a chymney in the chamber there lay a heape of large pebble stones whereof hee gave it many in our sight some as big as nutmegs and the keeper told us that she eats them conducing to digestion and though I remember not how far the keeper was questioned therein yet I am confident that afterwards she cast them all againsfnFuller2002p69
+It is not known how the young were fed but related pigeons provide crop milk Contemporary depictions show a large crop which was probably used to add space for food storage and to produce crop milk It has been suggested that the maximum size attained by the dodo and the solitaire was limited by the amount of crop milk they could produce for their young during early growthsfnStorer2005
+FileDodoTreeNaturalisPeterMaas2009jpgthumbaltSeeds of a dodo tree in a glass montréTambalacoque seeds at Naturalis Biodiversity Center
+In 1973 the tambalacoque also known as the dodo tree was thought to be dying out on Mauritius to which it is endemic There were supposedly only 13 specimens left all estimated to be about 300 years old Stanley Temple hypothesised that it depended on the dodo for its propagation and that its seeds would germinate only after passing through the birds digestive tract He claimed that the tambalacoque was now nearly coextinct because of the disappearance of the dodosfnTemple1977 Temple overlooked reports from the 1940s that found that tambalacoque seeds germinated albeit very rarely without being abrasion mechanicalabraded during digestionsfnHill1941 Others have contested his hypothesis and suggested that the decline of the tree was exaggerated or seeds were also distributed by other extinct animals such as Cylindraspis tortoises fruit bats or the broadbilled parrotsfnHerhey2004 According to Wendy Strahm and Anthony Cheke two experts in the ecology of the Mascarene Islands the tree while rare has germinated since the demise of the dodo and numbers several hundred not 13 as claimed by Temple hence discrediting Temples view as to the dodo and the trees sole survival relationshipsfnWitmerCheke1991
+
+It has been suggested that the broadbilled parrot may have depended on dodos and Cylindraspis tortoises to eat palm fruits and excrete their seeds which became food for the parrots Anodorhynchus macaws depended on nowextinct South American megafauna in the same way but now rely on domesticated cattle for this servicesfnChekeHume2008p38
+
+ Reproduction and development 
+As it was flightless and terrestrial and there were no mammalian predators or other kinds of natural enemy on Mauritius the dodo probably nested on the groundsfnFuller2002pp4344 The account by François Cauche from 1651 is the only description of the egg and the Bird callcall
+quotation I have seen in Mauritius birds bigger than a Swan without feathers on the body which is covered with a black down the hinder part is round the rump adorned with curled feathers as many in number as the bird is years old In place of wings they have feathers like these last black and curved without webs They have no tongues the beak is large curving a little downwards their legs are long scaly with only three toes on each foot It has a cry like a goosegosling and is by no means so savoury to eat as the Flamingos and Ducks of which we have just spoken They only lay one egg which is white the size of a halfpenny roll by the side of which they place a white stone the size of a hens egg They lay on grass which they collect and make their nests in the forests if one kills the young one a grey stone is found in the gizzard We call them Oiseaux de Nazaret The fat is excellent to give ease to the muscles and nervessfnStricklandMelville1848pp4112
+FileDodo egg replicajpgthumbaltReplica dodo egg and nestleftReplica of an alleged dodo egg in a reconstructed nest East London Museum
+Cauches account is problematic since it also mentions that the bird he was describing had three toes and no tongue unlike dodos This led some to believe that Cauche was describing a new species of dodo Didus nazarenus The description was most probably mingled with that of a cassowary and Cauches writings have other inconsistenciessfnChekeHume2008p27 A mention of a young ostrich taken on board a ship in 1617 is the only other reference to a possible juvenile dodosfnChekeHume2008p162 An egg claimed to be that of a dodo is stored in the museum of East London South Africa It was donated by Marjorie CourtenayLatimer whose great aunt had received it from a captain who claimed to have found it in a swamp on Mauritius In 2010 the curator of the museum proposed using genetic studies to determine its authenticitysfnLaing2010 It may instead be an aberrant ostrich eggsfnFuller2002p43
+FileDodo life historyjpgthumbDiagram showing life history events of a dodo blue is Austral summer
+Because of the possible singleegg clutch and the birds large size it has been proposed that the dodo was Kselected meaning that it produced a low number of altricial offspring which required parental care until they matured Some evidence including the large size and the fact that tropical and frugivorous birds have slower growth rates indicates that the bird may have had a protracted development periodsfnLivezey1993 The fact that no juvenile dodos have been found in the Mare aux Songes swamp may indicate that they produced little offspring that they matured rapidly that the breeding grounds were far away from the swamp or that the risk of miring was seasonalsfnMeijerGillde Louwvan den Hoek Ostende2012pp177184
+
+A 2017 study examined the histology of thinsectioned dodo bones modern Mauritian birds local ecology and contemporary accounts to recover information about the life history of the dodo The study suggested that dodos bred around August after having potentially fattened themselves corresponding with the fat and thin cycles of many vertebrates of Mauritius The chicks grew rapidly reaching robust almost adult sizes and sexual maturity before Austral summer or the cyclone season Adult dodos which had just bred moulted after Austral summer around March The feathers of the wings and tail were replaced first and the moulting would have completed at the end of July in time for the next breeding season Different stages of moulting may also account for inconsistencies in contemporary descriptions of dodo plumagerefcite journallast1Angstfirst1Dlast2Chinsamyfirst2Alast3Steelfirst3Llast4Humefirst4J PtitleBone histology sheds new light on the ecology of the dodo Raphus cucullatus Aves ColumbiformesjournalScientific Reportsdate2017volume7doi101038s41598017085363pmc5570941issn20452322pmid28839147ref
+
+ Relationship with humans 
+FileView of the Mauritius roadstead  engravingjpgthumbaltEngraving showing Dutch sailors working on Mauritius as well as several local animals including a dodoleft1601 engraving showing Dutch activities on the shore of Mauritius and at 2 on the left the first published depiction of a dodo
+Mauritius had previously been visited by Arab vessels in the Middle Ages and Portuguese ships between 1507 and 1513 but was settled by neither No records of dodos by these are known although the Portuguese name for Mauritius Cerne swan Island may have been a reference to dodossfnFuller2002p17 The Dutch Empire acquired Mauritius in 1598 renaming it after Maurice of Nassau and it was used for the provisioning of trade vessels of the Dutch East India Company henceforwardsfnSchaperGoupille2003p93 The earliest known accounts of the dodo were provided by Dutch travelers during the Second Dutch Expedition to Indonesia led by admiral Jacob van Neck in 1598 They appear in reports published in 1601 which also contain the first published illustration of the birdsfnHumeMartillDewdney2004 Since the first sailors to visit Mauritius had been at sea for a long time their interest in these large birds was mainly culinary The 1602 journal by Willem Van WestZanen of the ship BruinVis mentions that 2425 dodos were hunted for food which were so large that two could scarcely be consumed at mealtime their remains being preserved by salting foodsaltingsfnFuller2002p56 An illustration made for the 1648 published version of this journal showing the killing of dodos a dugong and possibly Mascarene grey parakeets was captioned with a Dutch poemref nameMascarene Parrotscite journallastHumefirstJ P pages  421year2007 urlhttpjulianhumecoukwpcontentuploads201007HumeMascareneParrotspdf titleReappraisal of the parrots Aves Psittacidae from the Mascarene Islands with comments on their ecology morphology and affinities journalZootaxa volume1513ref here in Hugh Stricklands 1848 translation
+FileJacht op dodos door Willem van WestZanen uit 1602jpguprightaltEngraving showing scenes of Dutch killing animals on Mauritius including dodosthumb1648 engraving showing the killing of dodos centre left erroneously depicted as penguinlike and other animals now extinct from Mauritius
+quotation
+poem
+For food the seamen hunt the flesh of feathered fowl
+They tap the palms and roundrumped dodos they destroy
+The parrots life they spare that he may peep and howl
+And thus his fellows to imprisonment decoysfnStricklandMelville1848pp15poem
+Some early travellers found dodo meat unsavoury and preferred to eat parrots and pigeons others described it as tough but good Some hunted dodos only for their gizzards as this was considered the most delicious part of the bird Dodos were easy to catch but hunters had to be careful not to be bitten by their powerful beakssfnChekeHume2008pp7778
+
+The appearance of the dodo and the red rail led Peter Mundy to speculate 230 years before Charles Darwins theory of evolution
+quotationOf these 2 sorts off fowl afforementionede For oughtt wee yett know Not any to bee Found out of this Iland which lyeth aboutt 100 leagues From St Lawrence A question may bee demaunded how they should bee here and Not elcewhere beeing soe Farer From other land and can Neither fly or swymme whither by Mixture off kindes producing straunge and Monstrous formes or the Nature of the Climate ayer and earth in alltring the First shapes in long tyme or howsfnFuller2001pp194203
+
+ Dodos transported abroad 
+FileHoefnagel dodojpgthumbuprightaltPainting of a slender brownish dodoleftPainting of a specimen in the collection of Emperor Rudolph II in Prague by Jacob Hoefnagel early 1600s
+The dodo was found interesting enough that living specimens were sent to Europe and the East The number of transported dodos that reached their destinations alive is uncertain and it is unknown how they relate to contemporary depictions and the few nonfossil remains in European museums Based on a combination of contemporary accounts paintings and specimens Julian Hume has inferred that at least eleven transported dodos reached their destinations alivesfnChekeHume2008pp8183
+
+Hamon LEstranges description of a dodo that he saw in London in 1638 is the only account that specifically mentions a live specimen in Europe In 1626 Adriaen van de Venne drew a dodo that he claimed to have seen in Amsterdam but he did not mention if it were alive and his depiction is reminiscent of Saverys Edwardss Dodo Two live specimens were seen by Peter Mundy in Surat India between 1628 and 1634 one of which may have been the individual painted by Ustad Mansur around 1625sfnHume2006 In 1628 Emmanuel Altham visited Mauritius and sent a letter to his brother in England
+FileVan den Venne dodojpgthumbuprightaltDrawing of an obese dodo with van de Vennes signature belowAdriaen van de Vennes 1626 depiction of a dodo
+quotationRight wo and lovinge brother we were ordered by ye said councell to go to an island called Mauritius lying in 20d of south latt where we arrived ye 28th of May this island having many goates hogs and cowes upon it and very strange fowles called by ye portingalls Dodo which for the rareness of the same the like being not in ye world but here I have sent you one by Mr Perce who did arrive with the ship William at this island ye 10th of June In the margin of the letter Of Mr Perce you shall receive a jarr of ginger for my sister some beades for my cousins your daughters and a bird called a Dodo if it livesfnMacmillan2000p83 
+
+Whether the dodo survived the journey is unknown and the letter was destroyed by fire in the 19th centurysfnFuller2002p60
+The earliest known picture of a dodo specimen in Europe is from a circalkno1610 collection of paintings depicting animals in the royal menagerie of Emperor Rudolph II in Prague This collection includes paintings of other Mauritian animals as well including a red rail The dodo which may be a juvenile seems to have been dried or embalmed and had probably lived in the emperors zoo for a while together with the other animals That whole stuffed dodos were present in Europe indicates they had been brought alive and died there it is unlikely that taxidermists were on board the visiting ships and spirits were not yet used to preserve biological specimens Most tropical specimens were preserved as dried heads and feetsfnChekeHume2008pp8183
+
+One dodo was reportedly sent as far as Nagasaki Japan in 1647 but it was long unknown whether it arrivedsfnChekeHume2008p38 Contemporary documents first published in 2014 proved the story and showed that it had arrived alive It was meant as a gift and despite its rarity was considered of equal value to a white deer and a bezoar stone It is the last recorded live dodo in captivityrefcite journal  doi  101080089129632014884566 title  The dodo the deer and a 1647 voyage to Japan journal  Historical Biology volume  27 issue  2 page  1 year  2014 last1  Winters  first1  R  last2  Hume  first2  J P ref
+
+ Extinction 
+FileRoelant Savery  The Paradise  WGA20896jpgthumbleftaltForest filled with animals including a dark dodo in the lower rightSaverys The Paradise from 1626 with a dodo in the lower right corner
+Like many animals that evolved in isolation from significant predators the dodo was entirely island tamenessfearless of humans This fearlessness and its inability to fly made the dodo easy prey for sailorssfnBBC20021120 Although some scattered reports describe mass killings of dodos for ships provisions archaeological investigations have found scant evidence of human predation Bones of at least two dodos were found in caves at Baie du Cap that sheltered Maroon peoplefugitive slaves and convicts in the 17th century which would not have been easily accessible to dodos because of the high broken terrainsfnJanoo2005 The human population on Mauritius an area of Convert1860km2abbrondispor never exceeded 50 people in the 17th century but they introduced other animals including dogs pigs cats rats and crabeating macaques which plundered dodo nests and competed for the limited food resourcessfnHumeWalters2012pp134136 At the same time humans destroyed the forest habitat of the dodos The impact of the introduced animals on the dodo population especially the pigs and macaques is today considered more severe than that of huntingsfnFryer2002 Rats were perhaps not much of a threat to the nests since dodos would have been used to dealing with local land crabssfnChekeHume2008p79
+
+It has been suggested that the dodo may already have been rare or localised before the arrival of humans on Mauritius since it would have been unlikely to become extinct so rapidly if it had occupied all the remote areas of the islandsfnFuller2002p41 A 2005 expedition found subfossil remains of dodos and other animals killed by a flash flood Such mass mortalities would have further jeopardised a species already in danger of becoming extinctsfnCocks2006 Yet the fact that the dodo survived hundreds of years of volcanic activity and climactic changes shows the bird was resilient within its ecosystemref nameEcosystem 2016cite journallast1Rijsdijkfirst1K Flast2Humefirst2J Plast3Louwfirst3P G B Dlast4Meijerfirst4H J Mlast5Janoofirst5Alast6De Boerfirst6E Jlast7Steelfirst7Llast8De Vosfirst8Jlast9Van Der Sluisfirst9L Glast10Hooghiemstrafirst10Hlast11Florensfirst11F B Vlast12Baiderfirst12Clast13Vernimmenfirst13T J Jlast14Baasfirst14Plast15Van Heterenfirst15A Hlast16Rupearfirst16Vlast17Beebeejaunfirst17Glast18Grihaultfirst18Alast19Van Der Plichtfirst19Jlast20Besselinkfirst20Mlast21Lubeekfirst21Jn Klast22Jansenfirst22Mlast23Kluivingfirst23S Jlast24Hollundfirst24Hlast25Shapirofirst25Blast26Collinsfirst26Mlast27Buckleyfirst27Mlast28Jayasenafirst28R Mlast29Porchfirst29Nlast30Floorefirst30Rlast31Bunnikfirst31Flast32Biedlingmaierfirst32Alast33Leavittfirst33Jlast34Monfettefirst34Glast35Kimelblattfirst35Alast36Randallfirst36Alast37Floorefirst37Plast38Claessensfirst38L P A MtitleA review of the dodo and its ecosystem insights from a vertebrate concentration Lagerstätte in MauritiusjournalJournal of Vertebrate Paleontologydate2016volume35issuesup1pages320doi1010800272463420151113803ref
+FileFrohawk DodopngthumbaltPainting of a dodoFrederick William Frohawks restoration from Walter Rothschilds 1907 book Extinct Birds Rothschild bookExtinct Birds
+Some controversy surrounds the date of their extinction The last widely accepted record of a dodo sighting is the 1662 report by shipwrecked mariner Volkert Evertsz of the Dutch ship Arnhem shipArnhem who described birds caught on a small islet off Mauritius now suggested to be Islets of MauritiusÎle DAmbreAmber Island
+quotation These animals on our coming up to them stared at us and remained quiet where they stand not knowing whether they had wings to fly away or legs to run off and suffering us to approach them as close as we pleased Amongst these birds were those which in India they call Dodaersen being a kind of very big goose these birds are unable to fly and instead of wings they merely have a few small pins yet they can run very swiftly We drove them together into one place in such a manner that we could catch them with our hands and when we held one of them by its leg and that upon this it made a great noise the others all on a sudden came running as fast as they could to its assistance and by which they were caught and made prisoners alsosfnCheke2004
+FileAphanapteryx bonasiaJPGthumbleftaltDrawing of a dodo a one horned sheep and a red railPieter van den Broeckes 1617 drawing of a dodo a onehorned sheep and a red rail
+The dodos on this islet may not necessarily have been the last members of the speciesrefcite journal  last1  Roberts  first1  D L  title  Refugeeffect hypothesis and the demise of the Dodo  doi  101111cobi12134  journal  Conservation Biology  volume  27  issue  6  pages  14781480  year  2013  pmid   23992554 pmc   ref  sfnRefRoberts2013ref The last claimed sighting of a dodo was reported in the hunting records of Isaac Johannes Lamotius in 1688 Statistical analysis of these records by Roberts and Solow gives a new estimated extinction date of 1693 with a 95 confidence interval of 16881715 The authors also pointed out that because the last sighting before 1662 was in 1638 the dodo was probably already quite rare by the 1660s and thus a disputed report from 1674 by an escaped slave cannot be dismissed out of handsfnRobertsSolow2003
+
+Anthony Cheke pointed out that some descriptions after 1662 use the names Dodo and Dodaers when referring to the red rail indicating that they had been transferred to it after the disappearance of the dodo itselfref nameCheke87cite book last1  Cheke  first1  A S  editor1last  Diamond editor1first  A W doi  101017CBO9780511735769003  chapter  An ecological history of the Mascarene Islands with particular reference to extinctions and introductions of land vertebrates  title  Studies of Mascarene Island Birds  pages  589  year  1987  isbn  9780521113311 location  Cambridge  publisher  Cambridge University Press ref Cheke therefore points to the 1662 description as the last credible observation A 1668 account by English traveller John Marshall who used the names Dodo and Red Hen interchangeably for the red rail mentioned that the meat was hard which echoes the description of the meat in the 1681 accountsfnCheke2006 Even the 1662 account has been questioned by Errol Fuller as the reaction to distress cries matches what was described for the red railsfnFuller2002pp7073 Until this explanation was proposed a description of dodos from 1681 was thought to be the last account and that date still has proponentsrefcite journal  last1  Jackson  first1  A  title  Added credence for a late Dodo extinction date  doi  101080089129632013838231  journal  Historical Biology  volume  26  issue  6  pages  13  year  2013  pmid    pmc  ref Recently accessible Dutch manuscripts indicate that no dodos were seen by settlers in 16641674refcite journallast1Chekefirst1Anthony StitleSpeculation statistics facts and the Dodos extinction datejournalHistorical Biologyvolume27issue5year2014pages110doi101080089129632014904301ref It is unlikely the issue will ever be resolved unless late reports mentioning the name alongside a physical description are rediscoveredsfnChekeHume2008p79 The IUCN Red List accepts Chekes rationale for choosing the 1662 date taking all subsequent reports to refer to red rails In any case the dodo was probably extinct by 1700 about a century after its discovery in 1598sfnIUCN Red List2012sfnCheke2006 The Dutch left Mauritius in 1710 but by then the dodo and most of the large terrestrial vertebrates there had become extinctsfnHumeWalters2012pp134136
+
+Even though the rareness of the dodo was reported already in the 17th century its extinction was not recognised until the 19th century This was partly because for religious reasons extinction was not believed possible until later proved so by Georges Cuvier and partly because many scientists doubted that the dodo had ever existed It seemed altogether too strange a creature and many believed it a myth The bird was first used as an example of humaninduced extinction in Penny Magazine in 1833 and have since been referred to as an icon of extinctionsfnTurveyCheke2008
+
+ Physical remains 
+
+ 17thcentury specimens 
+FilePrague Dodo remainsjpgthumbaltFragmentary leg and skull bones of a dodoLeg and skull fragments in the National Museum of Prague
+The only extant remains of dodos taken to Europe in the 17th century are a dried head and foot in the Oxford University Museum of Natural History a foot once housed in the British Museum but now lost a skull in the University of Copenhagen Zoological Museum and an upper jaw and leg bones in the National Museum Prague The last two were rediscovered and identified as dodo remains in the mid19th centurysfnFuller2002pp116129 Several stuffed dodos were also mentioned in old museum inventories but none are known to have survivedsfnOvenell1992 Apart from these remains a dried foot which belonged to the Dutch professor Pieter Pauw was mentioned by Carolus Clusius in 1605 Its provenance is unknown and it is now lost but it may have been collected during the Van Neck voyagesfnHume2006
+FileOxford Dodo skulljpgthumbleftaltLithograph of the dodo skull at the Oxford Museum1848 lithograph of the Oxford specimens skull
+The only known soft tissue remains the Oxford head specimen OUM 11605 and foot belonged to the last known stuffed dodo which was first mentioned as part of the Tradescant collection in 1656 and was moved to the Ashmolean Museum in 1659sfnHume2006 It has been suggested that this might be the remains of the bird that Hamon LEstrange saw in London the bird sent by Emanuel Altham or a donation by Thomas Herbert Since the remains do not show signs of having been mounted the specimen might instead have been preserved as a study skinref nameOxford Dodo 1cite journallast1NowakKempfirst1Mlast2Humefirst2J PtitleThe Oxford Dodo Part 1 the museum history of the Tradescant Dodo ownership displays and audiencejournalHistorical Biologyvolume29issue2date2016pages114doi1010800891296320161152471ref Many sources state that the museum burned the stuffed dodo around 1755 because of severe decay saving only the head and leg Statute 8 of the museum states That as any particular grows old and perishing the keeper may remove it into one of the closets or other repository and some other to be substitutedsfnMacGregor2001 The deliberate destruction of the specimen is now believed to be a myth it was removed from exhibition to preserve what remained of it This remaining soft tissue has since degraded further the head was dissected by Strickland and Melville separating the skin from the skull in two halves The foot is in a skeletal state with only scraps of skin and tendons Very few feathers remain on the head It is probably a female as the foot is 11 smaller and more gracile than the London foot yet appears to be fully grownsfnHumeDattaMartill2006 The specimen was exhibited at the Oxford museum from at least the 1860s and until 1998 whereafter it was mainly kept in storage to prevent damageref nameOxford Dodo 2cite journallast1NowakKempfirst1Mlast2Humefirst2J PtitleThe Oxford Dodo Part 2 from curiosity to icon and its role in displays education and researchjournalHistorical Biologyvolume29issue3date2016pages112doi1010800891296320161155211ref Casts of the head can today be found in many museums worldwideref nameOxford Dodo 1
+FileLondon Dodo legjpgthumbaltLithograph of a dried foot1848 lithograph of the London foot
+The dried London foot first mentioned in 1665 and transferred to the British Museum in the 18th century was displayed next to Saverys Edwardss Dodo painting until the 1840s and it too was dissected by Strickland and Melville It was not posed in a standing posture which suggests that it was severed from a fresh specimen not a mounted one By 1896 it was mentioned as being without its integuments and only the bones are believed to remain today though its present whereabouts are unknownsfnHume2006
+
+The Copenhagen skull specimen ZMUC 90806 is known to have been part of the collection of Bernardus Paludanus in Enkhuizen until 1651 when it was moved to the museum in Gottorf Castle SchleswigsfnFuller2002p123 After the castle was occupied by Danish forces in 1702 the museum collection was assimilated into the Royal Danish collection The skull was rediscovered by J T Reinhardt in 1840 Based on its history it may be the oldest known surviving remains of a dodo brought to Europe in the 17th centurysfnHume2006 It is convert13mmabbron shorter than the Oxford skull and may have belonged to a femalesfnLivezey1993 It was mummified but the skin has perishedsfnHumeWalters2012pp134136
+
+The front part of a skull specimen NMP P6V004389 a syntype of this species in the National Museum of Prague was found in 1850 among the remains of the Böhmisches Museum Other elements supposedly belonging to this specimen have been listed in the literature but it appears only the partial skull was ever presentsfnHume2006refcite journal   last   Jiří  first   M  title   Extinct and nearly extinct birds in the collections of the National Museum Prague Czech Republic  journal  Journal of the National Museum Prague National History Series  series     volume  181  edition    pages  105106  year 2012 ref It may be what remains of one of the stuffed dodos known to have been at the menagerie of Emperor Rudolph II possibly the specimen painted by Hoefnagel or Savery theresfnHumeCheke2004
+
+ Subfossil specimens 
+FileDodoSkeleton Natural History Museum London EnglandjpgaltBrown mounted dodo skeletonthumbuprightSkeleton Richard Owen assembled from bones found in the Mare aux Songes Natural History Museum London
+Until 1860 the only known dodo remains were the four incomplete 17thcentury specimens Philip Burnard Ayres found the first subfossil bones in 1860 which were sent to Richard Owen at the British Museum who did not publish the findings In 1863 Owen requested the Mauritian Bishop Vincent Ryan bishopVincent Ryan to spread word that he should be informed if any dodo bones were foundsfnHumeChekeMcOranCampbell2009 In 1865 George Clark the government schoolmaster at Mahébourg finally found an abundance of subfossil dodo bones in the swamp of Mare aux Songes in Southern Mauritius after a 30year search inspired by Strickland and Melvilles monographsfnHume2006 In 1866 Clark explained his procedure to The Ibis an ornithology journal he had sent his coolies to wade through the centre of the swamp feeling for bones with their feet At first they found few bones until they cut away herbage that covered the deepest part of the swamp where they found many fossilssfnClark1866 The swamp yielded the remains of over 300 dodos but very few skull and wing bones possibly because the upper bodies were washed away or scavenged while the lower body was trapped The situation is similar to many finds of moa remains in New Zealand marshessfnHume2005 Most dodo remains from the Mare aux Songes have a medium to dark brown colourationsfnMeijerGillde Louwvan den Hoek Ostende2012pp177184
+
+Clarks reports about the finds rekindled interest in the bird Sir Richard Owen and Alfred Newton both wanted to be first to describe the postcranial anatomy of the dodo and Owen bought a shipment of dodo bones originally meant for Newton which led to rivalry between the two Owen described the bones in Memoir on the Dodo in October 1866 but erroneously based his reconstruction on the Edwardss Dodo painting by Savery making it too squat and obese In 1869 he received more bones and corrected its stance making it more upright Newton moved his focus to the Réunion solitaire instead The remaining bones not sold to Owen or Newton were auctioned off or donated to museumssfnHumeChekeMcOranCampbell2009 In 1889 Théodor Sauzier was commissioned to explore the historical souvenirs of Mauritius and find more dodo remains in the Mare aux Songes He was successful and also found remains of other extinct speciessfnNewtonGadow1893
+FileRaphus cucullatus 1jpguprightthumbleftSkeleton assembled from subfossils found in 2006 Naturalis
+In 2005 after a hundred years of neglect a part of the Mare aux Songes swamp was excavated by an international team of researchers International Dodo Research Project To prevent malaria the British had covered the swamp with Stone foundationhard core during their rule over Mauritius which had to be removed Many remains were found including bones of at least 17 dodos in various stages of maturity though no juveniles and several bones obviously from the skeleton of one individual bird which have been preserved in their natural positionsfnRijsdijk et al2011 These findings were made public in December 2005 in the Naturalis museum in Leiden 63 of the fossils found in the swamp belonged to turtles of the extinct Cylindraspis genus and 71 belonged to dodos which had been deposited within several centuries 4000 years agosfnRijsdijk et al2009 Subsequent excavations suggested that dodos and other animals became mired in the Mare aux Songes while trying to reach water during a long period of severe drought about 4200 years agosfnRijsdijk et al2011 Furthermore cyanobacteria thrived in the conditions created by the excrements of animals gathered around the swamp which died of intoxication dehydration trampling and miringrefcite journal  doi  1011770959683614567886 title  A deadly cocktail How a drought around 4200 cal Yr BP caused mass mortality events at the infamous dodo swamp in Mauritius journal  The Holocene volume  25 issue  5 pages  758771  year  2015 last1  De Boer  first1  E J last2  Velez  first2  M I last3  Rijsdijk  first3  K F last4  De Louw  first4  P G last5  Vernimmen  first5  T J last6  Visser  first6  P M last7  Tjallingii  first7  R last8  Hooghiemstra  first8  Href Though many small skeletal elements were found during the recent excavations of the swamp few were found during the 19th century probably owing to the employment of less refined methods when collectingsfnMeijerGillde Louwvan den Hoek Ostende2012pp177184
+FileMa  Raphus cucullatus  GMZ 2jpgthumbSubfossil bones rediscovered in the Grant Museum in 2011
+Louis Etienne Thirioux an amateur naturalist at Port Louis also found many dodo remains around 1900 from several locations They included the first articulated specimen which is the first subfossil dodo skeleton found outside the Mare aux Songes and the only remains of a juvenile specimen a now lost tarsometatarsussfnHume2006sfnHumeWalters2012pp134136 The former specimen was found in 1904 in a cave near Le Pouce mountain and is the only known complete skeleton of an individual dodo Thirioux donated the specimen to the Museum Desjardins now Natural History Museum at Mauritius InstitutesfnGillespieClague2009p231sfnRichards2012p15 Thriouxs heirs sold a second mounted composite skeleton composed of at least two skeletons with a mainly reconstructed skull to the Durban Museum of Natural Science in South Africa in 1918 Together these two skeletons represent the most completely known dodo remains including bone elements previously unrecorded such as kneecaps and various wing bones Though some contemporary writers noted the importance of Thriouxs specimens they were not scientifically studied and were largely forgotten until 2011 when sought out by a group of researchers The mounted skeletons were laser scanned from which 3D computer graphics3D models were reconstructed which became the basis of a 2016 monograph about the osteology of the dodorefcite journallast1Claessensfirst1L P A Mlast2Humefirst2J PtitleProvenance and history of the Thirioux dodosjournalJournal of Vertebrate Paleontologydate2016volume35issuesup1pages2128doi1010800272463420151111896refrefcite journallast1Claessensfirst1L P A Mlast2Meijerfirst2H J Mlast3Humefirst3J Plast4Rijsdijkfirst4K FtitleAnatomy of the Dodo Raphus cucullatus L 1758 An Osteological Study of the Thirioux Specimens PrefacejournalJournal of Vertebrate Paleontologydate2016volume35issuesup1pages12doi1010800272463420151127721ref  In 2006 explorers discovered a complete skeleton of a dodo in a lava cave in Mauritius This was only the second associated skeleton of an individual specimen everfound and the only one in recent timesrefcite journallast1Middletonfirst1G Jlast2Humefirst2J PtitleThe discovery of a Dodo Raphus cucullatus Linn  Aves Columbiformes in a highland Mauritian lava cavejournalHelictitedate2016volume42pages1320ref
+
+Worldwide 26 museums have significant holdings of dodo material almost all found in the Mare aux Songes The Natural History Museum LondonNatural History Museum American Museum of Natural History Cambridge University Museum of Zoology the Senckenberg Museum and others have almost complete skeletons assembled from the dissociated subfossil remains of several individualssfnFuller2002pp123129 In 2011 a wooden box containing dodo bones from the Edwardian era was rediscovered at the Grant Museum at University College London during preparations for a move They had been stored with crocodile bones until thensfnKennedy2011
+
+ The white dodo 
+anchorThe white dodo
+FileLandscape with Orpheus and the animalspngthumbleftaltPainting of various animals and people in a forest including a whitish dodoSavery painting with a whitish dodo in the lower right 1611
+The supposed white dodo or solitaire of Réunion is now considered an erroneous conjecture based on contemporary reports of the Réunion ibis and 17thcentury paintings of white dodolike birds by Pieter Withoos and Pieter Holsteyn IIPieter Holsteyn that surfaced in the 19th century The confusion began when Willem Ysbrandtsz BontekoeWillem Ysbrandtszoon Bontekoe who visited Réunion around 1619 mentioned fat flightless birds that he referred to as Dodeersen in his journal though without mentioning their colouration When the journal was published in 1646 it was accompanied by an engraving of a dodo from Saverys Crocker Art Gallery sketchsfnChekeHume2008p30 A white stocky and flightless bird was first mentioned as part of the Réunion fauna by Chief Officer J Tatton in 1625 Sporadic mentions were subsequently made by Sieur Dubois and other contemporary writerssfnRothschild1907pp172173
+
+Baron Edmond de Sélys Longchamps coined the name Raphus solitarius for these birds in 1848 as he believed the accounts referred to a species of dodo When 17thcentury paintings of white dodos were discovered by 19thcentury naturalists it was assumed they depicted these birds Anthonie Cornelis Oudemans suggested that the discrepancy between the paintings and the old descriptions was that the paintings showed females and that the species was therefore sexually dimorphicsfnRothschild1919 Some authors also believed the birds described were of a species similar to the Rodrigues solitaire as it was referred to by the same name or even that there were white species of both dodo and solitaire on the islandsfnChekeHume2008pp3031
+FileWhite dodojpgthumbaltPainting of a white dodo with yellow wingsPieter Holsteyns painting of a white dodo mid1600s
+The Pieter Withoos painting which was discovered first appears to be based on an earlier painting by Pieter Holsteyn three versions of which are known to have existed According to Hume Cheke and Valledor de Lozoya it appears that all depictions of white dodos were based on Roelant Saverys 1611 painting Landscape with Orpheus and the animals or on copies of it The painting shows a whitish specimen and was apparently based on a stuffed specimen then in Prague a walghvogel described as having a dirty offwhite colouring was mentioned in an inventory of specimens in the Prague collection of the Rudolf II Holy Roman EmperorHoly Roman Emperor Rudolf II to whom Savery was contracted at the time 16071611 Saverys several later images all show greyish birds possibly because he had by then seen another specimen Cheke and Hume believe the painted specimen was white owing to albinismsfnHumeCheke2004 Valledor de Lozoya has instead suggested that the light plumage was a juvenile trait a result of bleaching of old taxidermy specimens or simply artistic licensesfnde Lozoya2003
+
+In 1987 scientists described fossils of a recently extinct species of ibis from Réunion with a relatively short beak Borbonibis latipes before a connection to the solitaire reports had been madesfnMourerChauviréMoutou1987 Cheke suggested to one of the authors Francois Moutou that the fossils may have been of the Réunion solitaire and this suggestion was published in 1995 The ibis was reassigned to the genus Threskiornis now combined with the specific name zoologyspecific epithet langlasolitarius from the binomial nomenclaturebinomial R solitariussfnMourerChauviréBourRibes1995 Birds of this genus are also white and black with slender beaks fitting the old descriptions of the Réunion solitaire No fossil remains of dodolike birds have ever been found on the islandsfnHumeCheke2004
+
+ Cultural significance 
+FileAlice par John Tenniel 09pnguprightthumbaltDrawing of a little girl talking to a dodo with a caneleftJohn Tenniels 1865 illustration of Alice Alices Adventures in WonderlandAlice and the Dodo Alices Adventures in WonderlandDodo
+The dodos significance as one of the bestknown extinct animals and its singular appearance led to its use in literature and popular culture as a symbol of an outdated concept or object as in the expression wiktdead as a dododead as a dodo which has come to mean unquestionably dead or obsolete Similarly the phrase wiktgo the way of the dodoto go the way of the dodo means to become extinct or obsolete to fall out of common usage or practice or to become a thing of the pastsfnFuller2002p13 Dodo is also a slang term for a stupid dullwitted person as it was supposedly stupid and easily caughtrefcite web urlhttpdictionaryreferencecombrowsedodost titledodo workDictionarycom accessdateJanuary 27 2016refrefcite book lastPalmatier firstRobert Allen titleSpeaking of Animals A Dictionary of Animal Metaphors urlhttpsbooksgooglecombooksidkSr4fO2zYrICpgPA113 accessdateJanuary 27 2016 year1995 publisherGreenwood isbn9780313294907 page113ref
+
+The dodo appears frequently in works of popular fiction and even before its extinction it was featured in European literature as symbol for exotic lands and of gluttony due to its apparent fatnessrefcite journal  doi  101017S0007087415000011 title  Assembling the dodo in early modern natural history journal  The British Journal for the History of Science volume  48 issue  3 page  1 year  2015 last1  Lawrence  first1  N ref In 1865 the same year that George Clark started to publish reports about excavated dodo fossils the newly vindicated bird was Dodo Alices Adventures in Wonderlandfeatured as a character in Lewis Carrolls Alices Adventures in Wonderland It is thought that he included the dodo because he identified with it and had adopted the name as a nickname for himself because of his stammer which made him accidentally introduce himself as Dodododgson his legal surnamesfnTurveyCheke2008 The books popularity made the dodo a wellknown icon of extinctionsfnMayell2002
+
+Multiple imagewidth125image1Mauritius 10 Rupees 1971 Elizabeth IIobv4041jpgimage2Mauritius 10 Rupees 1971 Elizabeth IIrev4042jpgfooterDodo depicted on 1971 Mauritius 10 Rupees
+The dodo is used as a mascot for many kinds of products especially in MauritiussfnFuller2002pp140153 It appears as a supporter on the coat of arms of Mauritius on Mauritius coins is used as a watermark on all Mauritian rupee banknotes and features as the background of the Mauritian immigration formsfnFryer2002refcite weburlhttpwwwbanknotenewscomfiles472987788e29ebc59d047bd039abfeb22732phptitleMauritius new 25 and 50rupee polymer notes confirmedworkbanknotenewscomrefrefcite journallast1Kynefirst1P Mlast2Adamsfirst2V MtitleExtinct flagships linking extinct and threatened speciesjournalOryxdate2016volume51issue3pages471476doi101017S0030605316000041ref A smiling dodo is the symbol of the Brasseries de Bourbon a popular brewer on Réunion whose emblem displays the white species once thought to have lived theresfnChekeHume2008p31
+
+The dodo is used to promote the protection of endangered species by environmental organisations such as the Durrell Wildlife Conservation Trust and the Durrell Wildlife ParksfnBhookhun2006 The Center for Biological Diversity gives an annual Rubber Dodo Award to those who have done the most to destroy wild places species and biological diversityrefcite webtitlePesticide Peddler Monsanto Wins 2015 Rubber Dodo Awardurlhttpwwwbiologicaldiversityorgnewspressreleases2015rubberdodo11052015htmlpublisherCenter for Biological Diversityaccessdate18 November 2015formatPress releasedate5 November 2015ref In 2011 the Nephilinaenephiline spider Nephilengys dodo which inhabits the same woods as the dodo once did was named after the bird to raise awareness of the urgent need for protection of the Mauritius biota ecologybiotasfnKuntnerAgnarsson2011 Two species of ant from Mauritius have been named after the dodo Pseudolasius dodo in 1946 and Pheidole dodo in 2013refcite journal lastDonisthorpe firstH S J K titleNew species of ants Hym Formicidae from the island of Mauritius journalAnnals and Magazine of Natural History volume12 issue95 pages776782 date1946  url  httpantbaseorgantspublications58315831pdf doi10108000222934508654782refrefcitation  last1  Fischer  first1  G  last2  Fisher  first2  B L title  A revision of Pheidole Westwood Hymenoptera Formicidae in the islands of the Southwest Indian Ocean and designation of a neotype for the invasive Pheidole megacephala journal  Zootaxa volume  3683 issue4 pages  301356  year  2013 doi1011646zootaxa368341ref A species of isopod from a coral reef off Réunion was named Hansenium dodo in 1991refautMüller H G 1991 Stenetriidae from coral reefs at Reunion Island southern Indian Ocean Description of three new species Senckenbergiana Biologica 71 46 303318ref The name dodo has been used by scientists naming genetic elements honoring the dodos flightless nature A fruitfly gene within a region of a chromosome required for flying ability was named dodosfnMaleszkaHanesHackettDe Couet1996 In addition a defective transposable element family from Phytophthora infestans was named DodoPi as it contained mutations that eliminated the elements ability to jump to new locations in a chromosomesfnAh FongJudelson2004 
+FileDronte 17th Century color correctedjpgthumbaltPainting of a grey dodo captioned with the word DronteuprightPreviously unpublished 17thcentury illustration of a dodo sold at Christies in 2009
+In 2009 a previously unpublished 17thcentury Dutch illustration of a dodo went for sale at Christies and was expected to sell for 6000sfnJamieson2009 It is unknown whether the illustration was based on a specimen or on a previous image It sold for 44450sfnChristies2009
+
+The poet Hilaire Belloc included the following poem about the dodo in his The Bad Childs Book of BeastsBad Childs Book of Beasts from 1896
+
+quotation 
+poem
+The Dodo used to walk around
+And take the sun and air
+The sun yet warms his native ground 
+The Dodo is not there
+poempoem
+The voice which used to squawk and squeak
+Is now for ever dumb 
+Yet may you see his bones and beak
+All in the MuseumsfnBelloc1896pp2730
+poem
+
+ See also 
+ List of recently extinct birds
+ List of African animals extinct in the Holocene
+ Holocene extinction
+
+ References 
+
+ Footnotes 
+Reflist20em
+
+ Sources 
+refbegin30em
+ cite journal doi  101007s0011401007597 last1  Angst  first1  D last2  Buffetaut  first2  E last3  Abourachid  first3  A year  2011 title  The end of the fat dodo A new mass estimate for Raphus cucullatus journal  Naturwissenschaften volume  98 issue  3 pages  233236 pmid  21240603 pmc   ref  sfnRefAngstBuffetautAbourachidMarch 2011
+bibcode  2011NW98233A   sfnAngstBuffetautAbourachidMarch 2011 
+ cite journal doi  101007s0011401107725 last1  Angst  first1  D last2  Buffetaut  first2  E last3  Abourachid  first3  A date April 2011 title  In defence of the slim dodo A reply to Louchart and MourerChauviré journal  Naturwissenschaften volume  98 issue  4 pages  359360 pmid   pmc   ref  sfnRefAngstBuffetautAbourachidApril 2011
+bibcode  2011NW98359A   sfnAngstBuffetautAbourachidApril 2011 
+ cite journal doi  103366anh2002291109 last1  Baker  first1  R A last2  Bayliss  first2  R A dateFebruary 2002  title  Alexander Gordon Melville 18191901 The Dodo Raphus cucullatus L 1758 and the genesis of a book journal  Archives of Natural History volume  29 pages  109118 pmid   pmc   ref  harv
+ 
+ cite news
+  author  BBC
+  date  28 February 2002
+  title  DNA yields dodo family secrets
+  work  BBC News
+  location  London
+  url  httpnewsbbccouk2hisciencenature1847431stm
+  accessdate  7 September 2006
+  ref  harv
+ 
+ cite news
+  author  BBC
+  date  20 November 2003
+  title  Scientists pinpoint dodos demise
+  work  BBC News
+  location  London
+  url  httpnewsbbccouk2hisciencenature3281323stm
+  accessdate  7 September 2006
+  ref  sfnRefBBC20021120
+ 
+ cite book
+  last  Belloc
+  first  H
+  authorlink  Hilaire Belloc
+  title  The Bad Childs Book of Beasts
+  publisher  Duckworth
+  location  London
+  year  1896
+  ref  harv
+ 
+ IUCN
+  id  22690059
+  title  Raphus cucullatus
+  assessor  BirdLife International
+  assessorlink  BirdLife International
+  version  20132
+  year  2012
+  accessdate  7 April 2014
+  ref  sfnRefIUCN Red List2012
+ 
+ cite journal doi  101111j146979981989tb02535x last1  Brom  first1  T G last2  Prins  first2  T G dateJune 1989  title  Microscopic investigation of feather remains from the head of the Oxford dodo Raphus cucullatus journal  Journal of Zoology volume  218 issue  2 pages  233246 pmid   pmc   ref  harv
+  sfnBromPrins1989 
+ cite journal doi  101017S0030605300020457 last  Cheke  first  A S year  1987 title  The legacy of the dodoconservation in Mauritius journal  Oryx volume  21 issue  1 pages  2936 pmid   pmc   ref  harv
+  sfnCheke1987 
+ cite web
+  last  Cheke
+  first  Anthony S
+  year  2004
+  title  The Dodos last island
+  publisher  Royal Society of Arts and Sciences of Mauritius
+  url  httpdodobookscomwpcontentuploads201201Cheke2004DodosLastIslandpdf
+  accessdate  12 May 2012
+  ref  harv
+ 
+ cite journal doi  101111j1474919X200600478x last  Cheke  first  A S year  2006 title  Establishing extinction datesnbsp the curious case of the Dodo Raphus cucullatus and the Red Hen Aphanapteryx bonasia journal  Ibis volume  148 pages  155158 pmid   pmc   ref  harv
+  sfnCheke2006 
+ cite book
+  last1  Cheke
+  first1  Anthony S
+  last2  Hume
+  first2  Julian Pender
+  year  2008
+  title  Lost Land of the Dodo an Ecological History of Mauritius Réunion  Rodrigues
+  publisher  T  A D Poyser
+  location  New Haven and London
+  isbn  9780713665444
+  ref  harv
+ 
+ cite web
+  author  Christies
+  year  2009
+  work  Christiescom
+  title  Dutch School 17th Century A dodo
+  url  httpwwwchristiescomLotFinderlotdetailsaspxintObjectID5224172
+  accessdate  12 May 2012
+  ref  harv
+ 
+ cite journallast1Clarkfirst1GeorgetitleAccount of the late Discovery of Dodos Remains in the Island of MauritiusjournalIbisvolume8issue2dateApril 1866pages141146issn00191019doi101111j1474919X1866tb06082x refharv 
+ cite web
+  last  Cocks
+  first  T
+  year  2006
+  title  Natural disaster may have killed dodos
+  work  Reuters
+  url  httpwwwabcnetausciencenewsancientAncientRepublish1678225htm
+  accessdate  30 August 2006
+  ref  harv
+ 
+ cite journal
+ last         Dissanayake
+ first        R
+ year         2004
+ title        What did the dodo look like
+ journal      The Biologist
+ volume       51
+ issue        3
+ pages        165168
+ publisher    Society of Biology
+ url          httpwebmaccomrajithrajithAboutMefilesWhat20did20the20dodo20look20like3FPDF
+ accessdate   14 September 2011
+ ref          harv
+ deadurl      yes
+ archiveurl   httpswebarchiveorgweb20110917160155httpwebmaccomrajithrajithAboutMefilesWhat20did20the20dodo20look20like3FPDF
+ archivedate  17 September 2011
+ df           dmyall
+
+ cite news
+  last  Fryer
+  first  J
+  title  Bringing the dodo back to life
+  work  BBC News
+  location  London
+  url  httpnewsbbccouk2hiprogrammesfromourowncorrespondent2255991stm
+  accessdate  7 September 2006
+  ref  harv
+  date14 September 2002
+ 
+ cite book
+  last  Fuller
+  first  Errol
+  authorlink  Errol Fuller
+  year  2001
+  title  Extinct Birds
+  edition  revised
+  publisher  Comstock
+  location  New York
+  isbn  9780801439544
+  ref  harv
+ 
+ cite book
+  last  Fuller
+  first  Errol
+  authorlink  Errol Fuller
+  year  2002
+  title  Dodonbsp From Extinction To Icon
+  publisher  HarperCollins
+  location  London
+  isbn  9780007145720
+  ref  harv
+ 
+ cite book
+  last  Fuller
+  first  Errol
+  authorlink  Errol Fuller
+  year  2003
+  title  The Dodonbsp Extinction In Paradise
+  edition  first
+  publisher  Bunker Hill Publishing Inc
+  location  USA
+  isbn  9781593730024
+  ref  harv
+ 
+ cite book
+ last1Gillespie
+ first1Rosemary G
+ last2Clague
+ first2David A
+ titleEncyclopedia of Islands
+ date2009
+ publisherUniversity of California PresslocationBerkeley US
+ isbn9780520256491
+ urlhttpsbooksgooglecombooksidg9ZogGsfz8Cdq
+ ref  harv
+ cite booklast1Hakluytfirst1RichardtitleA Selection of Curious Rare and Early Voyages and Histories of Interesting Discoveriesyear2013 origyear1812publisherRH Evans and R PriestleylocationLondon UKurlhttpsbooksgooglecombooksidYs3AQAAMAAJpg refharv
+ cite booklast1Hakluytfirst1RichardtitleThe Principal Navigations Voyages Traffiques and Discoveries of The English Nation Volume 10 Asia Part IIIyear2004publisherThe Project Gutenberg EBookurlhttpsarchiveorgstreamtheprincipalnavi11948gut11948txt refharv
+ cite web
+  last  Herhey
+  first  D R
+  year  2004
+  title  Plant Science Bulletin Volume 50 Issue 4
+  publisher  Botanyorg
+  url  httpwwwbotanyorgPlantScienceBulletinpsb2004504phpDodo
+  accessdate  12 May 2012
+  ref  harv
+ 
+ cite journal
+  last  Hill
+  first  A W
+  year  1941
+  title  The genus Calvaria with an account of the stony endocarp and germination of the seed and description of the new species
+  journal  Annals of Botany
+  volume  5 urlhttpaoboxfordjournalsorgcontent54587extract
+  pages  587606
+  ref  harv
+ 
+ cite journal  last1  Hume  first1  J P  authorlink1  Julian Pender Hume last2  Steel  first2  L  doi  101111bij12087  title  Fight club A unique weapon in the wing of the solitaire Pezophaps solitaria Aves Columbidae an extinct flightless bird from Rodrigues Mascarene Islands  journal  Biological Journal of the Linnean Society  pages   3244 year  2013  pmid    pmc   refharv  volume110  sfnHumeSteel2013 
+ cite journal doi  103366anh200330113 last  Hume  first  J P authorlink  Julian Pender Hume year  2003 title  The journal of the flagship Gelderlandnbsp dodo and other birds on Mauritius 1601 journal  Archives of Natural History volume  30 issue  1 pages  1327 pmid   pmc   ref  harv
+  sfnHume2003 
+ cite journal doi  101038nature02688 last1  Hume first1  Julian Pender authorlink1  Julian Pender Hume last2  Martill first2  David M last3  Dewdney first3  Christopher dateJune 2004  title  Palaeobiology Dutch diaries and the demise of the dodo journal  Nature volume  429 issue  6992 pages  1 p following 621 pmid  15190921 pmc   ref  harv
+bibcode  2004Natur429H   sfnHumeMartillDewdney2004 
+ cite journal
+  last  Hume
+  first  Julian Pender
+  authorlink  Julian Pender Hume
+  year  2005
+  title  Contrasting taphofacies in ocean island settings the fossil record of Mascarene vertebrates
+  journal  Proceedings of the International Symposium Insular Vertebrate Evolution the Palaeontological Approach Monografies de la Societat dHistòria Natural de les Balears
+  volume  12
+  pages  129144
+  ref  harv
+ 
+ cite journal doi  10108008912960600639400 last  Hume first  J P authorlink  Julian Pender Hume year  2006 title  The History of the Dodo Raphus cucullatus and the Penguin of Mauritius journal  Historical Biology volume  18 issue  2 pages  6993 issn  08912963 pmid   pmc   url  httpjulianhumecoukwpcontentuploads201007HistoryofthedodoHumepdf ref  harv
+  sfnHume2006 
+ cite journal
+  last1  Hume
+  first1  Julian Pender
+  authorlink1  Julian Pender Hume
+  last2  Datta
+  first2  Anna
+  last3  Martill
+  first3  David M
+  year  2006
+  title  Unpublished drawings of the Dodo Raphus cucullatus and notes on Dodo skin relics
+  journal  Bulletin of the British Ornithologists ClubBull B O C
+  volume  126A
+  pages  4954
+  issn  00071595
+  url  httpjulianhumecoukwpcontentuploads201007Humeetaldodoskinrelicspdf
+  accessdate  14 September 2011
+  ref  harv
+ 
+ cite journal doi  103366anh200431157 last1  Hume  first1  J P authorlink1  Julian Pender Hume last2  Cheke  first2  A S year  2004 title  The white dodo of Réunion Island Unravelling a scientific and historical myth journal  Archives of Natural History volume  31 issue  1 pages  5779 url  httpjulianhumecoukwpcontentuploads201007HumeandChekenoillustrationspdf pmid   pmc   ref  harv
+  sfnHumeCheke2004 
+ cite journal doi  10108008912960903101868 last1  Hume first1  Julian Pender authorlink1  Julian Pender Hume last2  Cheke first2  Anthony S last3  McOranCampbell first3  A year  2009 title  How Owen stole the Dodo Academic rivalry and disputed rights to a newlydiscovered subfossil deposit in nineteenth century Mauritius journal  Historical Biology volume  21 issue  12 pages  3349 pmid   pmc   url  httpjulianhumecoukwpcontentuploads201007HumeetalOwenanddodopdf ref  harv
+  sfnHumeChekeMcOranCampbell2009 
+ cite journal doi  101111j13652451201200843x last  Hume  first  J P authorlink  Julian Pender Hume year  2012 title  The Dodo From extinction to the fossil record journal  Geology Today volume  28 issue  4 pages  147151 pmid   pmc   ref  harv
+  sfnHume2012 
+ cite book
+  last1  Hume
+  first1  Julian Pender
+  authorlink1  Julian Pender Hume
+  last2  Walters
+  first2  M
+  year  2012
+  title  Extinct Birds
+  publisher  A  C Black
+  location  London
+  isbn  9781408157251
+  ref  harv
+ 
+ cite journal doi  101007BF01671614 last  Iwanow first  A dateOctober 1958  title  An Indian picture of the Dodo journal  Journal of Ornithology volume  99 issue  4 pages  438440 pmid   pmc   ref  harv
+  sfnIwanow1958 
+ cite journal doi  101016jannpal200412002 last  Janoo  first  A dateAprilJune 2005  title  Discovery of Isolated Dodo Bones Raphus cucullatus L Aves Columbiformes from Mauritius Cave Shelters Highlights Human Predation with a Comment on the Status of the Family Raphidae Wetmore 1930 journal  Annales de Paléontologie volume  91 issue  2 pages  167180 jstor   pmid   pmc   ref  harv
+  sfnJanoo2005 
+ cite news
+  last  Jamieson
+  first  Alastair
+  date  22 June 2009
+  title  Uncovered 350yearold picture of Dodo before it was extinct
+  work  The Daily Telegraph
+  location  London
+  url  httpswwwtelegraphcoukcultureartartnews5596737Uncovered350yearoldpictureofdodobeforeitwasextincthtml
+  accessdate  8 September 2012
+  ref  harv
+ 
+ cite news
+  last  Kennedy
+  first  M
+  title  Half a Dodo found in museum drawer
+  work  The Guardian
+  url  httpswwwtheguardiancomscience2011feb21dodofoundgrantmuseumdrawer
+  accessdate  12 May 2012
+  ref  harv
+  locationLondon
+  date21 February 2011
+ 
+ cite journal doi  103366anh1993202279 last  Kitchener  first  A C dateJune 1993  title  On the external appearance of the dodo Raphus cucullatus L 1758 journal  Archives of Natural History volume  20 issue  2 pages  279301 pmid   pmc   ref  sfnRefKitchenerJune 1993
+  sfnKitchenerJune 1993 
+ cite journal
+  last  Kitchener
+  first  Andrew C
+ dateAugust 1993
+  title  Justice at last for the dodo
+  journal  New Scientist
+  volume 
+  page  24
+  url  httpswwwnewscientistcomarticlemg13918884300justiceatlastforthedodohtml
+  ref  sfnRefKitchenerAugust 1993
+ 
+ cite journal doi  101016jympev201102002 last1  Kuntner  first1  M last2  Agnarsson  first2  I dateMay 2011  title  Biogeography and diversification of hermit spiders on Indian Ocean islands Nephilidae Nephilengys journal  Molecular Phylogenetics and Evolution volume  59 issue  2 pages  477488 pmid  21316478 pmc   ref  harv
+  sfnKuntnerAgnarsson2011 
+ cite news
+  last  Laing
+  first  A
+  date  27 August 2010
+  work  The Daily Telegraph
+  location  London
+  title  Last surviving Dodo egg could be tested for authenticity
+  url  httpswwwtelegraphcouksciencesciencenews7968811LastsurvivingDodoeggcouldbetestedforauthenticityhtml
+  ref  harv
+ 
+ cite journal doi  101111j146979981993tb02686x last  Livezey first  B C year  1993 title  An Ecomorphological Review of the Dodo Raphus cucullatus and Solitaire Pezophaps solitaria Flightless Columbiformes of the Mascarene Islands journal  Journal of Zoology volume  230 issue  2 pages  247292 pmid   pmc   ref  harv
+  sfnLivezey1993 
+ cite journal doi  101093jhc152201 last1  de Lozoya first1  A V year  2003 title  An unnoticed painting of a white Dodo journal  Journal of the History of Collections volume  15 issue  2 pages  201210 jstor   pmid   pmc   ref  harv
+  sfnde Lozoya2003 
+ cite journal doi  101007s0011401107716 last1  Louchart  first1  A last2  MourerChauviré  first2  C C C date  April 2011 title  The dodo was not so slim Leg dimensions and scaling to body mass journal  Naturwissenschaften volume  98 issue  4 pages  357358 discussion 358360 pmid  21380621 pmc   ref  harv
+bibcode  2011NW98357L   sfnLouchartMourerChauviré2011 
+ cite book  last  Lydekker  first  R  year  1891  title  Catalogue of the Fossil Birds in the British Museum Natural History  publisher  Taylor  Francis  doi  105962bhltitle8301  oclc  4170867  ref  harv  sfnLydekker1891 
+ cite journal doi  101093jhc132125 last  MacGregor  first  A year  2001 title  The Ashmolean as a museum of natural history 1683 1860 journal  Journal of the History of Collections volume  13 issue  2 pages  125144 pmid   pmc   ref  harv
+  sfnMacGregor2001 
+ cite book
+  last  Macmillan
+  first  A
+  year  2000
+  title  Mauritius Illustrated Historical and Descriptive Commercial and Industrial Facts Figures  Resources
+  publisher  Asian Educational Services
+  page  83
+  location  New Dheli
+  isbn  9788120615083
+  url  httpsbooksgooglecomidEusZwEdxpACpgPA85lpgPA85dq22EmmanuelAltham22dodonewtonvonepageq22Emmanuel20Altham2220dodo20newtonffalse
+  accessdate  12 May 2012
+  ref  harv
+ 
+ cite book
+  last  Mason
+  first  A S
+  year  1992
+  title  George Edwards The Bedell and His Birds
+  publisher  Royal College of Physicians of London
+  location  London
+  isbn  9781873240489
+  url  httpsbooksgooglecomidUjQYrxdHFp0CpgPA47lpgPA47dqGeorgeEdwardssaverydodovonepageqGeorge20Edwards20savery20dodoffalse
+  accessdate  12 May 2012
+  ref  harv
+ 
+ cite webauthorMauritiusHolidaysDiscoveryComtitleMauritius Natural History Museum Port Louisurlhttpwwwmauritiusholidaysdiscoverycommauritiusnaturalhistoryhtmlaccessdate8 November 2014
+ cite web
+  last  Mayell
+  first  H
+  date  28 February 2002
+  title  Extinct Dodo Related to Pigeons DNA Shows
+  work  National Geographic News
+  url  httpnewsnationalgeographiccomnews20020202270228dodohtml
+  accessdate  19 January 2009
+  ref  harv
+ 
+ cite journal doi  101086316701 last  McNab  first  B K year  1999 title  On the Comparative Ecological and Evolutionary Significance of Total and MassSpecific Rates of Metabolism journal  Physiological and Biochemical Zoology volume  72 issue  5 pages  642644 jstor  101086316701 pmid  10521332 pmc   ref  harv
+  sfnMcNab1999 
+ cite journal
+ last1  Meijer  first1  H J M
+ last2  Gill  first2  A
+ last3  de Louw  first3  P G B
+ last4  van den Hoek Ostende  first4  L W
+ last5  Hume  first5  J P
+ last6  Rijsdijk  first6  K F
+ doi  101007s0011401208828
+ title  Dodo remains from an in situ context from Mare aux Songes Mauritius
+ journal  Naturwissenschaften
+ volume  99
+ issue  3
+ pages  177184
+ year  2012
+ pmid  22282037
+ refharv
+bibcode  2012NW99177M   sfnMeijerGillde Louwvan den Hoek OstendeHumeRijsdijk2012pp177184 
+ cite journal doi  101111j1474919X1869tb06880x last  MilneEdwards  first  A year  1869 title  Researches into the zoological affinities of the bird recently described by Herr von Frauenfeld under the name of Aphanapteryx imperialis journal  Ibis volume  11 issue  3 pages  256275 pmid   pmc   ref  harv
+  sfnMilneEdwards1869 
+ cite journal
+  last1  MourerChauviré
+  first1  C
+  last2  Moutou
+  first2  F
+  year  1987
+  language  French
+  title  Découverte dune forme récemment éteinte dibis endémique insulaire de lîle de la Réunion Borbonibis latipes n gen n sp
+  transtitle  Discovery of a recently extinct island endemic ibis from Réunion Borbonibis latipes n gen n sp
+  journal  Comptes rendus de lAcadémie des sciences
+  series  Série D
+  volume  305
+  issue  5
+  pages  419423
+  url  httpgallicabnffrark12148bpt6k63051247f433image
+  ref  harv
+ 
+ cite journal
+  last1  MourerChauviré
+  first1  C C
+  last2  Bour
+  first2  R
+  last3  Ribes
+  first3  S
+  year  1995
+  title  Was the solitaire of Réunion an ibis
+  journal  Nature
+  volume  373
+  issue  6515
+  page  568
+  pmid 
+  doi101038373568a0
+  ref  harv
+bibcode  1995Natur373568M   sfnMourerChauviréBourRibes1995 
+ cite journal
+  title Position systématique du Solitaire de la Réunion nouvelle interprétation basée sur les restes fossiles et les récits des anciens voyageurs
+  last1  MourerChauviré
+  first1  C C
+  last2  Bour
+  first2  R
+  last3  Ribes
+  first3  S
+  urlhttpgallicabnffrark12148bpt6k5752486kf99imager1125
+  journal  Comptes rendus de lAcadémie des sciences
+  issue  SER2T320N11
+  date  19950601
+  ref  harv
+  sfnMourerChauviréBourRibes1995b 
+ cite journal doi  101111j146979981865tb02320x last  Newton  first  A dateJanuary 1865  title  2 On Some Recently Discovered Bones of the Largest Known Species of Dodo Didus Nazarenus Bartlett journal  Proceedings of the Zoological Society of London volume  33 issue  1 pages  199201 jstor   pmid   pmc   ref  harv
+  sfnNewton1865 
+ cite journal doi  101111j146979981893tb00001x last1  Newton  first1  E authorlink1  Edward Newton last2  Gadow  first2  H year  1893 title  IX On additional bones of the Dodo and other extinct birds of Mauritius obtained by Mr Theodore Sauzier journal  The Transactions of the Zoological Society of London volume  13 issue  7 pages  281302 pmid   url  httpswwwbiodiversitylibraryorgpage31083700page379mode1up ref  harv
+  sfnNewtonGadow1893 
+ cite journal doi  101111j109636421867tb00571x last  Owen  first  R dateJanuary 1867  title  On the Osteology of the Dodo Didus ineptus Linn journal  The Transactions of the Zoological Society of London volume  6 issue  2 pages  4985 pmid   pmc   ref  harv
+  sfnOwen1867 
+ cite journal doi  103366anh1992192145 last  Ovenell  first  R F dateJune 1992  title  The Tradescant Dodo journal  Archives of Natural History volume  19 issue  2 pages  145152 pmid   pmc   ref  harv
+  sfnOvenell1992 
+ cite booklast1Parishfirst1Jolyon CtitleThe Dodo and the Solitaire A Natural Historydate2013publisherIndiana University PresslocationBloomington USisbn9780253000996urlhttpsbooksgooglecombooksidbp8wK8zCg7wCpgPA178 refharv
+ cite journal doi  10108010635150701549672 last1  Pereira  first1  S L last2  Johnson  first2  K P last3  Clayton  first3  D H last4  Baker  first4  A J year  2007 title  Mitochondrial and nuclear DNA sequences support a Cretaceous origin of Columbiformes and a dispersaldriven radiation in the Paleogene journal  Systematic Biology volume  56 issue  4 pages  656672 jstor   pmid  17661233 pmc   ref  sfnRefPereira et al2007
+  sfnPereira et al2007 
+ cite journal
+  last  Reinhardt
+  first  Johannes Theodor
+  authorlink  Johannes Theodor Reinhardt
+  date  18421843
+  title  Nøjere oplysning om det i Kjøbenhavn fundne Drontehoved
+  journal  Nat Tidssk Krøyer
+  volume  IV
+  pages  7172 2
+  ref  sfnRefReinhardt18421843
+ 
+ cite book
+ last1Richards
+ first1Alexandra
+ titleMauritius Rodrigues Réunion
+ date2012publisherBradt Travel Guides
+ locationChalfont St Peter Bucks UK
+ isbn9781841624105
+ edition8th
+ urlhttpsbooksgooglecombooksidJnIb2OCzDvECdq
+ ref harv
+ 
+ cite journal doi  101016jquascirev200809018displayauthors8last1  Rijsdijk  first1  K Flast2  Hume  first2  J Pauthorlink2  Julian Pender Humelast3  Bunnik  first3  Flast4  Florens  first4  F B Vlast5  Baider  first5  Clast6  Shapiro  first6  Blast7  van der Plicht  first7  Hlast8  Janoo  first8  Alast9  Griffiths  first9  Olast10van den Hoek Ostende first10L W last11Cremer first11H last12Vernimmenfirst12T last13De Louw first13P last14Bholah first14A last15Saumtally first15S last16Porch first16N last17Haile first17J last18Buckley first18M last19Collins first19M last20Gittenberger first20E  dateJanuary 2009 titleMidHolocene vertebrate bone ConcentrationLagerstätte on oceanic island Mauritius provides a window into the ecosystem of the dodo Raphus cucullatusjournalQuaternary Science Reviewsvolume28issue12pages1424refsfnRefRijsdijk et al2009subscriptionyesbibcode  2009QSRv2814R   sfnRijsdijk et al2009 
+ cite journaldoi1011770959683611405236displayauthors8last1Rijsdijk  first1K Flast2Zinke  first2Jlast3de Louw  first3P G Blast4Hume  first4J Pauthorlink4Julian Pender Humelast5Van Der Plicht  first5Hlast6Hooghiemstra  first6Hlast7Meijer  first7H J Mlast8Vonhof  first8H Blast9Porch  first9Nlast10Florens  first10F B Vlast11Baider  first11Clast12van Geel  first12Blast13Brinkkemper  first13Jlast14Vernimmen  first14Tlast15Janoo  first15Adate2011titleMidHolocene 4200 kyr BP mass mortalities in Mauritius Mascarenes Insular vertebrates resilient to climatic extremes but vulnerable to human impactjournalThe Holocenevolume21issue8pages11791194refsfnRefRijsdijk et al2011subscriptionyes  sfnRijsdijk et al2011 
+ cite journal doi  101038426245a last1  Roberts  first1  D L last2  Solow  first2  A R dateNovember 2003  title  Flightless birds When did the dodo become extinct journal  Nature volume  426 issue  6964 page  245 pmid  14628039 pmc   ref  harv
+bibcode  2003Natur426245R   sfnRobertsSolow2003 
+ cite book
+  last  Rothschild
+  first  Walter
+  authorlink  Walter Rothschild 2nd Baron Rothschild
+  year  1907
+  title  Extinct Birds
+  publisher  Hutchinson  Co
+  location  London
+  url  httpsarchiveorgstreamextinctbirdsatte00rothpage172mode2up
+  ref  harv
+ 
+ cite journal doi  1023074073093 last  Rothschild  first  W authorlink  Walter Rothschild 2nd Baron Rothschild year  1919 title  On one of the four original pictures from life of the Réunion or white Dodo journal  The Ibis volume  36 issue  2 pages  7879 url  httpsarchiveorgdownloadibis1111919britibis1111919britpdf format  PDF pmid   pmc   ref  harv
+ jstor  4073093   sfnRothschild1919 
+ cite journal  last1  Schaper  first1  M T  last2  Goupille  first2  M  doi  105172ser11293  title  Fostering enterprise development in the Indian Ocean The case of Mauritius  journal  Small Enterprise Research  volume  11  issue  2  pages  9398  year  2003  pmid    pmc   refharv
+ cite journal doi  101126science29555601683 last1  Shapiro  first1  B last2  Sibthorpe  first2  D last3  Rambaut  first3  A last4  Austin  first4  J last5  Wragg  first5  G M last6  BinindaEmonds  first6  O R P last7  Lee  first7  P L M last8  Cooper  first8  A date  2002 title  Flight of the Dodo journal  Science volume  295 issue  5560 page  1683 jstor   pmid  11872833 pmc   url  httppglsoeucscedudodoShapiro02pdf ref  sfnRefShapiro et al2002
+ httpwwwsciencemagorgcgicontentfull29555601683DC1 Supplementary information  sfnShapiro et al2002 
+ cite journal
+  last  Staub
+  first  France
+  authorlink  France Staub
+  year  1996
+  title  Dodo and solitaires myths and reality
+  journal  Proceedings of the Royal Society of Arts  Sciences of Mauritius
+  volume  6
+  pages  89122
+  url  httpwwwpotomitaninfododoc32php
+  ref  harv
+ 
+ cite journal doi  1023074083934 last  Storer  first  R W year  1970 title  Independent Evolution of the Dodo and the Solitaire journal  The Auk volume  87 issue  2  urlhttpsoraunmedunode21993 pages  369370 jstor  4083934 ref  harv
+  sfnStorer1970 
+ cite journal doi  1016420004803820051221003APCBCM20CO2 last1  Storer first1  Robert W year  2005 title  A possible connection between crop milk and the maximum size attainable by flightless pigeons journal  The Auk volume  122 issue  3 pages  10031003 jstor   pmid   pmc   ref  harv
+  sfnStorer2005 
+ cite book
+  last1  Strickland
+  first1  Hugh Edwin
+  authorlink  Hugh Edwin Strickland
+  last2  Melville
+  first2  A G
+  year  1848
+  title  The Dodo and Its Kindred or the History Affinities and Osteology of the Dodo Solitaire and Other Extinct Birds of the Islands Mauritius Rodriguez and Bourbon
+  publisher  Reeve Benham and Reeve
+  location  London
+  url  httpsarchiveorgdetailsdodoitskindredor00stri
+  ref  harv
+ 
+ cite journal doi  101017S0030605300012643 last  Temple  first  S A year  1974 title  Wildlife in Mauritius today journal  Oryx volume  12 issue  5 pages  584590 pmid   pmc   ref  harv
+  sfnTemple1974 
+ cite journal doi  101126science1974306885 last  Temple  first  S A dateAugust 1977  title  PlantAnimal Mutualism Coevolution with Dodo Leads to Near Extinction of Plant journal  Science volume  197 issue  4306 pages  885886 pmid  17730171 pmc   ref  harv
+bibcode  1977Sci197885T   sfnTemple1977 
+ cite journal doi  10108008912960802376199 last1  Turvey  first1  S T last2  Cheke  first2  A S year  2008 title  Dead as a dodo The fortuitous rise to fame of an extinction icon journal  Historical Biology volume  20 issue  2 pages  149163 pmid   pmc   ref  harv
+  sfnTurveyCheke2008 
+ cite journal  last1  Maleszka  first1  R  last2  Hanes  first2  S D  last3  Hackett  first3  R L  last4  De Couet  first4  H G  last5  Miklos  first5  G L  title  The Drosophila melanogaster dodo dod gene conserved in humans is functionally interchangeable with the ESS1 cell division gene of Saccharomyces cerevisiae  doi  101073pnas931447  journal  Proceedings of the National Academy of Sciences  volume  93  pages  447451  year  1996  pmid   8552658 pmc  40255  issue1 refharvbibcode  1996PNAS93447M   sfnMaleszka et al1996 
+ cite journal  last1  Ah Fong  first1  A M V  last2  Judelson  first2  H S  doi  101007s004380041004x  title  The hAT like DNA transposon DodoPi resides in a cluster of retro and DNA transposons in the stramenopile Phytophthora infestans  journal  Molecular Genetics and Genomics  volume  271  issue  5  pages  577585  year  2004  pmid   15098122 pmc   ref  harvsubscriptionyes  sfnJudelsonAh Fong2004 
+ cite web
+  last  Bhookhun
+  first  D P
+  year  2006
+  title  Mauritius Footprints From the Past
+  work  Expressers
+  url  httpallafricacomstories200609260428html
+  accessdate  26 September 2006
+  ref  harv
+  subscription required
+ cite journal doi  1023073545415 last1  Witmer  first1  M C last2  Cheke  first2  A S dateMay 1991  title  The Dodo and the Tambalacoque Tree An Obligate Mutualism Reconsidered journal  Oikos volume  61 issue  1 pages  133137 pmid   pmc   jstor  3545415 ref  harv
+  sfnWitmerCheke1991 
+ cite journal doi  1010800301422320019517673 last  Worthy  first  T H year  2001 title  A giant flightless pigeon gen Et sp Nov And a new species of Ducula Aves Columbidae from Quaternary deposits in Fiji journal  Journal of the Royal Society of New Zealand volume  31 issue  4 pages  763794 pmid   pmc   ref  harv
+  sfnWorthy2001 
+refend
+
+ External links 
+sisterlinksdQ43502vnobnosnocommonsRaphus cucullatusspeciesRaphus cucullatusnnovoynomnomwnowiktdodoqno
+ httpswwwyoutubecomwatchvT6cu1YfWyTQ Painting the dodo Twominute video about Julian Humes modern interpretation of Roelant Saverys Dodo
+ httpaves3dorgspeciesinstances2Raphuscucullatus Aves3Dnbsp Raphus cucullatus Interactive 3D scans of various dodo elements
+ httpwwwbbccomearthstory20160408howhumanityfirstkilledthedodothenlostitaswell How humanity first killed the dodo then lost it as well BBC 2016
+
+use British EnglishdateSeptember 2012
+use dmy datesdateJuly 2012
+featured article
+
+Birdsstatecollapsed
+portalbarBirdsAnimalsBiologyMauritiusMadagascarExtinctionPaleontology
+TaxonbarfromQ43502
+Authority control
+
+CategoryBirds described in 1758
+CategoryBird extinctions since 1500
+CategoryBirds of Mauritius
+CategoryExtinct animals of Mauritius
+CategoryExtinct birds of Indian Ocean islands
+CategoryExtinct flightless birds
+CategoryNational symbols of Mauritius
+CategoryRaphinae
+CategorySpecies made extinct by human activities
+CategoryTaxa named by Carl Linnaeus
+CategorySpecies endangered by invasive species

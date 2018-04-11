@@ -1,0 +1,4 @@
+data/GloVe/glove.840B.300d.memory_map_dir/
+*.pyc
+fastqa.zip
+fastqa_reader/

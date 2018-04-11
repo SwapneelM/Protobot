@@ -1,0 +1,11 @@
+parent_config: ['./conf/nli/dam.yaml', './conf/nli/snli/abstract_snli.yaml']
+
+# fixed experiment seed
+seed: 1337
+dropout: 0.2
+repr_dim: 200
+epochs: 100
+batch_size: 32
+optimizer: adagrad
+learning_rate: 0.05
+learning_rate_decay: 1.0
