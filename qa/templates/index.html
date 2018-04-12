@@ -14,7 +14,7 @@
   background: #ff9966;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ff5e62, #ff9966);
+  background: linear-gradient(to right, #141e2d, #21467a);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100vh;
   width: 100vw;
@@ -38,8 +38,8 @@ h1 {
 
 .chatbox {
   background: #fafafa;
-  min-height: 350px;
-  width: 300px;
+  min-height: 550px;
+  width: 500px;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.21), 0px 30px 20px -10px rgba(0, 0, 0, 0.2), 0px 60px 20px -30px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   overflow: hidden;
@@ -76,7 +76,7 @@ h1 {
   transition: .3s ease-in-out;
 }
 .chatbox__body {
-  height: 290px;
+  height: 450px;
   width: 100%;
   background: #f5f5f5;
   display: flex;
@@ -262,19 +262,19 @@ h1 {
 
 <body>
 
-  <h1>IRON MAN CHAT</h1>
+  <h1>CONTEXT BASED QUESTION ANSWERING - FASTQ&A</h1>
 <div class="chatbox">
   <div class="chatbox__header">
     <svg height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg">
       <path d="M15 8.25H5.87l4.19-4.19L9 3 3 9l6 6 1.06-1.06-4.19-4.19H15v-1.5z"></path>
     </svg>
     <div class="title">
-      Iron Man
+      Context Reader AI
     </div>
   </div>
   <div class="chatbox__body">
     <div class="message receive">
-      <img src="https://d2gcv4sxt84gxu.cloudfront.net/uploads/avatars/995064/original.png?1450125781"/>
+      <img src="{% static "ai.jpeg" %}"/>
       <div class="message_text">
         Hello There  
       </div>
@@ -316,7 +316,7 @@ var messageController = (function(){
   return {
     sendMessage: function(){
       var message_container = document.createElement("div");
-      var message = `<img src="https://orig00.deviantart.net/f144/f/2016/273/b/3/black_widow_3_by_saturnsam-dajg3hy.jpg"/>
+      var message = `<img src="{% static "rudresh.jpg" %}"/>
       <div class="message_text"> ${input.value} </div>`;
       message_container.className = "message sender";
       message_container.innerHTML = message;     
@@ -329,7 +329,7 @@ var messageController = (function(){
       var reply = starkQuotes[Math.floor(Math.random() * starkQuotes.length-1) + 1];
       reply = response;
       var message_container = document.createElement("div");
-      var message = `<img src="https://d2gcv4sxt84gxu.cloudfront.net/uploads/avatars/995064/original.png?1450125781"/>
+      var message = `<img src="{% static "ai.jpeg" %}"/>
       <div class="message_text"> ${reply} </div>`;
       message_container.className = "message receive";
       message_container.innerHTML = message;      
