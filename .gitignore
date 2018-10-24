@@ -1,4 +1,8 @@
-data/GloVe/glove.840B.300d.memory_map_dir/
+data/
 *.pyc
 fastqa.zip
 fastqa_reader/
+venv/
+tests/test_results
+build/
+.eggs/

@@ -2,7 +2,14 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from jack import readers
 from jack.core import QASetting
-import generate_idf
+import os
+from .custom_tf_idf import *
+
+# Adding imports for wikipedia
+import wikipedia
+from collections import OrderedDict
+import unicodedata
+
 document_seen = 99999
 # Create your views here.
 def home(request):
@@ -34,7 +41,12 @@ def response(request):
 		request.session['context_passed'] = 1
 		return JsonResponse(data)
 	else:
-		fastqa_reader = readers.reader_from_file("/home/rudresh/Documents/machine_comprehension/jack/fastqa_reader")	
+		fastqa_reader = readers.reader_from_file(
+			os.path.join(
+				os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+				'fastqa_reader'
+			)
+		)	
 		#request.session['is_asked'] = 1
 		#document_selected = request.GET.get('doc')
 		#document_path ='knowledgebase/' + (document_selected.split('/')[-1]).split('.')[0] + '.txt'
@@ -56,3 +68,24 @@ def response(request):
 		'response': answers[0][0].text
 		}
 		return JsonResponse(data)
+
+def wikisearch(request):
+    for x in request.session['subjects']:
+        wikisearch = wikipedia.search(x)
+        search_terms = list(OrderedDict.fromkeys(wikisearch))
+        for y in search_terms:
+            page = wikipedia.page(y)
+            title = unicodedata.normalize('NFKD', page.title)\
+                .encode('ascii', 'ignore')
+            content = unicodedata.normalize('NFKD', page.content)\
+                .encode('ascii', 'ignore')
+            
+            # path to knowledge base (downloaded)
+
+            datapath = os.path.join(os.path.dirname(os.path.dirname(sys.path(__file__))),
+							"knowledgebase") + title
+            with open(datapath, 'w') as datafile:
+                print('Writing file: %s\n' % (title))
+                datafile.write(content)
+    return True
+
