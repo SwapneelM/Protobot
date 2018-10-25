@@ -2,7 +2,7 @@ from collections import Counter
 import os
 import json
 import math
-from string import maketrans
+import string
 
 # translator = maketrans("", "", string.punctuation)
 # BASEPATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -21,12 +21,12 @@ def generate_filepath_list(filepath):
 def generate_idf():
 	BASEPATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 	datapath = os.path.join(BASEPATH, "knowledgebase")
-	file_paths_list = generate_filepath_list(datapath)	
+	file_paths_list = generate_filepath_list(datapath)
 	# word_dict = {}
 	# word_dict['document_count_frequency'] = 0
-	
+
 	idf_lookup_table = os.path.join(datapath, 'idf_lookup2.json')
-	
+
 	with open(idf_lookup_table,'r') as myfile:
 		word_dict = json.load(myfile)
 	# word_dict = json.loads('idf_lookup.json')
@@ -44,9 +44,9 @@ def generate_idf():
 				word_dict[word] = word_dict[word] + 1
 			else:
 				word_dict[word] = 1
-	with open(idf_lookup_table,'w') as fp:	
+	with open(idf_lookup_table,'w') as fp:
 		json.dump(word_dict,fp)
-	
+
 
 #generate_idf()
 
@@ -70,7 +70,7 @@ def generate_tf():
 
 def make_query(query):
 	#query = input('enter query in quotes \n')
-	translator = maketrans("", "", string.punctuation)
+	translator = str.maketrans("", "", string.punctuation)
 	BASEPATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 	query = query.translate(translator)
@@ -92,9 +92,9 @@ def make_query(query):
 		except KeyError:
 			print('ERROR THROWN')
 			query_words_idf_scores[word] = 0
-	print (query_words_idf_scores)	
+	print (query_words_idf_scores)
 	list_of_filepath_dicts = []
-	
+
 	for file_path in file_paths_list:
 		flag = 0
 		filepath_dict = {}
@@ -120,7 +120,7 @@ def make_query(query):
 		list_of_filepath_dicts[index]['score'] = score
 
 	#print list_of_filepath_dicts
-	newlist = sorted(list_of_filepath_dicts, key=lambda k: k['score'],reverse=True) 
+	newlist = sorted(list_of_filepath_dicts, key=lambda k: k['score'],reverse=True)
 	#print newlist[0]
 	print (newlist[0]['filepath'])
 	print (newlist[1]['filepath'])

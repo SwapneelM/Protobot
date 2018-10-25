@@ -10,7 +10,15 @@ import wikipedia
 from collections import OrderedDict
 import unicodedata
 
+# Adding imports for spaCy
+import spacy
+from spacy import displacy
+from collections import Counter
+import en_core_web_sm
+
+nlp = en_core_web_sm.load()
 document_seen = 99999
+
 # Create your views here.
 def home(request):
 	document_seen = 0
@@ -35,18 +43,27 @@ def response(request):
 	if request.session['context_passed'] is 0:
 		context = request.GET.get('msg')
 		data = {
-			'response': 'Ok, ask the question'
+			'response': 'Ask your question'
 			}
 		request.session['context'] = context
 		request.session['context_passed'] = 1
 		return JsonResponse(data)
 	else:
-		fastqa_reader = readers.reader_from_file(
-			os.path.join(
+		question = request.GET.get('msg')
+		
+		"""
+		entity_list = get_named_entities(question)
+		
+		for entity in entity_list:
+			if search_knowledgebase(entity):
+
+		"""
+		readerpath = os.path.join(
 				os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
 				'fastqa_reader'
 			)
-		)	
+		# print(readerpath)
+		fastqa_reader = readers.reader_from_file(readerpath)	
 		#request.session['is_asked'] = 1
 		#document_selected = request.GET.get('doc')
 		#document_path ='knowledgebase/' + (document_selected.split('/')[-1]).split('.')[0] + '.txt'
@@ -57,13 +74,14 @@ def response(request):
 			support = myfile.read()
 			#print (support)
 		'''
-		question = request.GET.get('msg')
+
 		context = request.session['context']
 		answers = fastqa_reader([QASetting(
 	    question= question,
 	    support=[context]
 		)])
-		print (answers[0][0].text)
+		print(question, "\n")
+		print("Answer: " + answers[0][0].text + "\n")
 		data = {
 		'response': answers[0][0].text
 		}
