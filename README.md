@@ -1,6 +1,10 @@
-# Prototyping a Context-based Question-Answering System
+# Prototyping a Chatbot
 
 Conversational AI Systems have seen a meteoric rise in the past few years as Deep Learning Techniques offered increasingly accurate solutions for problems relating to language understanding. We present a model for prototyping chatbots developed using state-of-the-art technology in an attempt to offer a simple, clean interface for researchers developing solutions in this domain.
+
+## Example: Context-based Question-Answering System
+
+In this end-to-end pipeline we demonstrate how to build a context-based question answering system using [Jack the Reader](https://github.com/uclmr/jack/). Note that you can switch your model from FastQA (used here) to others trained on different datasets and plug it into the [Django View](qa/views.py) to change the use-case/model which will accordingly modify your chatbot. 
 
 
 ## Installation
