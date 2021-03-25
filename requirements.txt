@@ -73,7 +73,7 @@ pytest-runner==4.2
 pytest-xdist==1.23.2
 python-dateutil==2.7.3
 python-utils==2.3.0
-PyYAML==3.13
+PyYAML==5.4
 regex==2018.1.10
 requests==2.20.0
 sacred==0.7.2
