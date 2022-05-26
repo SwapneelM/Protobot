@@ -91,7 +91,7 @@ torch==0.4.1
 torchvision==0.2.1
 tqdm==4.28.1
 typing==3.6.6
-ujson==1.35
+ujson==5.2.0
 urllib3==1.24
 Werkzeug==0.14.1
 wikipedia==1.4.0
