@@ -26,7 +26,7 @@ beautifulsoup4==4.6.3
 bleach==1.5.0
 certifi==2018.10.15
 chardet==3.0.4
-codecov==2.0.15
+codecov==2.0.16
 coverage==4.5.1
 cycler==0.10.0
 cymem==2.0.2
