@@ -59,7 +59,7 @@ plac==0.9.6
 pluggy==0.8.0
 preshed==2.0.1
 progressbar2==3.38.0
-protobuf==3.6.1
+protobuf==3.18.3
 py==1.7.0
 py-cpuinfo==4.0.0
 pycorenlp==0.3.0
